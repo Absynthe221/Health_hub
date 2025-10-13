@@ -118,16 +118,55 @@ A comprehensive online learning platform for healthcare professionals to master 
 health-hub-ecg/
 ├── app/                    # Next.js app directory
 │   ├── api/               # API routes
-│   ├── components/        # React components
 │   ├── dashboard/         # Dashboard pages
 │   └── auth/              # Authentication pages
+├── components/            # React components
+├── contexts/              # React contexts
+├── hooks/                 # Custom React hooks
 ├── lib/                   # Utility libraries
 │   ├── ecg-parser.ts     # ECG file parsing
 │   ├── ecg-analyzer.ts   # ECG analysis algorithms
 │   └── certificate-generator.ts
-├── prisma/               # Database schema and migrations
-├── __tests__/            # Test files
-└── docs/                 # Documentation
+├── types/                 # TypeScript type definitions
+├── styles/                # Global styles and CSS
+├── public/                # Static assets
+│
+├── prisma/                # Database schema and migrations
+│
+├── data/                  # Data files and assets
+│   ├── modules/          # Module data and configurations
+│   ├── ecg-samples/      # Sample ECG files
+│   ├── presentations/    # Presentation files
+│   └── pdfs/             # PDF resources
+│
+├── tests/                 # All test files
+│   ├── unit/             # Unit tests
+│   ├── integration/      # Integration tests
+│   ├── e2e/              # End-to-end tests
+│   └── fixtures/         # Test fixtures and mocks
+│
+├── scripts/               # Utility scripts
+│   ├── setup/            # Setup and initialization scripts
+│   ├── database/         # Database management scripts
+│   ├── deployment/       # Deployment scripts
+│   └── testing/          # Test utilities and runners
+│
+├── docs/                  # Documentation
+│   ├── setup/            # Setup and installation guides
+│   ├── features/         # Feature documentation
+│   ├── implementation/   # Implementation reports
+│   ├── architecture/     # Architecture decisions
+│   └── changelog/        # Project history and updates
+│
+├── config/                # Configuration files
+│   ├── docker/           # Docker configurations
+│   └── testing/          # Test configurations
+│
+├── jest.config.js         # Jest configuration
+├── next.config.js         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── middleware.js          # Next.js middleware
+└── README.md              # This file
 ```
 
 ### Available Scripts

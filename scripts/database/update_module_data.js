@@ -20,7 +20,7 @@ console.log('📚 Integrating ECG Module Data...\n');
 function readExistingModules() {
   console.log('📖 Reading existing module data...');
   
-  const existingPath = path.join(process.cwd(), 'healthhub_ecg_modules.json');
+  const existingPath = path.join(process.cwd(), 'data/modules/healthhub_ecg_modules.json');
   if (!fs.existsSync(existingPath)) {
     console.log('  ⚠️  No existing module data found, creating from scratch...');
     return { modules: [], metadata: {}, summary: {} };
@@ -215,14 +215,14 @@ function updateDataFiles(comprehensiveData, learningPathway) {
   console.log('💾 Updating data files...');
   
   // Update main module data file
-  const moduleDataPath = path.join(process.cwd(), 'healthhub_ecg_modules.json');
+  const moduleDataPath = path.join(process.cwd(), 'data/modules/healthhub_ecg_modules.json');
   fs.writeFileSync(moduleDataPath, JSON.stringify(comprehensiveData, null, 2));
-  console.log('  ✅ Updated healthhub_ecg_modules.json');
+  console.log('  ✅ Updated data/modules/healthhub_ecg_modules.json');
   
   // Create learning pathway file
-  const pathwayPath = path.join(process.cwd(), 'ecg_learning_pathway.json');
+  const pathwayPath = path.join(process.cwd(), 'data/modules/ecg_learning_pathway.json');
   fs.writeFileSync(pathwayPath, JSON.stringify(learningPathway, null, 2));
-  console.log('  ✅ Created ecg_learning_pathway.json');
+  console.log('  ✅ Created data/modules/ecg_learning_pathway.json');
   
   // Update data/ecg-exercises.json for backward compatibility
   const ecgExercisesPath = path.join(process.cwd(), 'data/ecg-exercises.json');

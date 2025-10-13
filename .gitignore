@@ -66,3 +66,23 @@ prisma/migrations/
 
 # Vercel
 .vercel
+
+# Test results and reports
+tests/results/
+test-results/
+playwright-report/
+coverage/
+*.lcov
+
+# Temporary files
+temp_*.py
+temp_*.js
+*.tmp
+*.bak
+
+# Build artifacts
+*.tsbuildinfo
+
+# Local data files (keep structure, ignore large files)
+data/**/*.large
+data/**/*.backup

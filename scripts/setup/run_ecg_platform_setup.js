@@ -98,9 +98,9 @@ function verifySetup() {
   console.log('\n🔍 Verifying setup completion...');
   
   const requiredFiles = [
-    'healthhub_ecg_modules.json',
-    'ecg_learning_pathway.json',
-    'platform_readiness_report.json',
+    'data/modules/healthhub_ecg_modules.json',
+    'data/modules/ecg_learning_pathway.json',
+    'data/modules/platform_readiness_report.json',
     'components/admin/ModuleManager.jsx',
     'components/admin/NotificationSystem.jsx',
     'app/api/modules/route.js',
@@ -116,14 +116,14 @@ function verifySetup() {
   
   // Check if modules data is properly formatted
   try {
-    const moduleData = JSON.parse(fs.readFileSync('healthhub_ecg_modules.json', 'utf8'));
+    const moduleData = JSON.parse(fs.readFileSync('data/modules/healthhub_ecg_modules.json', 'utf8'));
     if (!moduleData.modules || moduleData.modules.length === 0) {
-      console.log('⚠️  No modules found in healthhub_ecg_modules.json');
+      console.log('⚠️  No modules found in data/modules/healthhub_ecg_modules.json');
       return false;
     }
-    console.log(`✅ Found ${moduleData.modules.length} modules in healthhub_ecg_modules.json`);
+    console.log(`✅ Found ${moduleData.modules.length} modules in data/modules/healthhub_ecg_modules.json`);
   } catch (error) {
-    console.log('⚠️  Error reading healthhub_ecg_modules.json');
+    console.log('⚠️  Error reading data/modules/healthhub_ecg_modules.json');
     return false;
   }
   
@@ -168,9 +168,9 @@ function displaySummary() {
   console.log('  5. Begin professional content development');
   
   console.log('\n📖 Documentation:');
-  console.log('  • Module Structure: healthhub_ecg_modules.json');
-  console.log('  • Learning Pathway: ecg_learning_pathway.json');
-  console.log('  • Setup Report: platform_readiness_report.json');
+  console.log('  • Module Structure: data/modules/healthhub_ecg_modules.json');
+  console.log('  • Learning Pathway: data/modules/ecg_learning_pathway.json');
+  console.log('  • Setup Report: data/modules/platform_readiness_report.json');
   console.log('  • Media Assets: assets/ecg-media/ directory');
   
   console.log('\n🎯 Next Development Phase:');

@@ -5,8 +5,8 @@ services:
   # Main Application
   app:
     build:
-      context: .
-      dockerfile: Dockerfile.production
+      context: ../..
+      dockerfile: config/docker/Dockerfile.production
     ports:
       - "3000:3000"
     environment:
@@ -25,7 +25,7 @@ services:
       - ./public/media:/app/public/media
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      test: [ "CMD", "curl", "-f", "http://localhost:3000/api/health" ]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -44,7 +44,7 @@ services:
       - "5432:5432"
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U healthhub -d healthhub_ecg"]
+      test: [ "CMD-SHELL", "pg_isready -U healthhub -d healthhub_ecg" ]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -59,7 +59,7 @@ services:
       - "6379:6379"
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
+      test: [ "CMD", "redis-cli", "ping" ]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -80,9 +80,9 @@ services:
   # Pipeline Worker (Optional)
   pipeline-worker:
     build:
-      context: .
-      dockerfile: Dockerfile.production
-    command: ["node", "scripts/pipeline-worker.js"]
+      context: ../..
+      dockerfile: config/docker/Dockerfile.production
+    command: [ "node", "scripts/pipeline-worker.js" ]
     environment:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://healthhub:${DB_PASSWORD}@postgres:5432/healthhub_ecg
@@ -102,7 +102,7 @@ volumes:
   postgres_data:
   redis_data:
 
+
 networks:
   default:
     name: healthhub-network
-
