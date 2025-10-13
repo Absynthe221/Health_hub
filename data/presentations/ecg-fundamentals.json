@@ -1,0 +1,74 @@
+{
+  "title": "ECG Fundamentals",
+  "level": "beginner",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Introduction to ECG",
+      "content": "Welcome to ECG interpretation. This module covers basic concepts.",
+      "type": "theory"
+    },
+    {
+      "id": 2,
+      "title": "Heart Anatomy",
+      "content": "Understanding the structure and function of the heart.",
+      "type": "theory"
+    },
+    {
+      "id": 3,
+      "title": "Electrical Conduction",
+      "content": "How electrical impulses travel through the heart.",
+      "type": "theory"
+    },
+    {
+      "id": 4,
+      "title": "ECG Components",
+      "content": "P waves, QRS complex, T waves, and intervals.",
+      "type": "theory"
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "120 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [
+    "Understand heart anatomy and electrical conduction system",
+    "Identify normal ECG components (P, QRS, T waves)",
+    "Recognize basic cardiac rhythms and their characteristics",
+    "Apply proper electrode placement techniques",
+    "Interpret basic ECG measurements and intervals"
+  ],
+  "assessment": {
+    "pretest": [
+      {
+        "id": "q1",
+        "question": "What does ECG stand for?",
+        "options": [
+          "Electrocardiogram",
+          "Electrocardiography", 
+          "Electrocardiology",
+          "Electrocardiac"
+        ],
+        "correctAnswer": 0,
+        "explanation": "ECG stands for Electrocardiogram, which is the graphical representation of the heart's electrical activity."
+      }
+    ],
+    "posttest": [
+      {
+        "id": "q1",
+        "question": "What is the normal duration of the QRS complex?",
+        "options": [
+          "0.06-0.10 seconds",
+          "0.10-0.12 seconds",
+          "0.12-0.20 seconds",
+          "0.20-0.40 seconds"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The normal QRS complex duration is 0.06-0.10 seconds (60-100 milliseconds)."
+      }
+    ]
+  }
+}
+
+

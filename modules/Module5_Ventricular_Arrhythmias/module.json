@@ -1,0 +1,119 @@
+{
+  "moduleId": "module_5",
+  "moduleTitle": "Ventricular Arrhythmias",
+  "description": "Identification and clinical significance of ventricular arrhythmias",
+  "overview": "This module covers ventricular arrhythmias including ventricular tachycardia, ventricular fibrillation, and premature ventricular contractions, focusing on recognition and clinical management.",
+  "objectives": [
+    "Recognize ventricular tachycardia patterns",
+    "Identify ventricular fibrillation",
+    "Understand premature ventricular contractions",
+    "Learn emergency management of ventricular arrhythmias"
+  ],
+  "duration": 25,
+  "difficulty": "Intermediate to Advanced",
+  "prerequisites": "Module 4: Atrial Arrhythmias",
+  "tags": ["Ventricular Arrhythmias", "VT", "VF", "PVCs", "Emergency Management"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Ventricular Tachycardia",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "Ventricular tachycardia: wide QRS complexes (>0.12s), rate >100 bpm, regular rhythm, no P waves, hemodynamic instability possible. May be monomorphic or polymorphic. Sustained VT requires immediate treatment.",
+      "duration": 6,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Ventricular Fibrillation",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Ventricular fibrillation: chaotic, irregular rhythm, no identifiable QRS complexes, immediately life-threatening, requires defibrillation. Patient has no pulse and is unconscious.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the immediate treatment for ventricular fibrillation?",
+        "options": ["Medication", "Defibrillation", "Pacemaker", "Observation"],
+        "correctAnswer": 1,
+        "explanation": "Ventricular fibrillation requires immediate defibrillation as it is immediately life-threatening."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Premature Ventricular Contractions",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "PVCs: wide QRS complexes, abnormal morphology, compensatory pause, may be benign or indicate underlying heart disease. Frequency and pattern determine clinical significance.",
+      "duration": 5,
+      "quiz": {
+        "question": "What characterizes a premature ventricular contraction?",
+        "options": ["Narrow QRS", "Wide QRS", "Normal P waves", "Regular rhythm"],
+        "correctAnswer": 1,
+        "explanation": "PVCs are characterized by wide QRS complexes due to abnormal ventricular conduction."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Torsades de Pointes",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Torsades de Pointes: polymorphic VT with QRS axis twisting, associated with prolonged QT interval. May be drug-induced or congenital. Emergency treatment includes magnesium and defibrillation.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the characteristic feature of Torsades de Pointes?",
+        "options": ["Monomorphic VT", "Polymorphic VT with axis twisting", "Narrow QRS", "Normal QT"],
+        "correctAnswer": 1,
+        "explanation": "Torsades de Pointes is characterized by polymorphic VT with QRS axis twisting around the baseline."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 5,
+      "title": "Emergency Management",
+      "contentType": "Clinical Guidelines",
+      "interactive": true,
+      "content": "Emergency management: assess patient stability, immediate defibrillation for VF/pulseless VT, antiarrhythmic drugs for stable VT, address underlying causes, consider ICD placement for survivors.",
+      "duration": 4,
+      "quiz": {
+        "question": "What is the first priority in managing unstable ventricular tachycardia?",
+        "options": ["Antiarrhythmic medication", "Immediate cardioversion", "Pacemaker placement", "Observation"],
+        "correctAnswer": 1,
+        "explanation": "Unstable ventricular tachycardia requires immediate cardioversion to restore circulation."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 5,
+    "interactiveSlides": 4,
+    "quizItems": 4,
+    "estimatedDuration": "25 minutes",
+    "difficulty": "Intermediate to Advanced",
+    "tags": ["Ventricular Arrhythmias", "VT", "VF", "PVCs"]
+  }
+}
+

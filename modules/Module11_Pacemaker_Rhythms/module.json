@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_11",
+  "moduleTitle": "Pacemaker Rhythms",
+  "description": "Understanding pacemaker function and ECG patterns",
+  "overview": "This module covers pacemaker basics, different pacing modes, and ECG recognition of pacemaker rhythms.",
+  "objectives": [
+    "Understand pacemaker basics",
+    "Recognize different pacing modes",
+    "Identify pacemaker malfunction",
+    "Learn pacemaker troubleshooting"
+  ],
+  "duration": 22,
+  "difficulty": "Intermediate",
+  "prerequisites": "Module 10: Electrolyte Abnormalities",
+  "tags": ["Pacemaker", "Pacing Modes", "Device Function", "Troubleshooting"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Pacemaker Basics",
+      "contentType": "Text + Diagram",
+      "interactive": false,
+      "content": "Pacemakers are electronic devices that provide electrical stimulation to maintain heart rhythm. Components include generator, leads, and electrodes.",
+      "duration": 5,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "Pacing Modes",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Common pacing modes: VVI (ventricular demand), DDD (dual chamber), AAI (atrial demand). Each mode has specific indications and ECG patterns.",
+      "duration": 6,
+      "quiz": {
+        "question": "What does VVI pacing mode mean?",
+        "options": ["Ventricular demand", "Atrial demand", "Dual chamber", "Biventricular"],
+        "correctAnswer": 0,
+        "explanation": "VVI means ventricular demand pacing with ventricular sensing and inhibition."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Pacemaker ECG Patterns",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Pacemaker spikes appear as vertical lines before paced beats. Atrial pacing shows spikes before P waves, ventricular pacing shows spikes before QRS complexes.",
+      "duration": 6,
+      "quiz": {
+        "question": "What appears as vertical lines before paced beats?",
+        "options": ["P waves", "QRS complexes", "Pacemaker spikes", "T waves"],
+        "correctAnswer": 2,
+        "explanation": "Pacemaker spikes appear as vertical lines before paced beats on the ECG."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Pacemaker Malfunction",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Common malfunctions: failure to capture, failure to sense, oversensing, undersensing. Recognition and troubleshooting are essential for patient safety.",
+      "duration": 5,
+      "quiz": {
+        "question": "What indicates pacemaker failure to capture?",
+        "options": ["No pacemaker spikes", "Spikes without QRS response", "Inappropriate sensing", "Battery depletion"],
+        "correctAnswer": 1,
+        "explanation": "Failure to capture is indicated by pacemaker spikes without subsequent QRS response."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "22 minutes",
+    "difficulty": "Intermediate",
+    "tags": ["Pacemaker", "Pacing Modes", "Device Function"]
+  }
+}
+

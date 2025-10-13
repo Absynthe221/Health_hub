@@ -1,0 +1,125 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e8]: Health Hub
+        - generic [ref=e11]:
+          - button "Admin" [ref=e12] [cursor=pointer]
+          - button "Instructor" [ref=e13] [cursor=pointer]
+          - button "Learner" [ref=e14] [cursor=pointer]
+        - button "Sign Out" [ref=e16] [cursor=pointer]
+    - generic [ref=e19]:
+      - heading "Welcome back, Student!" [level=2] [ref=e20]
+      - paragraph [ref=e21]: Continue your ECG learning journey
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - navigation [ref=e25]:
+          - button "My Modules" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27] [cursor=pointer]:
+              - img [ref=e28] [cursor=pointer]
+              - text: My Modules
+          - button "Progress" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32] [cursor=pointer]:
+              - img [ref=e33] [cursor=pointer]
+              - text: Progress
+          - button "Certificates" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - text: Certificates
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - heading "activus_mr_ibrahim_pea" [level=3] [ref=e44]
+            - paragraph [ref=e45]: MR. UMAR AMINU IBRAHIM
+            - generic [ref=e46]:
+              - generic [ref=e47]: 21 slides • 630 minutes
+              - generic [ref=e48]: advanced
+            - generic [ref=e50]:
+              - generic [ref=e51]: Progress
+              - generic [ref=e52]: 0%
+            - link "Start Learning" [ref=e54] [cursor=pointer]:
+              - /url: /ecg-training/mod_008
+              - img [ref=e55] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e57]:
+            - heading "activus_mr_ibrahim_ventricular_rhythms_wps_office" [level=3] [ref=e58]
+            - paragraph [ref=e59]: VENTRICULAR RHYTHMS BY UMAR AMINU IBRAHIM JULY, 2025.
+            - generic [ref=e60]:
+              - generic [ref=e61]: 20 slides • 600 minutes
+              - generic [ref=e62]: advanced
+            - generic [ref=e64]:
+              - generic [ref=e65]: Progress
+              - generic [ref=e66]: 0%
+            - link "Start Learning" [ref=e68] [cursor=pointer]:
+              - /url: /ecg-training/mod_010
+              - img [ref=e69] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e71]:
+            - heading "class3" [level=3] [ref=e72]
+            - paragraph [ref=e73]: REVISION OF PREVIOUS CLASS Heart Block Arrythmia 1
+            - generic [ref=e74]:
+              - generic [ref=e75]: 45 slides • 1350 minutes
+              - generic [ref=e76]: advanced
+            - generic [ref=e78]:
+              - generic [ref=e79]: Progress
+              - generic [ref=e80]: 0%
+            - link "Start Learning" [ref=e82] [cursor=pointer]:
+              - /url: /ecg-training/mod_012
+              - img [ref=e83] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e85]:
+            - heading "ecg_lecture_slide" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Miss Temitope haastrup Heart Block 1st, 2nD, 3rd Degree BLOCK, RBBB, LBBB & Other Heart Blocks
+            - generic [ref=e88]:
+              - generic [ref=e89]: 27 slides • 810 minutes
+              - generic [ref=e90]: advanced
+            - generic [ref=e92]:
+              - generic [ref=e93]: Progress
+              - generic [ref=e94]: 0%
+            - link "Start Learning" [ref=e96] [cursor=pointer]:
+              - /url: /ecg-training/mod_014
+              - img [ref=e97] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e99]:
+            - heading "junctional_rhythm" [level=3] [ref=e100]
+            - paragraph [ref=e101]: JUNCTIONAL RHYTHM A JUCTIONAL RHYTHM OCCURS WHEN THE HEART’S ELECTRICAL IMPULSES ORIGINATE FROM THE AV JUNCTION(AV NODE AREA) INSTEAD OF THE SA NODE. IT ARISES WHEN THE SA NODE FAILS OR WHEN THE COND...
+            - generic [ref=e102]:
+              - generic [ref=e103]: 10 slides • 300 minutes
+              - generic [ref=e104]: advanced
+            - generic [ref=e106]:
+              - generic [ref=e107]: Progress
+              - generic [ref=e108]: 0%
+            - link "Start Learning" [ref=e110] [cursor=pointer]:
+              - /url: /ecg-training/mod_002
+              - img [ref=e111] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e113]:
+            - heading "lead_error" [level=3] [ref=e114]
+            - paragraph [ref=e115]: ECG INTERPRETATION COMMON RECORDING ERRORS BASIC ECG INTERPRETATION BY GBADAMOSI TAURID .A
+            - generic [ref=e116]:
+              - generic [ref=e117]: 30 slides • 900 minutes
+              - generic [ref=e118]: advanced
+            - generic [ref=e120]:
+              - generic [ref=e121]: Progress
+              - generic [ref=e122]: 0%
+            - link "Start Learning" [ref=e124] [cursor=pointer]:
+              - /url: /ecg-training/mod_006
+              - img [ref=e125] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e127]:
+            - heading "stemi" [level=3] [ref=e128]
+            - paragraph [ref=e129]: S.T.E.M.I AND N.S.T.E.M.I(S.T ELEVATION MYOCARDIAL INFARCTION AND NON-S.T SEGMENT MYOCARDIAL INFARCTION) It is a type of heart attack caused by a complete blockage of a coronary artery.It is a medica...
+            - generic [ref=e130]:
+              - generic [ref=e131]: 6 slides • 180 minutes
+              - generic [ref=e132]: advanced
+            - generic [ref=e134]:
+              - generic [ref=e135]: Progress
+              - generic [ref=e136]: 0%
+            - link "Start Learning" [ref=e138] [cursor=pointer]:
+              - /url: /ecg-training/mod_004
+              - img [ref=e139] [cursor=pointer]
+              - text: Start Learning
+  - alert [ref=e141]
+```

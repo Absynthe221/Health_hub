@@ -1,0 +1,34 @@
+{
+  "primaryCTA": {
+    "text": "Start Learning",
+    "link": "/dashboard",
+    "style": "bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-md inline-block"
+  },
+  "secondaryCTA": {
+    "text": "View Demo",
+    "link": "/demo",
+    "style": "border border-gray-300 text-gray-700 font-medium px-6 py-3 rounded-md hover:bg-gray-50 inline-block"
+  },
+  "headerButtons": [
+    {
+      "text": "Feedback",
+      "link": "/feedback",
+      "style": "px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50"
+    },
+    {
+      "text": "Sign In",
+      "link": "/auth/login",
+      "style": "px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 inline-block"
+    },
+    {
+      "text": "Get Started",
+      "link": "/dashboard",
+      "style": "px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 inline-block"
+    }
+  ],
+  "heroCTA": {
+    "text": "Get Started Today",
+    "link": "/dashboard",
+    "style": "px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 inline-block"
+  }
+}

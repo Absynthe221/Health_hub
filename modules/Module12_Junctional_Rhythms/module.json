@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_12",
+  "moduleTitle": "Junctional Rhythms",
+  "description": "Understanding junctional rhythms and their clinical significance",
+  "overview": "This module covers junctional rhythms including junctional escape rhythm, accelerated junctional rhythm, and junctional tachycardia.",
+  "objectives": [
+    "Recognize junctional escape rhythm",
+    "Identify accelerated junctional rhythm",
+    "Understand junctional tachycardia",
+    "Learn clinical implications of junctional rhythms"
+  ],
+  "duration": 18,
+  "difficulty": "Intermediate",
+  "prerequisites": "Module 11: Pacemaker Rhythms",
+  "tags": ["Junctional Rhythms", "Escape Rhythm", "Accelerated Rhythm", "Clinical Significance"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Junctional Escape Rhythm",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "Junctional escape rhythm: rate 40-60 bpm, narrow QRS, inverted or absent P waves, regular rhythm. Occurs when higher pacemakers fail.",
+      "duration": 4,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Accelerated Junctional Rhythm",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Accelerated junctional rhythm: rate 60-100 bpm, narrow QRS, inverted P waves, regular rhythm. May be caused by digitalis toxicity.",
+      "duration": 4,
+      "quiz": {
+        "question": "What is the rate range for accelerated junctional rhythm?",
+        "options": ["40-60 bpm", "60-100 bpm", "100-150 bpm", "150-200 bpm"],
+        "correctAnswer": 1,
+        "explanation": "Accelerated junctional rhythm has a rate of 60-100 bpm."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Junctional Tachycardia",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Junctional tachycardia: rate >100 bpm, narrow QRS, inverted P waves, regular rhythm. May be paroxysmal or sustained.",
+      "duration": 5,
+      "quiz": {
+        "question": "What characterizes junctional tachycardia?",
+        "options": ["Rate <60 bpm", "Rate >100 bpm", "Wide QRS", "Upright P waves"],
+        "correctAnswer": 1,
+        "explanation": "Junctional tachycardia is characterized by a rate greater than 100 bpm."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Clinical Significance",
+      "contentType": "Case Studies",
+      "interactive": true,
+      "content": "Clinical significance: junctional rhythms may indicate underlying heart disease, medication effects, or electrolyte abnormalities. Treatment depends on cause and symptoms.",
+      "duration": 5,
+      "quiz": {
+        "question": "What can cause accelerated junctional rhythm?",
+        "options": ["Hypokalemia", "Digitalis toxicity", "Hypercalcemia", "All of the above"],
+        "correctAnswer": 3,
+        "explanation": "Accelerated junctional rhythm can be caused by various factors including digitalis toxicity and electrolyte abnormalities."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "18 minutes",
+    "difficulty": "Intermediate",
+    "tags": ["Junctional Rhythms", "Escape Rhythm", "Clinical Significance"]
+  }
+}
+

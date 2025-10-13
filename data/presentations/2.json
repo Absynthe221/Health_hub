@@ -1,0 +1,132 @@
+{
+  "title": "Cardiac Rhythm Recognition",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Normal Sinus Rhythm",
+      "content": "Content for slide 1",
+      "type": "theory",
+      "url": "/assets/module2/pdfs/normal-rhythm.pdf",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Atrial Arrhythmias",
+      "content": "Content for slide 2",
+      "type": "theory",
+      "url": "/assets/module2/pdfs/atrial-arrhythmias.pdf",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Ventricular Arrhythmias",
+      "content": "Content for slide 3",
+      "type": "theory",
+      "url": "/assets/module2/pdfs/ventricular-arrhythmias.pdf",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "90 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": "ECG Fundamentals module completion recommended",
+  "learningObjectives": [
+    "Recognize normal sinus rhythm and its variations",
+    "Identify common arrhythmias and their characteristics",
+    "Distinguish between atrial and ventricular rhythms",
+    "Understand the clinical significance of different rhythms",
+    "Apply systematic approach to rhythm analysis"
+  ],
+  "assessment": {
+    "pretest": [
+      {
+        "id": "q1",
+        "question": "What is the normal heart rate range for adults?",
+        "options": [
+          "60-100 bpm",
+          "40-80 bpm",
+          "80-120 bpm",
+          "100-140 bpm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The normal resting heart rate for adults is 60-100 beats per minute."
+      }
+    ],
+    "posttest": [
+      {
+        "id": "q1",
+        "question": "Which rhythm is characterized by irregular rhythm and absent P waves?",
+        "options": [
+          "Sinus rhythm",
+          "Atrial fibrillation",
+          "Ventricular tachycardia",
+          "Atrial flutter"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Atrial fibrillation is characterized by irregular rhythm and absent P waves."
+      }
+    ],
+    "cases": [
+      {
+        "id": 1,
+        "title": "Palpitations Case",
+        "patientInfo": {
+          "age": "35 years",
+          "gender": "Female",
+          "chiefComplaint": "Palpitations and dizziness",
+          "medicalHistory": "Anxiety, no cardiac history"
+        },
+        "steps": [
+          {
+            "id": 0,
+            "title": "Rhythm Identification",
+            "description": "The patient's ECG shows an irregular rhythm with no P waves. What is the most likely diagnosis?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Atrial Fibrillation",
+                "description": "Irregular rhythm with no P waves is characteristic of AF",
+                "isCorrect": true,
+                "feedback": "Correct! Atrial fibrillation is characterized by irregular rhythm and absent P waves."
+              },
+              {
+                "id": "b",
+                "text": "Sinus Tachycardia",
+                "description": "Sinus rhythm would have visible P waves",
+                "isCorrect": false,
+                "feedback": "Incorrect. Sinus tachycardia would have regular rhythm with visible P waves."
+              },
+              {
+                "id": "c",
+                "text": "Ventricular Tachycardia",
+                "description": "VT would have wide QRS complexes",
+                "isCorrect": false,
+                "feedback": "Incorrect. VT would have wide QRS complexes, not narrow ones."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "title": "Rhythm Analysis Basics",
+      "url": "/assets/module2/videos/rhythm-analysis.mp4",
+      "description": "Systematic approach to analyzing cardiac rhythms"
+    },
+    {
+      "title": "Common Arrhythmias",
+      "url": "/assets/module2/videos/common-arrhythmias.mp4",
+      "description": "Recognition of frequently encountered arrhythmias"
+    }
+  ],
+  "metadata": {
+    "id": "2",
+    "createdAt": "2025-10-05T01:29:47.384Z",
+    "updatedAt": "2025-10-05T01:29:47.384Z",
+    "status": "published"
+  }
+}

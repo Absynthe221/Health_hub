@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "FFmpeg is not available",
+  "processed": [],
+  "failed": []
+}

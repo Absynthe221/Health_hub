@@ -1,0 +1,251 @@
+[
+  {
+    "id": "quiz_001",
+    "courseId": "course_001",
+    "title": "ECG Basics Assessment",
+    "description": "Test your understanding of basic ECG concepts and cardiac anatomy",
+    "questions": [
+      {
+        "id": "q001_1",
+        "question": "What does the P wave represent in an ECG?",
+        "options": [
+          "Ventricular depolarization",
+          "Atrial depolarization",
+          "Ventricular repolarization",
+          "Atrial repolarization"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The P wave represents atrial depolarization, which occurs when the atria contract."
+      },
+      {
+        "id": "q001_2",
+        "question": "What is the normal duration of the PR interval?",
+        "options": [
+          "0.04-0.10 seconds",
+          "0.12-0.20 seconds",
+          "0.20-0.28 seconds",
+          "0.28-0.36 seconds"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The normal PR interval is 0.12-0.20 seconds, representing the time from atrial depolarization to ventricular depolarization."
+      },
+      {
+        "id": "q001_3",
+        "question": "Which lead is most useful for viewing the inferior wall of the heart?",
+        "options": [
+          "Lead I",
+          "Lead II",
+          "Lead III",
+          "Lead aVR"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lead III is part of the inferior leads (II, III, aVF) and is most useful for viewing the inferior wall of the heart."
+      }
+    ],
+    "averageScore": 82,
+    "passingScore": 70,
+    "timeLimit": 30,
+    "submissions": [
+      {
+        "learnerId": "learner_001",
+        "score": 85,
+        "completedAt": "2024-01-20T10:30:00Z",
+        "timeSpent": 25
+      },
+      {
+        "learnerId": "learner_002",
+        "score": 95,
+        "completedAt": "2024-01-15T14:15:00Z",
+        "timeSpent": 22
+      },
+      {
+        "learnerId": "learner_003",
+        "score": 88,
+        "completedAt": "2024-01-16T09:45:00Z",
+        "timeSpent": 28
+      },
+      {
+        "learnerId": "learner_004",
+        "score": 78,
+        "completedAt": "2024-01-18T16:20:00Z",
+        "timeSpent": 30
+      }
+    ],
+    "createdAt": "2024-01-15",
+    "lastUpdated": "2024-01-20"
+  },
+  {
+    "id": "quiz_002",
+    "courseId": "course_001",
+    "title": "Heart Anatomy Quiz",
+    "description": "Assess your knowledge of cardiac anatomy and physiology",
+    "questions": [
+      {
+        "id": "q002_1",
+        "question": "What is the primary pacemaker of the heart?",
+        "options": [
+          "AV node",
+          "SA node",
+          "Bundle of His",
+          "Purkinje fibers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The SA (sinoatrial) node is the primary pacemaker of the heart, located in the right atrium."
+      },
+      {
+        "id": "q002_2",
+        "question": "Which chamber of the heart has the thickest wall?",
+        "options": [
+          "Right atrium",
+          "Left atrium",
+          "Right ventricle",
+          "Left ventricle"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The left ventricle has the thickest wall because it must pump blood to the entire body."
+      }
+    ],
+    "averageScore": 89,
+    "passingScore": 70,
+    "timeLimit": 20,
+    "submissions": [
+      {
+        "learnerId": "learner_001",
+        "score": 92,
+        "completedAt": "2024-01-22T11:00:00Z",
+        "timeSpent": 18
+      },
+      {
+        "learnerId": "learner_002",
+        "score": 98,
+        "completedAt": "2024-01-18T13:30:00Z",
+        "timeSpent": 15
+      },
+      {
+        "learnerId": "learner_003",
+        "score": 91,
+        "completedAt": "2024-01-19T08:45:00Z",
+        "timeSpent": 19
+      }
+    ],
+    "createdAt": "2024-01-18",
+    "lastUpdated": "2024-01-22"
+  },
+  {
+    "id": "quiz_003",
+    "courseId": "course_002",
+    "title": "Electrode Placement Assessment",
+    "description": "Test your knowledge of proper ECG electrode placement",
+    "questions": [
+      {
+        "id": "q003_1",
+        "question": "Where should the V1 electrode be placed?",
+        "options": [
+          "Right 4th intercostal space, sternal border",
+          "Left 4th intercostal space, sternal border",
+          "Right 5th intercostal space, midclavicular line",
+          "Left 5th intercostal space, midclavicular line"
+        ],
+        "correctAnswer": 0,
+        "explanation": "V1 is placed at the right 4th intercostal space at the sternal border."
+      }
+    ],
+    "averageScore": 76,
+    "passingScore": 70,
+    "timeLimit": 25,
+    "submissions": [
+      {
+        "learnerId": "learner_001",
+        "score": 80,
+        "completedAt": "2024-01-19T14:00:00Z",
+        "timeSpent": 23
+      },
+      {
+        "learnerId": "learner_002",
+        "score": 85,
+        "completedAt": "2024-01-17T10:15:00Z",
+        "timeSpent": 20
+      }
+    ],
+    "createdAt": "2024-01-10",
+    "lastUpdated": "2024-01-18"
+  },
+  {
+    "id": "quiz_004",
+    "courseId": "course_002",
+    "title": "Lead Systems Quiz",
+    "description": "Understanding the different ECG lead systems and their purposes",
+    "questions": [
+      {
+        "id": "q004_1",
+        "question": "How many leads are in a standard 12-lead ECG?",
+        "options": [
+          "6",
+          "12",
+          "18",
+          "24"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A standard 12-lead ECG records 12 different views of the heart using 10 electrodes."
+      }
+    ],
+    "averageScore": 84,
+    "passingScore": 70,
+    "timeLimit": 20,
+    "submissions": [
+      {
+        "learnerId": "learner_002",
+        "score": 90,
+        "completedAt": "2024-01-16T15:30:00Z",
+        "timeSpent": 18
+      },
+      {
+        "learnerId": "learner_003",
+        "score": 88,
+        "completedAt": "2024-01-17T09:20:00Z",
+        "timeSpent": 19
+      }
+    ],
+    "createdAt": "2024-01-12",
+    "lastUpdated": "2024-01-19"
+  },
+  {
+    "id": "quiz_005",
+    "courseId": "course_003",
+    "title": "Artifact Recognition",
+    "description": "Identify and distinguish between ECG artifacts and true cardiac events",
+    "questions": [
+      {
+        "id": "q005_1",
+        "question": "What is the most common cause of muscle artifact in ECG?",
+        "options": [
+          "Patient movement",
+          "Poor electrode contact",
+          "Electrical interference",
+          "Equipment malfunction"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Patient movement is the most common cause of muscle artifact in ECG recordings."
+      }
+    ],
+    "averageScore": 87,
+    "passingScore": 70,
+    "timeLimit": 30,
+    "submissions": [
+      {
+        "learnerId": "learner_002",
+        "score": 92,
+        "completedAt": "2024-01-20T12:45:00Z",
+        "timeSpent": 25
+      },
+      {
+        "learnerId": "learner_003",
+        "score": 82,
+        "completedAt": "2024-01-21T11:30:00Z",
+        "timeSpent": 28
+      }
+    ],
+    "createdAt": "2024-01-08",
+    "lastUpdated": "2024-01-19"
+  }
+]

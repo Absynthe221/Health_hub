@@ -1,0 +1,33 @@
+{
+  "title": "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Presentation Content",
+      "content": "This is the uploaded .PDF file: BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1].pdf",
+      "type": "theory"
+    }
+  ],
+  "instructor": "Uploaded Content",
+  "duration": "45 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [
+    "Understand Presentation Content"
+  ],
+  "assessment": {
+    "pretest": [],
+    "posttest": []
+  },
+  "metadata": {
+    "id": "module-1759634478020",
+    "moduleId": "module-1759634478020",
+    "filePath": "/uploads/module-1759634478020/presentation.pdf",
+    "createdAt": "2025-10-05T03:21:18.027Z",
+    "updatedAt": "2025-10-05T03:21:18.027Z",
+    "status": "uploaded",
+    "type": "Uploaded"
+  }
+}

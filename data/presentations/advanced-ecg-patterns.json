@@ -1,0 +1,48 @@
+{
+  "title": "Advanced ECG Patterns",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Brugada Syndrome",
+      "content": "Inherited arrhythmia syndrome",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Long QT Syndrome",
+      "content": "Congenital QT prolongation",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Wolff-Parkinson-White",
+      "content": "Accessory pathway patterns",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "75 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "advanced-ecg-patterns",
+    "createdAt": "2025-10-05T01:29:47.393Z",
+    "updatedAt": "2025-10-05T01:29:47.394Z",
+    "status": "published"
+  }
+}

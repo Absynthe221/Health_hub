@@ -1,0 +1,58 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - heading "Sign in to Health Hub" [level=2] [ref=e10]
+      - paragraph [ref=e11]: Access your ECG learning platform
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Email address
+          - generic [ref=e16]:
+            - generic:
+              - img
+            - textbox "Email address" [ref=e17]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Password
+          - generic [ref=e20]:
+            - generic:
+              - img
+            - textbox "Password" [ref=e21]
+            - button [ref=e22] [cursor=pointer]:
+              - img [ref=e23] [cursor=pointer]
+      - button "Sign in" [ref=e27] [cursor=pointer]
+    - generic [ref=e28]:
+      - heading "Demo Credentials" [level=3] [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - heading "Admin" [level=4] [ref=e34]
+              - paragraph [ref=e35]: Full system access
+            - button "Use" [ref=e36] [cursor=pointer]
+          - generic [ref=e37]:
+            - generic [ref=e38]: "Email: admin@healthhub.com"
+            - generic [ref=e39]: "Password: password123"
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - heading "Instructor" [level=4] [ref=e43]
+              - paragraph [ref=e44]: Course management and student tracking
+            - button "Use" [ref=e45] [cursor=pointer]
+          - generic [ref=e46]:
+            - generic [ref=e47]: "Email: sarah.johnson@hospital.com"
+            - generic [ref=e48]: "Password: password123"
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - heading "Student" [level=4] [ref=e52]
+              - paragraph [ref=e53]: Access to learning modules and puzzles
+            - button "Use" [ref=e54] [cursor=pointer]
+          - generic [ref=e55]:
+            - generic [ref=e56]: "Email: john.doe@hospital.com"
+            - generic [ref=e57]: "Password: password123"
+```

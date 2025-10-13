@@ -1,0 +1,119 @@
+{
+  "activeUsers": 320,
+  "totalUsers": 450,
+  "newUsersThisMonth": 45,
+  "roleDistribution": {
+    "learners": 280,
+    "instructors": 30,
+    "admins": 10
+  },
+  "courseCompletionRates": [
+    {
+      "courseId": "course_001",
+      "courseTitle": "Heart Anatomy & ECG Basics",
+      "completionRate": 0.65,
+      "enrolledLearners": 5,
+      "completedLearners": 3
+    },
+    {
+      "courseId": "course_002",
+      "courseTitle": "ECG Recording & Placement",
+      "completionRate": 0.48,
+      "enrolledLearners": 4,
+      "completedLearners": 2
+    },
+    {
+      "courseId": "course_003",
+      "courseTitle": "Artifact Detection & Troubleshooting",
+      "completionRate": 0.81,
+      "enrolledLearners": 2,
+      "completedLearners": 2
+    },
+    {
+      "courseId": "course_004",
+      "courseTitle": "Advanced Arrhythmia Recognition",
+      "completionRate": 0.65,
+      "enrolledLearners": 1,
+      "completedLearners": 1
+    }
+  ],
+  "quizPassRates": [
+    {
+      "quizId": "quiz_001",
+      "quizTitle": "ECG Basics Assessment",
+      "courseId": "course_001",
+      "passRate": 0.82,
+      "totalSubmissions": 4,
+      "passedSubmissions": 3,
+      "averageScore": 86
+    },
+    {
+      "quizId": "quiz_002",
+      "quizTitle": "Heart Anatomy Quiz",
+      "courseId": "course_001",
+      "passRate": 0.76,
+      "totalSubmissions": 3,
+      "passedSubmissions": 2,
+      "averageScore": 89
+    },
+    {
+      "quizId": "quiz_003",
+      "quizTitle": "Electrode Placement Assessment",
+      "courseId": "course_002",
+      "passRate": 0.75,
+      "totalSubmissions": 2,
+      "passedSubmissions": 1,
+      "averageScore": 76
+    },
+    {
+      "quizId": "quiz_004",
+      "quizTitle": "Lead Systems Quiz",
+      "courseId": "course_002",
+      "passRate": 0.89,
+      "totalSubmissions": 2,
+      "passedSubmissions": 2,
+      "averageScore": 84
+    },
+    {
+      "quizId": "quiz_005",
+      "quizTitle": "Artifact Recognition",
+      "courseId": "course_003",
+      "passRate": 0.87,
+      "totalSubmissions": 2,
+      "passedSubmissions": 2,
+      "averageScore": 87
+    }
+  ],
+  "engagementMetrics": {
+    "averageSessionDuration": 25,
+    "averageLessonsPerWeek": 3.2,
+    "retentionRate": 0.78,
+    "dailyActiveUsers": 180,
+    "weeklyActiveUsers": 280,
+    "monthlyActiveUsers": 320
+  },
+  "performanceMetrics": {
+    "averageCourseCompletion": 0.65,
+    "averageQuizScore": 82,
+    "totalCoursesCreated": 5,
+    "totalQuizzesCreated": 5,
+    "totalLessonsCompleted": 156,
+    "averageTimeToComplete": 12.5
+  },
+  "geographicDistribution": {
+    "northAmerica": 180,
+    "europe": 95,
+    "asia": 45,
+    "other": 30
+  },
+  "deviceUsage": {
+    "desktop": 0.65,
+    "tablet": 0.20,
+    "mobile": 0.15
+  },
+  "lastUpdated": "2024-01-22T16:30:00Z",
+  "reportPeriod": {
+    "start": "2024-01-01",
+    "end": "2024-01-22"
+  }
+}

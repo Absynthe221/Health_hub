@@ -1,0 +1,48 @@
+{
+  "title": "Ventricular Tachycardia",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "VT Recognition",
+      "content": "Identifying ventricular tachycardia",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "VT vs SVT",
+      "content": "Distinguishing VT from SVT",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Emergency Management",
+      "content": "Acute VT treatment protocols",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "70 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "ventricular-tachycardia",
+    "createdAt": "2025-10-05T01:29:47.392Z",
+    "updatedAt": "2025-10-05T01:29:47.392Z",
+    "status": "published"
+  }
+}

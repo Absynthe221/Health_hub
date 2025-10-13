@@ -1,0 +1,90 @@
+{
+  "processed": [
+    {
+      "input_file": "assets/JUNCTIONAL RHYTHM/pptx/JUNCTIONAL RHYTHM.pptx",
+      "output_file": "public/modules/junctional_rhythm/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/JUNCTIONAL RHYTHM/pdfs/JUNCTIONAL RHYTHM.pptx",
+      "output_file": "public/modules/junctional_rhythm/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/STEMI/pptx/STEMI.pptx",
+      "output_file": "public/modules/stemi/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/STEMI/pdfs/STEMI.pptx",
+      "output_file": "public/modules/stemi/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/lead error/pptx/lead error.pptx",
+      "output_file": "public/modules/lead_error/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/lead error/pdfs/lead error.pptx",
+      "output_file": "public/modules/lead_error/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/ACTIVUS MR IBRAHIM PEA/pptx/ACTIVUS MR IBRAHIM PEA.pptx",
+      "output_file": "public/modules/activus_mr_ibrahim_pea/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/ACTIVUS MR IBRAHIM PEA/pdfs/ACTIVUS MR IBRAHIM PEA.pptx",
+      "output_file": "public/modules/activus_mr_ibrahim_pea/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office/pptx/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office.pptx",
+      "output_file": "public/modules/activus_mr_ibrahim_ventricular_rhythms_wps_office/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office/pdfs/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office.pptx",
+      "output_file": "public/modules/activus_mr_ibrahim_ventricular_rhythms_wps_office/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/Class3/pptx/Class3.pptx",
+      "output_file": "public/modules/class3/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/Class3/pdfs/Class3.pptx",
+      "output_file": "public/modules/class3/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/ECG LECTURE SLIDE/pptx/ECG LECTURE SLIDE.pptx",
+      "output_file": "public/modules/ecg_lecture_slide/module.json",
+      "status": "success"
+    },
+    {
+      "input_file": "assets/ECG LECTURE SLIDE/pdfs/ECG LECTURE SLIDE.pptx",
+      "output_file": "public/modules/ecg_lecture_slide/module.json",
+      "status": "success"
+    }
+  ],
+  "failed": [
+    {
+      "input_file": "assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/pptx/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS.pptx",
+      "status": "failed"
+    },
+    {
+      "input_file": "assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/pdfs/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS.pptx",
+      "status": "failed"
+    }
+  ],
+  "summary": {
+    "total_files": 16,
+    "successful": 14,
+    "failed": 2,
+    "modules_created": 14
+  }
+}

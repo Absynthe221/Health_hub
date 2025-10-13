@@ -1,0 +1,18 @@
+# Audio Placeholder: ecg-intro.mp3
+
+This is a placeholder for the audio file: ecg-intro.mp3
+
+Duration: 2-5 minutes (estimated)
+Format: MP3
+Quality: 128kbps
+Language: English
+
+Content:
+- Professional narration
+- Clear pronunciation
+- Appropriate pacing
+- Clinical context
+- Key learning points
+
+Generated: 2025-10-06T03:44:05.561Z
+Platform: Health Hub ECG Learning Platform

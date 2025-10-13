@@ -1,0 +1,26 @@
+# Video Placeholder: chest-placement.mp4
+
+Title: Chest Lead Placement
+Description: Demonstration of precordial chest lead positioning
+Duration: 4:20
+Format: MP4
+Resolution: 1920x1080 (Full HD)
+Frame Rate: 30fps
+Audio: Stereo, 48kHz
+
+Content Outline:
+1. Introduction and objectives
+2. Step-by-step demonstration
+3. Common mistakes to avoid
+4. Quality assessment
+5. Summary and key points
+
+Technical Requirements:
+- Professional lighting
+- Clear audio recording
+- Multiple camera angles
+- Close-up shots for detail
+- Annotations and labels
+
+Generated: 2025-10-06T03:44:05.577Z
+Platform: Health Hub ECG Learning Platform

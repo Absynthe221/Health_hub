@@ -1,0 +1,48 @@
+{
+  "title": "Electrolyte Imbalances",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Hyperkalemia",
+      "content": "High potassium ECG changes",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Hypokalemia",
+      "content": "Low potassium ECG patterns",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Calcium Abnormalities",
+      "content": "Calcium-related ECG changes",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "50 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "electrolyte-imbalances",
+    "createdAt": "2025-10-05T01:29:47.391Z",
+    "updatedAt": "2025-10-05T01:29:47.391Z",
+    "status": "published"
+  }
+}

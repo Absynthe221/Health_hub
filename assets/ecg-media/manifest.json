@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "created": "2025-10-06T03:44:05.578Z",
+    "platform": "Health Hub ECG Learning Platform",
+    "version": "1.0.0",
+    "description": "Media assets for ECG learning modules"
+  },
+  "assets": {
+    "images": {
+      "total": 52,
+      "directory": "/assets/ecg-media/images/",
+      "formats": [
+        "svg",
+        "jpg",
+        "png"
+      ],
+      "types": [
+        "waveform",
+        "anatomy",
+        "electrode",
+        "case",
+        "general"
+      ]
+    },
+    "audio": {
+      "total": 51,
+      "directory": "/assets/ecg-media/audio/",
+      "formats": [
+        "mp3"
+      ],
+      "duration": "2-5 minutes per file",
+      "quality": "128kbps"
+    },
+    "videos": {
+      "total": 3,
+      "directory": "/assets/ecg-media/videos/",
+      "formats": [
+        "mp4"
+      ],
+      "resolution": "1920x1080",
+      "frameRate": "30fps"
+    }
+  },
+  "usage": {
+    "note": "These are placeholder files for development and testing",
+    "production": "Replace with actual professional media content",
+    "licensing": "Ensure proper licensing for all media assets"
+  }
+}

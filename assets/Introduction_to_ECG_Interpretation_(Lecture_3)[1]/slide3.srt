@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:04,500
+This is a mock narration for the slide content.
+
+2
+00:00:04,500 --> 00:00:13,000
+It explains the key concepts in a conversational manner that would be suitable for medical education.
+
+3
+00:00:13,000 --> 00:00:18,000
+The content covers important ECG principles and practical applications.

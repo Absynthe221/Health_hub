@@ -1,0 +1,80 @@
+{
+  "moduleId": "module_17",
+  "moduleTitle": "ECG in Emergency Medicine",
+  "description": "Advanced ECG concepts and clinical applications",
+  "overview": "This module covers advanced ECG interpretation and clinical applications in healthcare practice.",
+  "objectives": [
+    "Understand advanced ECG concepts",
+    "Apply ECG knowledge in clinical practice",
+    "Recognize complex ECG patterns",
+    "Integrate ECG findings with patient care"
+  ],
+  "duration": 20,
+  "difficulty": "Advanced",
+  "prerequisites": "Module 16: Previous Module",
+  "tags": ["Advanced ECG", "Clinical Practice", "Complex Patterns"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "contentType": "Text + Diagram",
+      "interactive": false,
+      "content": "Introduction to advanced ECG concepts and clinical applications.",
+      "duration": 5,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "Clinical Application",
+      "contentType": "Case Studies",
+      "interactive": true,
+      "content": "Application of ECG knowledge in clinical practice with real-world case studies.",
+      "duration": 8,
+      "quiz": {
+        "question": "What is the primary goal of ECG interpretation?",
+        "options": ["Diagnosis", "Patient care", "Documentation", "All of the above"],
+        "correctAnswer": 3,
+        "explanation": "ECG interpretation serves multiple purposes including diagnosis, patient care, and documentation."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Advanced Concepts",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Advanced ECG concepts and complex pattern recognition in clinical scenarios.",
+      "duration": 7,
+      "quiz": {
+        "question": "What is essential for accurate ECG interpretation?",
+        "options": ["Clinical context", "Systematic approach", "Patient history", "All of the above"],
+        "correctAnswer": 3,
+        "explanation": "Accurate ECG interpretation requires clinical context, systematic approach, and patient history."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 3,
+    "interactiveSlides": 2,
+    "quizItems": 2,
+    "estimatedDuration": "20 minutes",
+    "difficulty": "Advanced",
+    "tags": ["Advanced ECG", "Clinical Practice"]
+  }
+}

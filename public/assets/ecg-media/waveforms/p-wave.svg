@@ -1,0 +1,6 @@
+<svg width="100" height="60" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- P Wave -->
+  <path d="M 10 30 Q 30 10 50 30" fill="none" stroke="#3b82f6" stroke-width="3"/>
+  <text x="50" y="50" text-anchor="middle" font-size="10" fill="#374151">P</text>
+</svg>
+

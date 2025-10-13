@@ -1,0 +1,131 @@
+{
+  "moduleId": "module_1",
+  "moduleTitle": "Introduction to ECG",
+  "description": "Fundamental concepts of electrocardiography and basic ECG interpretation",
+  "overview": "This module provides a comprehensive introduction to electrocardiography, covering basic principles, lead systems, and normal ECG characteristics.",
+  "objectives": [
+    "Understand the basic principles of electrocardiography",
+    "Identify normal ECG components and waveforms",
+    "Recognize the 12-lead ECG system",
+    "Interpret normal sinus rhythm"
+  ],
+  "duration": 15,
+  "difficulty": "Beginner",
+  "prerequisites": "Basic anatomy and physiology knowledge",
+  "tags": ["ECG Basics", "Introduction", "Lead System", "Normal Rhythm"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "What is an ECG?",
+      "contentType": "Text + Diagram",
+      "interactive": false,
+      "content": "An electrocardiogram (ECG) is a medical test that measures the electrical activity of the heart. It provides crucial information about heart rhythm, rate, and potential abnormalities. The ECG is one of the most important diagnostic tools in cardiology.",
+      "audioFile": "/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide1.mp3",
+      "subtitles": "/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide1.srt",
+      "images": ["/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide.png"],
+      "duration": 3,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "ECG Lead System",
+      "contentType": "Diagram + Animation",
+      "interactive": true,
+      "content": "The standard 12-lead ECG system provides multiple views of the heart's electrical activity. It includes 6 limb leads (I, II, III, aVR, aVL, aVF) and 6 precordial leads (V1-V6). Each lead offers a unique perspective on cardiac function.",
+      "audioFile": "/assets/ECG LECTURE SLIDE/slide1/slide1.mp3",
+      "subtitles": "/assets/ECG LECTURE SLIDE/slide1/slide1.srt",
+      "images": ["/assets/ECG LECTURE SLIDE/slide1/slide.png"],
+      "duration": 4,
+      "quiz": {
+        "question": "How many leads are in a standard ECG?",
+        "options": ["6 leads", "12 leads", "18 leads", "24 leads"],
+        "correctAnswer": 1,
+        "explanation": "A standard ECG uses 12 leads to provide comprehensive views of cardiac electrical activity."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Normal Heart Rhythm",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Normal sinus rhythm is characterized by: regular rhythm (60-100 bpm), normal P waves before each QRS, consistent PR interval (0.12-0.20s), and normal QRS duration (<0.12s). This represents the baseline rhythm of a healthy heart.",
+      "audioFile": "/assets/ECG TRAINING 002/slide1/slide1.mp3",
+      "subtitles": "/assets/ECG TRAINING 002/slide1/slide1.srt",
+      "images": ["/assets/ECG TRAINING 002/slide1/slide.png"],
+      "duration": 5,
+      "quiz": {
+        "question": "What is the normal heart rate range for adults?",
+        "options": ["40-60 bpm", "60-100 bpm", "100-120 bpm", "120-150 bpm"],
+        "correctAnswer": 1,
+        "explanation": "Normal resting heart rate for adults is typically 60-100 beats per minute."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "ECG Grid System",
+      "contentType": "Interactive Diagram",
+      "interactive": true,
+      "content": "The ECG paper uses a standardized grid system where each small square represents 0.04 seconds and each large square represents 0.20 seconds. This grid helps in measuring intervals and calculating heart rate.",
+      "duration": 3,
+      "quiz": {
+        "question": "What does one large square on ECG paper represent?",
+        "options": ["0.04 seconds", "0.08 seconds", "0.20 seconds", "0.40 seconds"],
+        "correctAnswer": 2,
+        "explanation": "One large square on ECG paper represents 0.20 seconds (5 small squares × 0.04 seconds each)."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 5,
+      "title": "ECG Components Puzzle Game",
+      "contentType": "Interactive Puzzle",
+      "interactive": true,
+      "content": "Test your knowledge of ECG components with this interactive puzzle game. Drag the ECG waveforms to their correct positions on the diagram to learn the cardiac conduction sequence.",
+      "duration": 8,
+      "puzzleGame": {
+        "type": "ecg_components",
+        "difficulty": "beginner",
+        "learningObjectives": [
+          "Identify P wave, QRS complex, and T wave positions",
+          "Understand the sequence of cardiac electrical conduction",
+          "Practice ECG component recognition"
+        ]
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 5,
+    "interactiveSlides": 4,
+    "quizItems": 3,
+    "puzzleGames": 1,
+    "estimatedDuration": "23 minutes",
+    "difficulty": "Beginner",
+    "tags": ["ECG Basics", "Introduction", "Lead System", "Puzzle Games"]
+  }
+}

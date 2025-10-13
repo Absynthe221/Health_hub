@@ -1,0 +1,48 @@
+{
+  "title": "Pacemaker Rhythms",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Pacemaker Basics",
+      "content": "Understanding pacemaker function",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Pacemaker Malfunction",
+      "content": "Recognizing pacemaker problems",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Pacemaker Troubleshooting",
+      "content": "Diagnostic approaches",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "55 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "pacemaker-rhythms",
+    "createdAt": "2025-10-05T01:29:47.391Z",
+    "updatedAt": "2025-10-05T01:29:47.391Z",
+    "status": "published"
+  }
+}

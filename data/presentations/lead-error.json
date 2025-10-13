@@ -1,0 +1,38 @@
+{
+  "title": "ECG Lead Errors and Troubleshooting",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Slide 1",
+      "content": "Content for slide 1",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "35 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [
+    "ECG LECTURE SLIDE"
+  ],
+  "learningObjectives": [
+    "Recognize lead placement errors",
+    "Identify technical artifacts",
+    "Learn troubleshooting techniques"
+  ],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "lead-error",
+    "createdAt": "2025-10-05T00:25:28.444Z",
+    "updatedAt": "2025-10-05T00:25:28.444Z",
+    "status": "published"
+  }
+}

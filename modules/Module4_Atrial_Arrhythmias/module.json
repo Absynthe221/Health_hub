@@ -1,0 +1,103 @@
+{
+  "moduleId": "module_4",
+  "moduleTitle": "Atrial Arrhythmias",
+  "description": "Recognition and interpretation of common atrial arrhythmias",
+  "overview": "This module covers the identification and clinical significance of atrial arrhythmias including atrial fibrillation, atrial flutter, and atrial tachycardia.",
+  "objectives": [
+    "Recognize atrial fibrillation patterns",
+    "Identify atrial flutter characteristics",
+    "Distinguish atrial tachycardia from sinus tachycardia",
+    "Understand clinical implications of atrial arrhythmias"
+  ],
+  "duration": 22,
+  "difficulty": "Intermediate",
+  "prerequisites": "Module 3: Heart Rate and Rhythm Analysis",
+  "tags": ["Atrial Arrhythmias", "Atrial Fibrillation", "Atrial Flutter", "Atrial Tachycardia"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Atrial Fibrillation",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "Atrial fibrillation: irregularly irregular rhythm, absent P waves, fibrillatory waves, variable R-R intervals. Risk of thromboembolism. Most common sustained arrhythmia in adults. May be paroxysmal, persistent, or permanent.",
+      "audioFile": "/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide1.mp3",
+      "subtitles": "/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide1.srt",
+      "images": ["/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide.png"],
+      "duration": 6,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Atrial Flutter",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Atrial flutter: sawtooth pattern (flutter waves), regular atrial rate ~300 bpm, variable ventricular response. Usually 2:1, 3:1, or 4:1 conduction. May degenerate to atrial fibrillation.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the characteristic pattern of atrial flutter?",
+        "options": ["Irregularly irregular rhythm", "Sawtooth pattern", "Absent P waves", "Wide QRS complexes"],
+        "correctAnswer": 1,
+        "explanation": "Atrial flutter is characterized by a sawtooth pattern of flutter waves."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Atrial Tachycardia",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Atrial tachycardia: regular rhythm, P waves present but abnormal morphology, rate >100 bpm, 1:1 AV conduction. May be caused by enhanced automaticity, triggered activity, or reentry.",
+      "duration": 5,
+      "quiz": {
+        "question": "What distinguishes atrial tachycardia from sinus tachycardia?",
+        "options": ["Rate", "P wave morphology", "QRS duration", "PR interval"],
+        "correctAnswer": 1,
+        "explanation": "Atrial tachycardia has abnormal P wave morphology compared to normal sinus P waves."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Clinical Management",
+      "contentType": "Case Studies",
+      "interactive": true,
+      "content": "Management considerations: rate vs rhythm control, anticoagulation for stroke prevention, underlying cause identification. Emergency management for unstable patients includes cardioversion.",
+      "duration": 6,
+      "quiz": {
+        "question": "What is the primary concern in atrial fibrillation management?",
+        "options": ["Heart rate control", "Stroke prevention", "Symptom relief", "Underlying cause"],
+        "correctAnswer": 1,
+        "explanation": "Stroke prevention through anticoagulation is the primary concern in atrial fibrillation management."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "22 minutes",
+    "difficulty": "Intermediate",
+    "tags": ["Atrial Arrhythmias", "Atrial Fibrillation", "Atrial Flutter"]
+  }
+}
+

@@ -1,0 +1,237 @@
+{
+  "trainingProgram": {
+    "title": "Mandatory & Statutory Training for Support Workers (UK)",
+    "description": "Comprehensive training program covering all mandatory and statutory requirements for support workers in the UK.",
+    "modules": [
+      {
+        "id": "health-safety",
+        "title": "Health & Safety Awareness",
+        "description": "Understand workplace hazards, risk assessments, and health & safety principles.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 10,
+          "scoring": "percentage",
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "fire-safety",
+        "title": "Fire Safety Awareness & Evacuation Procedures",
+        "description": "Learn fire risk awareness, evacuation procedures, and fire extinguisher use.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 8,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "manual-handling",
+        "title": "Manual Handling / Moving & Handling",
+        "description": "Safe handling of people and objects to prevent injuries.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "practical",
+          "criteria": ["lifting technique", "posture", "risk assessment"],
+          "passMark": "satisfactory"
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "infection-control",
+        "title": "Infection Prevention & Control",
+        "description": "Prevent infection spread, proper hand hygiene, PPE usage.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 10,
+          "passMark": 85
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "safeguarding-adults",
+        "title": "Safeguarding Adults",
+        "description": "Recognize abuse, report concerns, and understand safeguarding frameworks.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 5,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "safeguarding-children",
+        "title": "Safeguarding Children",
+        "description": "Protect children from harm and understand statutory duties.",
+        "roles": ["childcare", "all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 5,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "equality-diversity",
+        "title": "Equality, Diversity & Human Rights",
+        "description": "Promote inclusivity, respect diversity, and understand legal frameworks.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 8,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "first-aid",
+        "title": "Basic Life Support / First Aid / Resuscitation",
+        "description": "Respond to emergencies, perform CPR, and basic first aid.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "practical",
+          "criteria": ["CPR technique", "first aid steps"],
+          "passMark": "satisfactory"
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "information-governance",
+        "title": "Information Governance & Data Protection",
+        "description": "GDPR, confidentiality, and secure handling of personal data.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 10,
+          "passMark": 85
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "food-hygiene",
+        "title": "Food Hygiene / Food Safety",
+        "description": "Prevent foodborne illnesses, hygiene practices, and safe handling.",
+        "roles": ["all", "food-prep"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 8,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "coshh",
+        "title": "COSHH (Control of Substances Hazardous to Health)",
+        "description": "Identify hazardous substances and use safety measures.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 6,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "prevent-duty",
+        "title": "Preventing Radicalisation (\"Prevent\" duty)",
+        "description": "Identify signs of radicalisation and report concerns.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 4,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "mental-capacity",
+        "title": "Mental Capacity Act (MCA) & DoLS",
+        "description": "Understand decision-making capacity and legal safeguards.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 8,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "consent-records",
+        "title": "Consent & Record Keeping",
+        "description": "Ensure informed consent and accurate record-keeping.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 3,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "lone-working",
+        "title": "Lone Working & Personal Safety",
+        "description": "Minimise risks for lone workers and understand personal safety strategies.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 3,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "medication-awareness",
+        "title": "Medication Awareness / Safe Handling of Medicines",
+        "description": "Safe administration, storage, and recording of medicines.",
+        "roles": ["medication", "all"],
+        "assessment": {
+          "type": "practical",
+          "criteria": ["correct dosage", "recording", "storage"],
+          "passMark": "satisfactory"
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "mental-health",
+        "title": "Mental Health Awareness",
+        "description": "Recognize stress, wellbeing, and resilience strategies.",
+        "roles": ["all"],
+        "assessment": {
+          "type": "quiz",
+          "questions": 8,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "dementia-awareness",
+        "title": "Dementia Awareness",
+        "description": "Understand dementia, communication, and care strategies.",
+        "roles": ["dementia", "all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 4,
+          "passMark": 80
+        },
+        "progressTracking": true
+      },
+      {
+        "id": "learning-disability",
+        "title": "Learning Disability Awareness",
+        "description": "Support individuals with learning disabilities, communication, and care techniques.",
+        "roles": ["learning-disability", "all"],
+        "assessment": {
+          "type": "scenario",
+          "cases": 4,
+          "passMark": 80
+        },
+        "progressTracking": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "moduleId": "module-2-case-studies",
+  "moduleTitle": "ECG Case Studies",
+  "description": "Comprehensive clinical case studies integrating ECG interpretation with patient presentations. Apply your knowledge to real-world scenarios including STEMI, arrhythmias, heart blocks, and drug toxicity.",
+  "difficulty": "intermediate",
+  "category": "Clinical Cases",
+  "status": "published",
+  "slides": [
+    {
+      "id": "case-1-stemi",
+      "title": "Case 1: Chest Pain (STEMI)",
+      "contentType": "text+ecg",
+      "duration": 10,
+      "content": {
+        "clinicalPresentation": {
+          "age": "58-year-old male",
+          "chiefComplaint": "Severe crushing chest pain",
+          "duration": "45 minutes",
+          "associatedSymptoms": "Sweating, nausea, shortness of breath",
+          "vitalSigns": {
+            "bp": "160/95 mmHg",
+            "hr": "98 bpm",
+            "rr": "22/min",
+            "o2sat": "96% on room air"
+          }
+        },
+        "ecgFindings": [
+          "ST-segment elevation in leads V2-V5",
+          "Reciprocal ST depression in inferior leads",
+          "Hyperacute T waves in anterior leads",
+          "New Q waves developing in V2-V3"
+        ],
+        "diagnosis": "Acute Anterior STEMI",
+        "immediateManagement": [
+          "Activate catheterization lab",
+          "Aspirin 300mg chewed",
+          "Ticagrelor 180mg loading dose",
+          "Morphine for pain relief",
+          "Oxygen if hypoxic",
+          "Prepare for primary PCI"
+        ],
+        "keyLearningPoints": [
+          "Recognition of STEMI criteria (>1mm ST elevation in 2 contiguous leads)",
+          "Importance of time to treatment",
+          "Reciprocal changes confirm diagnosis",
+          "Hyperacute T waves are earliest sign"
+        ]
+      },
+      "interactive": true,
+      "quiz": {
+        "question": "What is the most appropriate immediate management?",
+        "options": [
+          "Wait for troponin results",
+          "Activate catheterization lab and give dual antiplatelet therapy",
+          "Start thrombolysis",
+          "Perform stress test"
+        ],
+        "correct": 1,
+        "explanation": "For STEMI, primary PCI is the gold standard treatment when available within 120 minutes. Dual antiplatelet therapy should be given immediately."
+      }
+    },
+    {
+      "id": "case-2-af",
+      "title": "Case 2: Palpitations (Atrial Fibrillation)",
+      "contentType": "text+ecg",
+      "duration": 10,
+      "content": {
+        "clinicalPresentation": {
+          "age": "72-year-old female",
+          "chiefComplaint": "Irregular palpitations and dizziness",
+          "duration": "3 hours",
+          "pastMedicalHistory": "Hypertension, Type 2 diabetes",
+          "medications": "Amlodipine, Metformin",
+          "vitalSigns": {
+            "bp": "145/88 mmHg",
+            "hr": "140-160 bpm (irregular)",
+            "rr": "18/min",
+            "o2sat": "97% on room air"
+          }
+        },
+        "ecgFindings": [
+          "Irregularly irregular rhythm",
+          "Absence of P waves",
+          "Fibrillatory waves (f waves) in V1",
+          "Variable R-R intervals",
+          "Ventricular rate 140-160 bpm",
+          "No evidence of WPW pattern"
+        ],
+        "diagnosis": "Atrial Fibrillation with rapid ventricular response",
+        "riskStratification": {
+          "chadVasc": "4 points (Age, HTN, DM, Female)",
+          "hasbled": "2 points",
+          "recommendation": "Anticoagulation indicated"
+        },
+        "management": [
+          "Rate control with beta-blocker or calcium channel blocker",
+          "Consider cardioversion if onset <48 hours",
+          "Anticoagulation (DOAC preferred)",
+          "Echocardiogram to assess structural disease",
+          "Monitor for hemodynamic instability"
+        ],
+        "keyLearningPoints": [
+          "AF identified by irregularly irregular rhythm and absent P waves",
+          "CHA2DS2-VASc score guides anticoagulation",
+          "Rate vs rhythm control strategy",
+          "48-hour rule for cardioversion"
+        ]
+      },
+      "interactive": true,
+      "quiz": {
+        "question": "What is this patient's CHA2DS2-VASc score?",
+        "options": [
+          "2 points",
+          "3 points",
+          "4 points",
+          "5 points"
+        ],
+        "correct": 2,
+        "explanation": "CHA2DS2-VASc: Age 65-74 (1), Hypertension (1), Diabetes (1), Female (1) = 4 points. Score ≥2 indicates anticoagulation."
+      }
+    },
+    {
+      "id": "case-3-heart-block",
+      "title": "Case 3: Syncope (Complete Heart Block)",
+      "contentType": "text+ecg",
+      "duration": 10,
+      "content": {
+        "clinicalPresentation": {
+          "age": "65-year-old male",
+          "chiefComplaint": "Sudden loss of consciousness",
+          "duration": "Brief, 30 seconds",
+          "frequency": "Third episode this week",
+          "pastMedicalHistory": "Previous inferior MI 5 years ago",
+          "vitalSigns": {
+            "bp": "95/65 mmHg",
+            "hr": "38 bpm",
+            "rr": "16/min",
+            "o2sat": "98% on room air"
+          }
+        },
+        "ecgFindings": [
+          "Regular P waves at rate of 85/min",
+          "Regular QRS complexes at rate of 38/min",
+          "No relationship between P waves and QRS (AV dissociation)",
+          "Wide QRS complexes (0.14 sec)",
+          "Escape rhythm originating from ventricles",
+          "P waves marching through at their own rate"
+        ],
+        "diagnosis": "Complete (Third-degree) AV Block with ventricular escape rhythm",
+        "severity": "Hemodynamically significant bradycardia with syncope",
+        "immediateManagement": [
+          "Continuous cardiac monitoring",
+          "IV access",
+          "Atropine 0.5mg IV if symptomatic",
+          "Prepare for transcutaneous pacing",
+          "Call for permanent pacemaker insertion",
+          "Consider temporary transvenous pacing"
+        ],
+        "definitiveManagement": "Permanent dual-chamber pacemaker implantation",
+        "keyLearningPoints": [
+          "Complete AV block = complete AV dissociation",
+          "Ventricular escape rhythm has wide QRS",
+          "Syncope in heart block = Stokes-Adams attack",
+          "Permanent pacemaker is definitive treatment",
+          "Atropine may not work in infra-His blocks"
+        ]
+      },
+      "interactive": true,
+      "quiz": {
+        "question": "What is the definitive treatment for this patient?",
+        "options": [
+          "Long-term atropine therapy",
+          "Permanent pacemaker implantation",
+          "Increase beta-blocker dose",
+          "Watchful waiting"
+        ],
+        "correct": 1,
+        "explanation": "Complete heart block with syncope is a Class I indication for permanent pacemaker implantation (dual-chamber preferred)."
+      }
+    },
+    {
+      "id": "case-4-heart-failure",
+      "title": "Case 4: Shortness of Breath (Heart Failure)",
+      "contentType": "text+ecg",
+      "duration": 10,
+      "content": {
+        "clinicalPresentation": {
+          "age": "76-year-old female",
+          "chiefComplaint": "Progressive shortness of breath",
+          "duration": "2 weeks, worse at night",
+          "associatedSymptoms": "Orthopnea (3 pillows), bilateral ankle swelling, fatigue",
+          "pastMedicalHistory": "Ischemic cardiomyopathy, previous MI",
+          "vitalSigns": {
+            "bp": "110/70 mmHg",
+            "hr": "88 bpm",
+            "rr": "24/min",
+            "o2sat": "91% on room air"
+          },
+          "examination": {
+            "jvp": "Elevated 8cm",
+            "lungs": "Bilateral basal crackles",
+            "heart": "S3 gallop present",
+            "periphery": "2+ pitting edema to knees"
+          }
+        },
+        "ecgFindings": [
+          "Sinus rhythm, rate 88/min",
+          "Left axis deviation (-45 degrees)",
+          "Poor R wave progression V1-V4 (old anterior MI)",
+          "QRS duration 0.15 seconds",
+          "Left bundle branch block pattern",
+          "No acute ST-T changes"
+        ],
+        "additionalInvestigations": {
+          "bnp": "1450 pg/mL (markedly elevated)",
+          "echo": "LVEF 25%, global hypokinesis, moderate MR",
+          "cxr": "Cardiomegaly, pulmonary edema, Kerley B lines"
+        },
+        "diagnosis": "Acute decompensated heart failure with reduced EF (HFrEF) on background of ischemic cardiomyopathy and LBBB",
+        "management": [
+          "Oxygen therapy (target SpO2 >94%)",
+          "IV furosemide 40-80mg bolus",
+          "Consider GTN infusion if BP permits",
+          "Optimize HF medications (ACEi/ARB, beta-blocker, MRA, SGLT2i)",
+          "Consider CRT-D given LBBB and low EF",
+          "Fluid restriction, daily weights",
+          "Treat underlying precipitants"
+        ],
+        "keyLearningPoints": [
+          "LBBB with heart failure qualifies for CRT if QRS ≥150ms",
+          "Poor R wave progression indicates old anterior MI",
+          "BNP/NT-proBNP useful for diagnosis and prognosis",
+          "Quadruple therapy is now standard for HFrEF",
+          "CRT improves outcomes in selected patients"
+        ]
+      },
+      "interactive": true,
+      "quiz": {
+        "question": "Which device therapy should be considered for this patient?",
+        "options": [
+          "Permanent pacemaker only",
+          "ICD only",
+          "CRT-D (Cardiac Resynchronization Therapy with Defibrillator)",
+          "No device needed"
+        ],
+        "correct": 2,
+        "explanation": "CRT-D is indicated: LVEF ≤35%, LBBB with QRS ≥150ms, NYHA class II-IV on optimal medical therapy."
+      }
+    },
+    {
+      "id": "case-5-drug-toxicity",
+      "title": "Case 5: Drug Toxicity (Digoxin)",
+      "contentType": "text+ecg",
+      "duration": 10,
+      "content": {
+        "clinicalPresentation": {
+          "age": "82-year-old male",
+          "chiefComplaint": "Nausea, vomiting, confusion",
+          "duration": "2 days",
+          "pastMedicalHistory": "Atrial fibrillation, heart failure, CKD",
+          "medications": "Digoxin 0.25mg daily, Furosemide 80mg BD, Ramipril 5mg",
+          "recentChange": "Started amiodarone 1 week ago",
+          "vitalSigns": {
+            "bp": "105/68 mmHg",
+            "hr": "48 bpm (irregular)",
+            "rr": "18/min",
+            "o2sat": "96% on room air"
+          },
+          "labs": {
+            "digoxinLevel": "3.2 ng/mL (therapeutic 0.5-2.0)",
+            "potassium": "5.8 mmol/L",
+            "creatinine": "185 μmol/L (elevated)",
+            "egfr": "28 mL/min"
+          }
+        },
+        "ecgFindings": [
+          "Atrial fibrillation with slow ventricular response (48 bpm)",
+          "Characteristic 'reverse tick' ST depression (Salvador Dali sign)",
+          "Prolonged PR intervals where visible",
+          "Frequent ventricular ectopics (bigeminy pattern)",
+          "T wave flattening/inversion",
+          "Possible bidirectional VT strips"
+        ],
+        "diagnosis": "Digoxin toxicity",
+        "precipitatingFactors": [
+          "Drug interaction: Amiodarone increases digoxin levels",
+          "Renal impairment: Reduced digoxin clearance",
+          "Hyperkalemia: Potentiates digoxin toxicity",
+          "Elderly age: Increased sensitivity"
+        ],
+        "management": [
+          "STOP digoxin immediately",
+          "STOP amiodarone (drug interaction)",
+          "Continuous cardiac monitoring",
+          "Correct electrolytes (especially potassium - but cautiously)",
+          "Digoxin-specific antibody (Fab fragments) if severe",
+          "Avoid calcium in hyperkalemia (increases toxicity)",
+          "Temporary pacing if complete AV block develops",
+          "Supportive care"
+        ],
+        "indications": "Digoxin-specific Fab for: Ventricular arrhythmias, severe bradycardia, K+ >5.5, level >15 ng/mL acute or >10 ng/mL chronic",
+        "keyLearningPoints": [
+          "Classic ECG: 'Reverse tick' ST depression",
+          "Almost any arrhythmia can occur with digoxin toxicity",
+          "Bidirectional VT is pathognomonic",
+          "Many drug interactions increase digoxin levels",
+          "Fab fragments are life-saving in severe toxicity",
+          "Avoid calcium in hyperkalemic digoxin toxicity"
+        ]
+      },
+      "interactive": true,
+      "quiz": {
+        "question": "Which ECG finding is most characteristic of digoxin toxicity?",
+        "options": [
+          "ST elevation",
+          "'Reverse tick' ST depression (downsloping ST-T)",
+          "Peaked T waves",
+          "Delta waves"
+        ],
+        "correct": 1,
+        "explanation": "The 'reverse tick' or 'Salvador Dali' ST-T changes (downsloping ST depression with T wave inversion) are classic for digoxin effect/toxicity."
+      }
+    },
+    {
+      "id": "case-6-interactive",
+      "title": "Interactive Case Solving",
+      "contentType": "interactive",
+      "duration": 15,
+      "interactive": true,
+      "content": {
+        "introduction": "Apply your clinical reasoning to solve these interactive cases. You'll receive hints along the way and scoring based on your decisions.",
+        "cases": [
+          {
+            "caseNumber": 1,
+            "scenario": "45yo male, chest pain 2 hours, sweating",
+            "ecgClue": "ST elevation V7-V9",
+            "hints": [
+              "Hint 1: Consider posterior leads",
+              "Hint 2: Look for reciprocal changes anteriorly",
+              "Hint 3: ST depression V1-V3 may represent posterior STEMI"
+            ],
+            "diagnosis": "Posterior STEMI",
+            "management": "Emergency catheterization"
+          },
+          {
+            "caseNumber": 2,
+            "scenario": "30yo athlete, dizziness during exercise",
+            "ecgClue": "Epsilon waves, inverted T waves V1-V3",
+            "hints": [
+              "Hint 1: Consider inherited arrhythmia syndromes",
+              "Hint 2: Right precordial lead abnormalities",
+              "Hint 3: Epsilon waves are pathognomonic"
+            ],
+            "diagnosis": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+            "management": "ICD, avoid competitive sports"
+          },
+          {
+            "caseNumber": 3,
+            "scenario": "68yo, confusion, irregular pulse",
+            "ecgClue": "AF with very fast rate, wide QRS",
+            "hints": [
+              "Hint 1: Rate >200 in AF suggests pre-excitation",
+              "Hint 2: Look for delta waves in baseline ECG",
+              "Hint 3: Avoid AV nodal blockers"
+            ],
+            "diagnosis": "AF in WPW syndrome",
+            "management": "Procainamide, urgent cardioversion, EP study"
+          }
+        ],
+        "scoring": {
+          "perfect": "10/10 - Expert clinician!",
+          "good": "7-9/10 - Strong clinical skills",
+          "satisfactory": "5-6/10 - Good foundation, keep learning",
+          "needsImprovement": "<5/10 - Review core concepts"
+        }
+      }
+    },
+    {
+      "id": "case-7-assessment",
+      "title": "Comprehensive Case Assessment",
+      "contentType": "interactive",
+      "duration": 30,
+      "interactive": true,
+      "quiz": {
+        "type": "comprehensive",
+        "timeLimit": 30,
+        "passingScore": 70,
+        "questions": [
+          {
+            "case": "62yo diabetic, chest pain 90 minutes",
+            "ecg": "ST elevation II, III, aVF with ST depression I, aVL",
+            "question": "Territory of infarction?",
+            "options": [
+              "Anterior",
+              "Inferior",
+              "Lateral",
+              "Posterior"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "55yo, palpitations, regular tachycardia 180bpm",
+            "ecg": "Narrow QRS, no visible P waves, sudden onset/offset",
+            "question": "Most likely diagnosis?",
+            "options": [
+              "Sinus tachycardia",
+              "AVNRT",
+              "Atrial flutter",
+              "VT"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "70yo, dizzy, HR 35bpm",
+            "ecg": "P waves present, some not conducted, progressive PR prolongation then dropped QRS",
+            "question": "Type of AV block?",
+            "options": [
+              "First degree",
+              "Mobitz I (Wenckebach)",
+              "Mobitz II",
+              "Complete"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "28yo, syncope during swimming",
+            "ecg": "QTc 520ms, T wave alternans",
+            "question": "Diagnosis?",
+            "options": [
+              "Long QT syndrome",
+              "Brugada syndrome",
+              "WPW",
+              "Normal variant"
+            ],
+            "correct": 0
+          },
+          {
+            "case": "50yo cocaine user, chest pain",
+            "ecg": "Diffuse ST elevation with PR depression",
+            "question": "Most likely diagnosis?",
+            "options": [
+              "Extensive STEMI",
+              "Pericarditis",
+              "Takotsubo",
+              "Early repolarization"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "75yo, SOB, irregular pulse",
+            "ecg": "Sawtooth pattern at 300bpm, variable conduction",
+            "question": "Diagnosis?",
+            "options": [
+              "Atrial fibrillation",
+              "Atrial flutter",
+              "MAT",
+              "Sinus arrhythmia"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "40yo, sudden death survivor",
+            "ecg": "Coved ST elevation V1-V2, RBBB pattern",
+            "question": "Diagnosis?",
+            "options": [
+              "RBBB",
+              "Brugada syndrome type 1",
+              "Anterior STEMI",
+              "PE"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "60yo post-op, hypotensive",
+            "ecg": "Sinus tachycardia, S1Q3T3 pattern, RBBB",
+            "question": "Consider?",
+            "options": [
+              "MI",
+              "Massive pulmonary embolism",
+              "Pneumonia",
+              "Sepsis"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "25yo febrile, ECG requested",
+            "ecg": "Short PR (0.10s), delta waves, wide QRS",
+            "question": "Diagnosis?",
+            "options": [
+              "LVH",
+              "WPW syndrome",
+              "LBBB",
+              "Hyperkalemia"
+            ],
+            "correct": 1
+          },
+          {
+            "case": "80yo digoxin user, nausea",
+            "ecg": "Reverse tick ST depression, bigeminy, slow AF",
+            "question": "Diagnosis?",
+            "options": [
+              "Ischemia",
+              "Hypokalemia",
+              "Digoxin toxicity",
+              "Normal digoxin effect"
+            ],
+            "correct": 2
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 7,
+    "interactiveSlides": 2,
+    "quizItems": 12,
+    "estimatedDuration": "95 minutes",
+    "prerequisites": [
+      "ECG Basics",
+      "STEMI Recognition",
+      "Arrhythmias",
+      "Heart Blocks"
+    ],
+    "learningObjectives": [
+      "Apply ECG interpretation skills to clinical scenarios",
+      "Integrate ECG findings with patient presentation",
+      "Develop clinical reasoning and decision-making skills",
+      "Recognize life-threatening ECG patterns",
+      "Formulate appropriate management plans",
+      "Practice systematic ECG analysis"
+    ],
+    "competencies": [
+      "Clinical integration",
+      "Differential diagnosis",
+      "Emergency recognition",
+      "Management planning",
+      "Risk stratification"
+    ]
+  }
+}

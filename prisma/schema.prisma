@@ -1,0 +1,491 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  role          UserRole  @default(LEARNER)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts Account[]
+  sessions Session[]
+  
+  // Learning progress
+  enrollments    Enrollment[]
+  quizAttempts   QuizAttempt[]
+  certificates   Certificate[]
+  ecgAnalyses    ECGAnalysis[]
+  annotations    Annotation[]
+  lessonProgress LessonProgress[] @relation("UserProgress")
+  slideProgress  SlideProgress[]  @relation("UserProgress")
+  
+  // Course and ECG management
+  createdCourses Course[]        @relation("CourseCreator")
+  ecgRecordings  ECGRecording[]  @relation("ECGUploader")
+  
+  // Gamification
+  profile        UserProfile?
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+enum UserRole {
+  LEARNER
+  INSTRUCTOR
+  ADMIN
+}
+
+model Course {
+  id          String    @id @default(cuid())
+  title       String
+  description String?
+  thumbnail   String?
+  isPublished Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  createdBy   String
+
+  modules     Module[]
+  enrollments Enrollment[]
+  creator     User      @relation("CourseCreator", fields: [createdBy], references: [id])
+}
+
+model Module {
+  id          String    @id @default(cuid())
+  title       String
+  description String?
+  order       Int
+  courseId    String
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  course         Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons        Lesson[]
+  mediaSegments  MediaSegment[]
+}
+
+model Lesson {
+  id          String       @id @default(cuid())
+  title       String
+  content     String?      @db.Text
+  type        LessonType   @default(TEXT)
+  order       Int
+  moduleId    String
+  isPublished Boolean      @default(false)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  module          Module          @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  attachments     Attachment[]
+  quiz            Quiz?
+  progress        LessonProgress[]
+}
+
+enum LessonType {
+  TEXT
+  VIDEO
+  INTERACTIVE
+  QUIZ
+  CASE_STUDY
+}
+
+model Attachment {
+  id        String   @id @default(cuid())
+  filename  String
+  filepath  String
+  fileSize  Int
+  mimeType  String
+  lessonId  String
+  createdAt DateTime @default(now())
+
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+}
+
+model Quiz {
+  id          String       @id @default(cuid())
+  title       String
+  description String?
+  timeLimit   Int?         // in minutes
+  passingScore Int         @default(70)
+  lessonId    String       @unique
+  isPublished Boolean      @default(false)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  lesson  Lesson        @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  questions Question[]
+  attempts QuizAttempt[]
+}
+
+model Question {
+  id       String         @id @default(cuid())
+  text     String
+  type     QuestionType
+  order    Int
+  quizId   String
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  quiz       Quiz         @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  options    Option[]
+  responses  Response[]
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  MULTI_SELECT
+  TRUE_FALSE
+  FILL_IN_BLANK
+}
+
+model Option {
+  id         String @id @default(cuid())
+  text       String
+  isCorrect  Boolean
+  questionId String
+  order      Int
+
+  question Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model Enrollment {
+  id           String         @id @default(cuid())
+  userId       String
+  courseId     String
+  enrolledAt   DateTime       @default(now())
+  completedAt  DateTime?
+  status       EnrollmentStatus @default(ENROLLED)
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseId])
+}
+
+enum EnrollmentStatus {
+  ENROLLED
+  IN_PROGRESS
+  COMPLETED
+  DROPPED
+}
+
+model LessonProgress {
+  id        String   @id @default(cuid())
+  userId    String
+  lessonId  String
+  completed Boolean  @default(false)
+  progress  Int      @default(0) // percentage
+  timeSpent Int      @default(0) // in seconds
+  updatedAt DateTime @updatedAt
+
+  user   User   @relation("UserProgress", fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId])
+}
+
+model QuizAttempt {
+  id           String           @id @default(cuid())
+  userId       String
+  quizId       String
+  score        Float?
+  passed       Boolean?
+  timeSpent    Int              // in seconds
+  status       QuizAttemptStatus @default(IN_PROGRESS)
+  startedAt    DateTime         @default(now())
+  completedAt  DateTime?
+
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quiz      Quiz       @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  responses Response[]
+}
+
+enum QuizAttemptStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+model Response {
+  id           String @id @default(cuid())
+  attemptId    String
+  questionId   String
+  selectedOptions String[] // Array of option IDs for multi-select
+  textResponse String?     // For fill-in-blank questions
+  isCorrect    Boolean?
+  createdAt    DateTime    @default(now())
+
+  attempt  QuizAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model Certificate {
+  id          String   @id @default(cuid())
+  userId      String
+  courseId    String
+  title       String
+  filePath    String
+  issuedAt    DateTime @default(now())
+  validUntil  DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ECG-specific models
+model ECGRecording {
+  id           String   @id @default(cuid())
+  filename     String
+  originalName String
+  filePath     String
+  fileSize     Int
+  mimeType     String
+  samplingRate Int
+  duration     Float    // in seconds
+  leads        String[] // Lead names
+  metadata     Json?    // Additional metadata
+  uploadedBy   String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  uploader User         @relation("ECGUploader", fields: [uploadedBy], references: [id])
+  analyses ECGAnalysis[]
+  annotations Annotation[]
+}
+
+model ECGAnalysis {
+  id          String   @id @default(cuid())
+  recordingId String
+  userId      String
+  type        AnalysisType
+  result      Json     // Analysis results
+  confidence  Float?
+  createdAt   DateTime @default(now())
+
+  recording ECGRecording @relation(fields: [recordingId], references: [id], onDelete: Cascade)
+  user      User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum AnalysisType {
+  ARTIFACT_DETECTION
+  RHYTHM_ANALYSIS
+  AUTO_INTERPRETATION
+  MANUAL_REVIEW
+}
+
+model Annotation {
+  id          String   @id @default(cuid())
+  recordingId String
+  userId      String
+  type        AnnotationType
+  startTime   Float    // in seconds
+  endTime     Float?   // in seconds, null for point annotations
+  label       String
+  description String?
+  createdAt   DateTime @default(now())
+
+  recording ECGRecording @relation(fields: [recordingId], references: [id], onDelete: Cascade)
+  user      User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum AnnotationType {
+  ARTIFACT
+  RHYTHM_CHANGE
+  MEASUREMENT
+  NOTE
+  ARRHYTHMIA
+}
+
+// Media segmentation for video content
+model MediaSegment {
+  id        Int      @id @default(autoincrement())
+  moduleId  String
+  videoPath String
+  startTime Int      // Start time in seconds
+  endTime   Int      // End time in seconds
+  title     String?  // Optional segment title
+  description String? // Optional segment description
+  mcqs      Json?    // Multiple choice questions for this segment
+  metadata  Json?    // Additional metadata (thumbnails, etc.)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  module Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@index([moduleId])
+  @@index([startTime])
+}
+
+// Enhanced models for 2-module ECG platform structure
+model ModuleSlide {
+  id              String   @id @default(cuid())
+  moduleId        String   // References module folder name (e.g., module-1-basic-ecg-interpretations)
+  slideNumber     Int
+  title           String
+  content         String?  @db.Text
+  contentType     String   @default("text") // text, section-header, puzzle, knowledge-check, final-quiz
+  duration        Int      @default(2) // minutes
+  interactive     Boolean  @default(false)
+  images          String[] // Array of image paths
+  audioFile       String?  // Path to audio narration
+  videoFile       String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  quizData        Json?    // Quiz question data
+  puzzleData      Json?    // Puzzle game configuration
+  clinicalCase    Json?    // Clinical case data
+  moduleSource    String?  // Original source module name
+
+  progress        SlideProgress[]
+  
+  @@unique([moduleId, slideNumber])
+  @@index([moduleId])
+}
+
+model SlideProgress {
+  id              String   @id @default(cuid())
+  userId          String
+  slideId         String
+  completed       Boolean  @default(false)
+  timeSpent       Int      @default(0) // seconds
+  quizScore       Int?     // percentage
+  puzzleScore     Int?     // points
+  lastAccessed    DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user            User     @relation("UserProgress", fields: [userId], references: [id], onDelete: Cascade)
+  slide           ModuleSlide @relation(fields: [slideId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, slideId])
+  @@index([userId])
+  @@index([slideId])
+}
+
+model KnowledgeCheckAttempt {
+  id              String   @id @default(cuid())
+  userId          String
+  slideId         String
+  questionText    String   @db.Text
+  selectedAnswer  Int
+  correctAnswer   Int
+  isCorrect       Boolean
+  attemptNumber   Int      @default(1)
+  timeSpent       Int      // seconds
+  createdAt       DateTime @default(now())
+
+  @@index([userId])
+  @@index([slideId])
+}
+
+model PuzzleGameAttempt {
+  id              String   @id @default(cuid())
+  userId          String
+  puzzleType      String   // ecg_components, lead_placement, rhythm_identification
+  score           Int
+  timeSpent       Int      // seconds
+  hintsUsed       Int      @default(0)
+  completed       Boolean
+  perfectScore    Boolean  @default(false)
+  createdAt       DateTime @default(now())
+
+  @@index([userId])
+  @@index([puzzleType])
+}
+
+model AudioNarration {
+  id              String   @id @default(cuid())
+  slideId         String   @unique
+  textContent     String   @db.Text
+  audioUrl        String?  // Path to generated audio file
+  audioProvider   String   @default("browser-tts") // browser-tts, openai, google, elevenlabs
+  voiceName       String   @default("en-GB-female")
+  duration        Int?     // seconds
+  generatedAt     DateTime @default(now())
+  
+  @@index([slideId])
+}
+
+model ModuleAssignment {
+  id              String   @id @default(cuid())
+  userId          String
+  moduleId        String   // module folder name
+  assignedBy      String?  // Admin/Instructor who assigned
+  assignedAt      DateTime @default(now())
+  dueDate         DateTime?
+  status          AssignmentStatus @default(ASSIGNED)
+  completedAt     DateTime?
+
+  @@unique([userId, moduleId])
+  @@index([userId])
+  @@index([moduleId])
+}
+
+enum AssignmentStatus {
+  ASSIGNED
+  IN_PROGRESS
+  COMPLETED
+  OVERDUE
+}
+
+// User profile extensions for gamification
+model UserProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  points          Int      @default(0)
+  streak          Int      @default(0)
+  lastActiveDate  DateTime @default(now())
+  level           String   @default("Beginner")
+  rank            Int?
+  badges          Json?    // Array of earned badges
+  preferences     Json?    // User preferences (audio on/off, speed, etc.)
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+

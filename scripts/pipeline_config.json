@@ -1,0 +1,188 @@
+{
+  "pipeline": {
+    "version": "1.0",
+    "name": "ECG Content Pipeline",
+    "description": "Complete content processing pipeline for ECG learning platform"
+  },
+  "stages": {
+    "prepare": {
+      "enabled": true,
+      "description": "Environment preparation and dependency checking",
+      "timeout": 30
+    },
+    "convert": {
+      "enabled": true,
+      "description": "PPTX to module conversion",
+      "timeout": 300,
+      "options": {
+        "extractImages": true,
+        "extractAudio": true,
+        "generateSubtitles": true,
+        "optimizeMedia": true
+      }
+    },
+    "segment": {
+      "enabled": true,
+      "description": "Video segmentation",
+      "timeout": 600,
+      "options": {
+        "segmentDuration": 900,
+        "generateThumbnails": true,
+        "createPreview": true
+      }
+    },
+    "ai_enhance": {
+      "enabled": true,
+      "description": "AI content enhancement",
+      "timeout": 1200,
+      "options": {
+        "generateQuizzes": true,
+        "generateCaseStudies": true,
+        "validateContent": true,
+        "adaptiveLearning": true
+      }
+    },
+    "validate": {
+      "enabled": true,
+      "description": "Content validation",
+      "timeout": 180,
+      "options": {
+        "checkMediaIntegrity": true,
+        "validateJSON": true,
+        "checkLinks": true,
+        "qualityAssurance": true
+      }
+    },
+    "deploy": {
+      "enabled": true,
+      "description": "Content deployment",
+      "timeout": 60,
+      "options": {
+        "updateIndex": true,
+        "clearCache": true,
+        "notifyAPI": true
+      }
+    }
+  },
+  "directories": {
+    "input": "assets",
+    "output": "public/modules",
+    "media": "public/assets/ecg-media",
+    "segments": "public/segments",
+    "temp": "temp/pipeline",
+    "logs": "logs/pipeline"
+  },
+  "api": {
+    "baseUrl": "http://localhost:3000",
+    "timeout": 60,
+    "retries": 3,
+    "retryDelay": 2,
+    "endpoints": {
+      "health": "/api/health",
+      "generateQuiz": "/api/ai/generateQuiz",
+      "generateECGQuiz": "/api/ai/generateECGQuiz",
+      "generateCaseStudy": "/api/ai/generateCaseStudy",
+      "adaptiveQuiz": "/api/ai/adaptiveQuiz",
+      "validateQuiz": "/api/ai/validateQuiz",
+      "quizMaster": "/api/ai/quizMaster",
+      "summarizeSlide": "/api/ai/summarizeSlide",
+      "interpretECG": "/api/ai/interpretECG"
+    }
+  },
+  "ai": {
+    "enabled": true,
+    "model": "gpt-4o",
+    "temperature": 0.7,
+    "maxTokens": 4000,
+    "features": {
+      "adaptiveQuiz": {
+        "enabled": true,
+        "defaultQuestionCount": 10,
+        "difficultyLevels": ["basic", "intermediate", "advanced"],
+        "includeCaseStudies": true
+      },
+      "caseStudy": {
+        "enabled": true,
+        "caseTypes": ["clinical", "diagnostic", "emergency"],
+        "patientAges": ["pediatric", "adult", "geriatric"],
+        "includeECG": true
+      },
+      "validation": {
+        "enabled": true,
+        "criteria": {
+          "medicalAccuracy": true,
+          "difficultyAppropriate": true,
+          "clearLanguage": true,
+          "clinicalRelevance": true,
+          "biasCheck": true
+        }
+      }
+    }
+  },
+  "media": {
+    "video": {
+      "formats": ["mp4", "webm"],
+      "maxDuration": 3600,
+      "segmentDuration": 900,
+      "thumbnailInterval": 30,
+      "quality": "high"
+    },
+    "audio": {
+      "formats": ["mp3", "wav"],
+      "sampleRate": 44100,
+      "bitrate": 128
+    },
+    "images": {
+      "formats": ["jpg", "png", "svg"],
+      "maxWidth": 1920,
+      "maxHeight": 1080,
+      "optimize": true
+    }
+  },
+  "validation": {
+    "modules": {
+      "requiredFields": ["id", "title", "description", "slides"],
+      "maxSlides": 100,
+      "maxDuration": 7200
+    },
+    "slides": {
+      "requiredFields": ["id", "name", "content"],
+      "maxContentLength": 10000,
+      "allowedTypes": ["text", "image", "video", "audio"]
+    },
+    "quizzes": {
+      "minQuestions": 1,
+      "maxQuestions": 50,
+      "requiredFields": ["question", "options", "correctAnswer", "explanation"]
+    }
+  },
+  "notifications": {
+    "enabled": true,
+    "channels": ["console", "log"],
+    "levels": ["info", "warning", "error"],
+    "webhook": null
+  },
+  "monitoring": {
+    "enabled": true,
+    "metrics": {
+      "processingTime": true,
+      "successRate": true,
+      "errorCount": true,
+      "resourceUsage": true
+    },
+    "alerts": {
+      "highErrorRate": 0.1,
+      "longProcessingTime": 1800,
+      "lowSuccessRate": 0.8
+    }
+  },
+  "development": {
+    "dryRun": false,
+    "debugMode": false,
+    "verboseLogging": true,
+    "keepTempFiles": false,
+    "parallelProcessing": true,
+    "maxConcurrentJobs": 3
+  }
+}
+

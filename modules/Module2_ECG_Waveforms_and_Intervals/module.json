@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_2",
+  "moduleTitle": "ECG Waveforms and Intervals",
+  "description": "Understanding ECG waveforms, intervals, and their clinical significance",
+  "overview": "This module covers the detailed analysis of ECG waveforms including P waves, QRS complexes, T waves, and the measurement of important intervals.",
+  "objectives": [
+    "Identify and analyze P wave characteristics",
+    "Understand QRS complex morphology",
+    "Recognize normal and abnormal T waves",
+    "Measure and interpret ECG intervals"
+  ],
+  "duration": 20,
+  "difficulty": "Beginner to Intermediate",
+  "prerequisites": "Module 1: Introduction to ECG",
+  "tags": ["Waveforms", "Intervals", "ECG Analysis", "P Wave", "QRS Complex"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "P Wave Analysis",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "The P wave represents atrial depolarization. Normal characteristics include: duration <0.12s, amplitude <2.5mm, upright in leads I, II, aVF, V4-V6, and biphasic in V1. Abnormal P waves may indicate atrial enlargement or conduction abnormalities.",
+      "duration": 4,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "QRS Complex",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "QRS complex represents ventricular depolarization. Normal duration is <0.12s. Q wave should be <0.04s and <25% of R wave amplitude. Abnormal QRS may indicate bundle branch blocks, ventricular hypertrophy, or myocardial infarction.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the normal QRS duration?",
+        "options": ["<0.08 seconds", "<0.12 seconds", "<0.16 seconds", "<0.20 seconds"],
+        "correctAnswer": 1,
+        "explanation": "Normal QRS duration is less than 0.12 seconds (3 small squares)."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "T Wave and ST Segment",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "T wave represents ventricular repolarization. ST segment should be isoelectric. ST elevation or depression indicates myocardial injury or ischemia. T wave inversion may indicate ischemia, electrolyte abnormalities, or normal variants.",
+      "duration": 5,
+      "quiz": {
+        "question": "What does ST elevation typically indicate?",
+        "options": ["Normal variant", "Myocardial injury", "Atrial enlargement", "Ventricular hypertrophy"],
+        "correctAnswer": 1,
+        "explanation": "ST elevation typically indicates myocardial injury, such as in acute myocardial infarction."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "PR and QT Intervals",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "PR interval (0.12-0.20s) represents AV conduction time. QT interval varies with heart rate but should be <0.44s for men and <0.46s for women. Prolonged QT may lead to dangerous arrhythmias.",
+      "duration": 6,
+      "quiz": {
+        "question": "What is the normal PR interval range?",
+        "options": ["0.06-0.10 seconds", "0.12-0.20 seconds", "0.20-0.30 seconds", "0.30-0.40 seconds"],
+        "correctAnswer": 1,
+        "explanation": "The normal PR interval is 0.12-0.20 seconds, representing atrioventricular conduction time."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "20 minutes",
+    "difficulty": "Beginner to Intermediate",
+    "tags": ["Waveforms", "Intervals", "ECG Analysis"]
+  }
+}
+

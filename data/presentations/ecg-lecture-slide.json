@@ -1,0 +1,36 @@
+{
+  "title": "ECG Basics and Fundamentals",
+  "level": "beginner",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Slide 1",
+      "content": "Content for slide 1",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "45 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [
+    "Understand ECG waveform components",
+    "Learn basic rhythm identification",
+    "Master fundamental ECG measurements"
+  ],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "ecg-lecture-slide",
+    "createdAt": "2025-10-05T00:25:28.212Z",
+    "updatedAt": "2025-10-05T00:25:28.212Z",
+    "status": "published"
+  }
+}

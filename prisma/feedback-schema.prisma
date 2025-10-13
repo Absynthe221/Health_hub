@@ -1,0 +1,13 @@
+// Add this to your existing schema.prisma file
+
+model Feedback {
+  id        String   @id @default(cuid())
+  userId    String
+  rating    Int      // 1-5 stars
+  comment   String?  @db.Text
+  createdAt DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map("feedback")
+}

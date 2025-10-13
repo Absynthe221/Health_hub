@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_9",
+  "moduleTitle": "Advanced ECG Interpretation",
+  "description": "Advanced ECG concepts including axis determination, bundle branch blocks, and complex arrhythmias",
+  "overview": "This module covers advanced ECG interpretation techniques including electrical axis determination, bundle branch blocks, and complex arrhythmia analysis.",
+  "objectives": [
+    "Determine electrical axis using various methods",
+    "Recognize bundle branch blocks",
+    "Interpret complex arrhythmias",
+    "Apply systematic approach to difficult cases"
+  ],
+  "duration": 28,
+  "difficulty": "Advanced",
+  "prerequisites": "Module 8: Myocardial Infarction",
+  "tags": ["Advanced ECG", "Electrical Axis", "Bundle Branch Blocks", "Complex Arrhythmias"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Electrical Axis Determination",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "Electrical axis represents the overall direction of ventricular depolarization. Normal axis: -30° to +90°. Methods include quadrant method, isoelectric lead method, and hexaxial reference system.",
+      "duration": 6,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Bundle Branch Blocks",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Right bundle branch block: QRS >0.12s, RSR' in V1, wide S in V6. Left bundle branch block: QRS >0.12s, wide R in V6, no Q waves in I, V5-V6.",
+      "duration": 6,
+      "quiz": {
+        "question": "What is the characteristic pattern of right bundle branch block?",
+        "options": ["RSR' in V1", "Wide R in V6", "Q waves in V5-V6", "Normal QRS duration"],
+        "correctAnswer": 0,
+        "explanation": "Right bundle branch block is characterized by RSR' pattern in V1."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Complex Arrhythmias",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Complex arrhythmias include multifocal atrial tachycardia, junctional rhythms, escape rhythms, and pacemaker rhythms. Each requires careful analysis of P waves, QRS morphology, and rhythm patterns.",
+      "duration": 8,
+      "quiz": {
+        "question": "What characterizes multifocal atrial tachycardia?",
+        "options": ["Regular rhythm", "Three or more P wave morphologies", "Narrow QRS", "Slow rate"],
+        "correctAnswer": 1,
+        "explanation": "Multifocal atrial tachycardia is characterized by three or more different P wave morphologies."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Systematic Approach to Difficult Cases",
+      "contentType": "Case Studies",
+      "interactive": true,
+      "content": "Systematic approach: 1) Rate and rhythm, 2) Axis, 3) Intervals, 4) Morphology, 5) Clinical correlation. Always consider the clinical context and patient presentation.",
+      "duration": 8,
+      "quiz": {
+        "question": "What is the final step in systematic ECG interpretation?",
+        "options": ["Rate calculation", "Interval measurement", "Clinical correlation", "Morphology analysis"],
+        "correctAnswer": 2,
+        "explanation": "Clinical correlation is the final and most important step in ECG interpretation."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "28 minutes",
+    "difficulty": "Advanced",
+    "tags": ["Advanced ECG", "Electrical Axis", "Bundle Branch Blocks"]
+  }
+}
+

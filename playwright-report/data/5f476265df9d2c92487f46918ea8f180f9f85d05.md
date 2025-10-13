@@ -1,0 +1,121 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e8]: Health Hub
+        - button "Sign Out" [ref=e10] [cursor=pointer]
+    - generic [ref=e13]:
+      - heading "Welcome back, Student!" [level=2] [ref=e14]
+      - paragraph [ref=e15]: Continue your ECG learning journey
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - navigation [ref=e19]:
+          - button "My Modules" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21] [cursor=pointer]:
+              - img [ref=e22] [cursor=pointer]
+              - text: My Modules
+          - button "Progress" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26] [cursor=pointer]:
+              - img [ref=e27] [cursor=pointer]
+              - text: Progress
+          - button "Certificates" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31] [cursor=pointer]:
+              - img [ref=e32] [cursor=pointer]
+              - text: Certificates
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - heading "activus_mr_ibrahim_pea" [level=3] [ref=e38]
+            - paragraph [ref=e39]: MR. UMAR AMINU IBRAHIM
+            - generic [ref=e40]:
+              - generic [ref=e41]: 21 slides • 630 minutes
+              - generic [ref=e42]: advanced
+            - generic [ref=e44]:
+              - generic [ref=e45]: Progress
+              - generic [ref=e46]: 0%
+            - link "Start Learning" [ref=e48] [cursor=pointer]:
+              - /url: /ecg-training/mod_008
+              - img [ref=e49] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e51]:
+            - heading "activus_mr_ibrahim_ventricular_rhythms_wps_office" [level=3] [ref=e52]
+            - paragraph [ref=e53]: VENTRICULAR RHYTHMS BY UMAR AMINU IBRAHIM JULY, 2025.
+            - generic [ref=e54]:
+              - generic [ref=e55]: 20 slides • 600 minutes
+              - generic [ref=e56]: advanced
+            - generic [ref=e58]:
+              - generic [ref=e59]: Progress
+              - generic [ref=e60]: 0%
+            - link "Start Learning" [ref=e62] [cursor=pointer]:
+              - /url: /ecg-training/mod_010
+              - img [ref=e63] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e65]:
+            - heading "class3" [level=3] [ref=e66]
+            - paragraph [ref=e67]: REVISION OF PREVIOUS CLASS Heart Block Arrythmia 1
+            - generic [ref=e68]:
+              - generic [ref=e69]: 45 slides • 1350 minutes
+              - generic [ref=e70]: advanced
+            - generic [ref=e72]:
+              - generic [ref=e73]: Progress
+              - generic [ref=e74]: 0%
+            - link "Start Learning" [ref=e76] [cursor=pointer]:
+              - /url: /ecg-training/mod_012
+              - img [ref=e77] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e79]:
+            - heading "ecg_lecture_slide" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Miss Temitope haastrup Heart Block 1st, 2nD, 3rd Degree BLOCK, RBBB, LBBB & Other Heart Blocks
+            - generic [ref=e82]:
+              - generic [ref=e83]: 27 slides • 810 minutes
+              - generic [ref=e84]: advanced
+            - generic [ref=e86]:
+              - generic [ref=e87]: Progress
+              - generic [ref=e88]: 0%
+            - link "Start Learning" [ref=e90] [cursor=pointer]:
+              - /url: /ecg-training/mod_014
+              - img [ref=e91] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e93]:
+            - heading "junctional_rhythm" [level=3] [ref=e94]
+            - paragraph [ref=e95]: JUNCTIONAL RHYTHM A JUCTIONAL RHYTHM OCCURS WHEN THE HEART’S ELECTRICAL IMPULSES ORIGINATE FROM THE AV JUNCTION(AV NODE AREA) INSTEAD OF THE SA NODE. IT ARISES WHEN THE SA NODE FAILS OR WHEN THE COND...
+            - generic [ref=e96]:
+              - generic [ref=e97]: 10 slides • 300 minutes
+              - generic [ref=e98]: advanced
+            - generic [ref=e100]:
+              - generic [ref=e101]: Progress
+              - generic [ref=e102]: 0%
+            - link "Start Learning" [ref=e104] [cursor=pointer]:
+              - /url: /ecg-training/mod_002
+              - img [ref=e105] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e107]:
+            - heading "lead_error" [level=3] [ref=e108]
+            - paragraph [ref=e109]: ECG INTERPRETATION COMMON RECORDING ERRORS BASIC ECG INTERPRETATION BY GBADAMOSI TAURID .A
+            - generic [ref=e110]:
+              - generic [ref=e111]: 30 slides • 900 minutes
+              - generic [ref=e112]: advanced
+            - generic [ref=e114]:
+              - generic [ref=e115]: Progress
+              - generic [ref=e116]: 0%
+            - link "Start Learning" [ref=e118] [cursor=pointer]:
+              - /url: /ecg-training/mod_006
+              - img [ref=e119] [cursor=pointer]
+              - text: Start Learning
+          - generic [ref=e121]:
+            - heading "stemi" [level=3] [ref=e122]
+            - paragraph [ref=e123]: S.T.E.M.I AND N.S.T.E.M.I(S.T ELEVATION MYOCARDIAL INFARCTION AND NON-S.T SEGMENT MYOCARDIAL INFARCTION) It is a type of heart attack caused by a complete blockage of a coronary artery.It is a medica...
+            - generic [ref=e124]:
+              - generic [ref=e125]: 6 slides • 180 minutes
+              - generic [ref=e126]: advanced
+            - generic [ref=e128]:
+              - generic [ref=e129]: Progress
+              - generic [ref=e130]: 0%
+            - link "Start Learning" [ref=e132] [cursor=pointer]:
+              - /url: /ecg-training/mod_004
+              - img [ref=e133] [cursor=pointer]
+              - text: Start Learning
+  - alert [ref=e135]
+```

@@ -1,0 +1,39 @@
+{
+  "id": "module-1759634381131",
+  "moduleId": "module-1759634381131",
+  "title": "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART",
+  "description": "Uploaded presentation",
+  "difficulty": "Intermediate",
+  "packageLevel": "standard",
+  "estimatedDuration": 75,
+  "category": "uploaded",
+  "status": "uploaded",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Presentation Content",
+      "content": "This is the uploaded .PDF file: BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1].pdf",
+      "type": "theory",
+      "media": [
+        {
+          "type": "pdf",
+          "url": "/uploads/module-1759634381131/presentation.pdf",
+          "timestamp": 0
+        }
+      ],
+      "learningObjectives": [
+        ""
+      ],
+      "duration": 20
+    }
+  ],
+  "instructorName": "Uploaded Content",
+  "createdAt": "2025-10-05T03:19:41.140Z",
+  "updatedAt": "2025-10-05T03:24:58.305Z",
+  "filePath": "/uploads/module-1759634381131/presentation.pdf",
+  "type": "ECG",
+  "duration": 30,
+  "slideCount": 1,
+  "hasAudio": false,
+  "hasQuiz": false
+}

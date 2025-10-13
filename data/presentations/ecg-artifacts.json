@@ -1,0 +1,48 @@
+{
+  "title": "ECG Artifacts and Troubleshooting",
+  "level": "beginner",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Common Artifacts",
+      "content": "Muscle tremor, 60Hz interference",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Lead Problems",
+      "content": "Loose leads, reversed leads",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Troubleshooting",
+      "content": "Systematic approach to artifacts",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "40 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "ecg-artifacts",
+    "createdAt": "2025-10-05T01:29:47.393Z",
+    "updatedAt": "2025-10-05T01:29:47.393Z",
+    "status": "published"
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "targetStateVersion": "2.0.0",
+  "generatedAt": "2025-01-27T12:00:00Z",
+  "platformName": "Health Hub ECG Platform",
+  "architecture": {
+    "type": "Full-Stack Next.js Application",
+    "deployment": "Production-Ready with Docker Support",
+    "scalability": "Horizontal scaling with microservices ready"
+  },
+  "contentPipeline": {
+    "overview": "Complete PPTX to Module JSON transformation pipeline with media processing",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "File Upload & Validation",
+        "description": "Upload PPTX files and validate format, size, and content",
+        "components": [
+          "File upload handler",
+          "Format validation (PPTX/PDF)",
+          "Size limits (max 100MB)",
+          "Content type verification",
+          "Virus scanning"
+        ],
+        "outputs": ["Validated file", "Metadata extraction"]
+      },
+      {
+        "stage": 2,
+        "name": "Content Extraction",
+        "description": "Extract slides, text, images, and audio from PPTX files",
+        "components": [
+          "PPTX parser (pptx2json)",
+          "Text extraction from slides",
+          "Image extraction and optimization",
+          "Audio file extraction",
+          "Slide layout analysis"
+        ],
+        "outputs": ["Raw slide data", "Media files", "Text content"]
+      },
+      {
+        "stage": 3,
+        "name": "Media Processing",
+        "description": "Process audio files and generate subtitles",
+        "components": [
+          "Audio duration calculation",
+          "Audio segmentation by slide",
+          "Automatic subtitle generation",
+          "Audio format conversion",
+          "Media optimization"
+        ],
+        "outputs": ["Processed audio files", "SRT subtitle files", "Media metadata"]
+      },
+      {
+        "stage": 4,
+        "name": "AI Enhancement",
+        "description": "Generate quizzes, summaries, and ECG interpretations",
+        "components": [
+          "OpenAI integration",
+          "Quiz generation per slide",
+          "Content summarization",
+          "ECG pattern recognition",
+          "Learning objective extraction"
+        ],
+        "outputs": ["MCQ questions", "Slide summaries", "ECG interpretations"]
+      },
+      {
+        "stage": 5,
+        "name": "Module Assembly",
+        "description": "Assemble complete module.json with all components",
+        "components": [
+          "Module metadata creation",
+          "Slide structure assembly",
+          "Media file mapping",
+          "Quiz integration",
+          "Role access configuration"
+        ],
+        "outputs": ["Complete module.json", "Media manifest", "Validation report"]
+      }
+    ],
+    "moduleJsonStructure": {
+      "moduleId": "string - Unique identifier",
+      "moduleTitle": "string - Display name",
+      "description": "string - Brief description",
+      "overview": "string - Detailed overview",
+      "objectives": "array - Learning objectives",
+      "duration": "number - Total duration in minutes",
+      "difficulty": "enum - beginner|intermediate|advanced",
+      "category": "string - ECG category",
+      "prerequisites": "array - Required prior knowledge",
+      "tags": "array - Searchable tags",
+      "status": "enum - draft|published|archived",
+      "roleAccess": "array - learner|instructor|admin",
+      "instructorId": "string - Assigned instructor",
+      "createdAt": "ISO timestamp",
+      "updatedAt": "ISO timestamp",
+      "slides": [
+        {
+          "id": "number - Slide sequence",
+          "title": "string - Slide title",
+          "content": "string - Main content",
+          "contentType": "enum - text|image|video|interactive",
+          "interactive": "boolean - Has interactive elements",
+          "duration": "number - Slide duration in seconds",
+          "audioFile": "string - Audio file path",
+          "subtitles": "string - SRT file path",
+          "images": "array - Image file paths",
+          "video": "string - Video file path",
+          "quiz": "object - Quiz questions",
+          "ai": {
+            "generateQuiz": "boolean",
+            "summarizeSlide": "boolean",
+            "explainECG": "boolean"
+          },
+          "segments": [
+            {
+              "id": "string - Segment ID",
+              "startTime": "number - Start in seconds",
+              "endTime": "number - End in seconds",
+              "type": "enum - audio|video|interactive",
+              "content": "string - Segment content",
+              "mediaFile": "string - Associated media file"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "totalSlides": "number",
+        "interactiveSlides": "number",
+        "quizItems": "number",
+        "estimatedDuration": "string",
+        "mediaFiles": "object - Media file inventory"
+      }
+    },
+    "qualityAssurance": [
+      "Content validation",
+      "Media file integrity check",
+      "Quiz quality assessment",
+      "Accessibility compliance",
+      "Performance optimization"
+    ]
+  },
+  "frontend": {
+    "architecture": "Next.js 14 with App Router",
+    "styling": "Tailwind CSS with custom components",
+    "stateManagement": "React Context + useState/useReducer",
+    "routing": "File-based routing with dynamic segments",
+    "dashboards": [
+      {
+        "name": "Learner Dashboard",
+        "path": "/dashboard/learner",
+        "purpose": "Student learning interface with progress tracking",
+        "components": [
+          "ModuleGrid - Display available modules",
+          "ProgressTracker - Visual progress indicators",
+          "ModuleCard - Individual module preview",
+          "SearchFilter - Module discovery",
+          "NotificationCenter - Updates and announcements",
+          "AchievementBadges - Gamification elements"
+        ],
+        "features": [
+          "Module enrollment",
+          "Progress visualization",
+          "Certificate tracking",
+          "Performance analytics",
+          "Social learning features"
+        ]
+      },
+      {
+        "name": "Instructor Dashboard",
+        "path": "/dashboard/instructor",
+        "purpose": "Course creation and student management",
+        "components": [
+          "CourseManager - Module creation and editing",
+          "StudentTracker - Individual student progress",
+          "AnalyticsPanel - Performance metrics",
+          "ContentUploader - PPTX file upload",
+          "QuizEditor - Interactive quiz creation",
+          "ReviewInterface - Student work review"
+        ],
+        "features": [
+          "Module creation and editing",
+          "Student progress monitoring",
+          "Content approval workflow",
+          "Performance analytics",
+          "Communication tools"
+        ]
+      },
+      {
+        "name": "Admin Dashboard",
+        "path": "/dashboard/admin",
+        "purpose": "System administration and oversight",
+        "components": [
+          "UserManagement - User CRUD operations",
+          "SystemAnalytics - Platform metrics",
+          "ContentModeration - Content approval",
+          "SystemSettings - Configuration management",
+          "AuditLogs - Activity tracking",
+          "BackupManager - Data management"
+        ],
+        "features": [
+          "User role management",
+          "System monitoring",
+          "Content moderation",
+          "Analytics and reporting",
+          "System configuration"
+        ]
+      }
+    ],
+    "coreComponents": [
+      {
+        "name": "SegmentPlayer",
+        "purpose": "Advanced media player for ECG training segments",
+        "features": [
+          "Multi-format support (audio/video)",
+          "Synchronized subtitles",
+          "Interactive hotspots",
+          "Speed control",
+          "Loop functionality",
+          "Bookmark system",
+          "Progress tracking",
+          "Accessibility features"
+        ],
+        "props": {
+          "mediaUrl": "string - Media file URL",
+          "subtitles": "string - SRT file URL",
+          "segments": "array - Interactive segments",
+          "onProgress": "function - Progress callback",
+          "onComplete": "function - Completion callback"
+        }
+      },
+      {
+        "name": "QuizEditor",
+        "purpose": "Interactive quiz creation and editing interface",
+        "features": [
+          "Drag-and-drop question builder",
+          "Multiple question types",
+          "Media integration",
+          "Answer validation",
+          "Scoring configuration",
+          "Preview functionality",
+          "Bulk operations",
+          "Template system"
+        ],
+        "questionTypes": [
+          "Multiple Choice",
+          "True/False",
+          "Fill in the Blank",
+          "Matching",
+          "Image-based Questions",
+          "ECG Interpretation"
+        ]
+      },
+      {
+        "name": "ECGViewer",
+        "purpose": "Specialized ECG waveform viewer",
+        "features": [
+          "Multi-lead display",
+          "Zoom and pan controls",
+          "Measurement tools",
+          "Annotation system",
+          "Comparison mode",
+          "Export functionality",
+          "Accessibility support"
+        ]
+      },
+      {
+        "name": "ProgressTracker",
+        "purpose": "Visual progress tracking component",
+        "features": [
+          "Circular progress indicators",
+          "Milestone tracking",
+          "Achievement badges",
+          "Time-based analytics",
+          "Comparative metrics",
+          "Goal setting"
+        ]
+      }
+    ],
+    "responsiveDesign": {
+      "mobile": "Touch-optimized interface",
+      "tablet": "Adaptive layout",
+      "desktop": "Full feature set",
+      "accessibility": "WCAG 2.1 AA compliance"
+    }
+  },
+  "backend": {
+    "architecture": "Next.js API Routes with microservices ready",
+    "authentication": "NextAuth.js with multiple providers",
+    "authorization": "Role-based access control (RBAC)",
+    "apis": [
+      {
+        "category": "Authentication & Authorization",
+        "endpoints": [
+          {
+            "path": "/api/auth/[...nextauth]",
+            "methods": ["GET", "POST"],
+            "purpose": "NextAuth.js authentication handler",
+            "features": ["Multiple providers", "Session management", "CSRF protection"]
+          },
+          {
+            "path": "/api/auth/roles",
+            "methods": ["GET", "POST", "PUT"],
+            "purpose": "Role management",
+            "features": ["Role assignment", "Permission management", "Access control"]
+          }
+        ]
+      },
+      {
+        "category": "Module Management",
+        "endpoints": [
+          {
+            "path": "/api/modules",
+            "methods": ["GET", "POST"],
+            "purpose": "Module CRUD operations",
+            "features": ["List modules", "Create modules", "Bulk operations"]
+          },
+          {
+            "path": "/api/modules/[moduleId]",
+            "methods": ["GET", "PUT", "DELETE"],
+            "purpose": "Individual module operations",
+            "features": ["Module details", "Update module", "Delete module"]
+          },
+          {
+            "path": "/api/modules/[moduleId]/slides",
+            "methods": ["GET", "POST", "PUT"],
+            "purpose": "Slide management",
+            "features": ["Slide CRUD", "Reorder slides", "Bulk slide operations"]
+          },
+          {
+            "path": "/api/modules/[moduleId]/media",
+            "methods": ["GET", "POST", "PUT", "DELETE"],
+            "purpose": "Media file management",
+            "features": ["Upload media", "Media processing", "File optimization"]
+          }
+        ]
+      },
+      {
+        "category": "Media Streaming",
+        "endpoints": [
+          {
+            "path": "/api/media/stream/[fileId]",
+            "methods": ["GET"],
+            "purpose": "Streaming media delivery",
+            "features": ["Adaptive streaming", "Range requests", "CDN integration"]
+          },
+          {
+            "path": "/api/media/upload",
+            "methods": ["POST"],
+            "purpose": "Media file upload",
+            "features": ["Multi-part upload", "Progress tracking", "File validation"]
+          },
+          {
+            "path": "/api/media/process",
+            "methods": ["POST"],
+            "purpose": "Media processing pipeline",
+            "features": ["Format conversion", "Compression", "Thumbnail generation"]
+          }
+        ]
+      },
+      {
+        "category": "Instructor Workflow",
+        "endpoints": [
+          {
+            "path": "/api/instructor/approvals",
+            "methods": ["GET", "POST", "PUT"],
+            "purpose": "Content approval workflow",
+            "features": ["Approval queue", "Review interface", "Feedback system"]
+          },
+          {
+            "path": "/api/instructor/students",
+            "methods": ["GET"],
+            "purpose": "Student management",
+            "features": ["Student list", "Progress tracking", "Performance analytics"]
+          },
+          {
+            "path": "/api/instructor/analytics",
+            "methods": ["GET"],
+            "purpose": "Teaching analytics",
+            "features": ["Student engagement", "Content effectiveness", "Performance metrics"]
+          }
+        ]
+      },
+      {
+        "category": "Progress & Analytics",
+        "endpoints": [
+          {
+            "path": "/api/progress/[userId]",
+            "methods": ["GET", "POST", "PUT"],
+            "purpose": "User progress tracking",
+            "features": ["Progress recording", "Milestone tracking", "Performance metrics"]
+          },
+          {
+            "path": "/api/analytics/dashboard",
+            "methods": ["GET"],
+            "purpose": "Dashboard analytics",
+            "features": ["Usage statistics", "Performance metrics", "User engagement"]
+          }
+        ]
+      }
+    ],
+    "middleware": [
+      "Authentication middleware",
+      "Authorization middleware",
+      "Rate limiting",
+      "Request validation",
+      "Error handling",
+      "Logging middleware"
+    ],
+    "security": [
+      "HTTPS enforcement",
+      "CORS configuration",
+      "CSRF protection",
+      "Input sanitization",
+      "SQL injection prevention",
+      "XSS protection"
+    ]
+  },
+  "ai": {
+    "services": [
+      {
+        "name": "Quiz Generation",
+        "endpoint": "/api/ai/generateQuiz",
+        "purpose": "Automatically generate quiz questions from content",
+        "features": [
+          "Multiple question types",
+          "Difficulty adaptation",
+          "Content analysis",
+          "Medical terminology handling",
+          "Quality scoring"
+        ],
+        "input": {
+          "content": "string - Slide content",
+          "difficulty": "enum - beginner|intermediate|advanced",
+          "questionType": "enum - mcq|truefalse|fillblank",
+          "count": "number - Number of questions"
+        },
+        "output": {
+          "questions": "array - Generated questions",
+          "confidence": "number - AI confidence score",
+          "suggestions": "array - Improvement suggestions"
+        }
+      },
+      {
+        "name": "Content Summarization",
+        "endpoint": "/api/ai/summarizeSlide",
+        "purpose": "Generate concise summaries of slide content",
+        "features": [
+          "Key point extraction",
+          "Medical concept highlighting",
+          "Learning objective alignment",
+          "Readability optimization",
+          "Multi-language support"
+        ],
+        "input": {
+          "content": "string - Full slide content",
+          "maxLength": "number - Maximum summary length",
+          "style": "enum - bullet|paragraph|outline"
+        },
+        "output": {
+          "summary": "string - Generated summary",
+          "keyPoints": "array - Key concepts",
+          "difficulty": "enum - Reading difficulty level"
+        }
+      },
+      {
+        "name": "ECG Interpretation",
+        "endpoint": "/api/ai/interpretECG",
+        "purpose": "Analyze ECG patterns and provide interpretations",
+        "features": [
+          "Pattern recognition",
+          "Rhythm analysis",
+          "Abnormality detection",
+          "Clinical correlation",
+          "Confidence scoring"
+        ],
+        "input": {
+          "ecgData": "object - ECG waveform data",
+          "patientInfo": "object - Optional patient context",
+          "analysisType": "enum - basic|advanced|comprehensive"
+        },
+        "output": {
+          "interpretation": "string - ECG interpretation",
+          "findings": "array - Specific findings",
+          "confidence": "number - Interpretation confidence",
+          "recommendations": "array - Clinical recommendations"
+        }
+      },
+      {
+        "name": "Content Enhancement",
+        "endpoint": "/api/ai/enhanceContent",
+        "purpose": "Improve and optimize educational content",
+        "features": [
+          "Content optimization",
+          "Medical accuracy validation",
+          "Learning objective alignment",
+          "Accessibility improvement",
+          "Engagement enhancement"
+        ]
+      }
+    ],
+    "models": {
+      "primary": "OpenAI GPT-4",
+      "specialized": "Custom ECG analysis models",
+      "fallback": "Local models for offline capability"
+    },
+    "integration": {
+      "openai": "Full API integration",
+      "custom": "Custom model deployment",
+      "caching": "Response caching for performance",
+      "rateLimiting": "API usage management"
+    }
+  },
+  "data": {
+    "database": "PostgreSQL with Prisma ORM",
+    "schema": {
+      "Users": {
+        "id": "string - Primary key",
+        "email": "string - Unique email",
+        "name": "string - Full name",
+        "role": "enum - learner|instructor|admin",
+        "profile": "object - User profile data",
+        "preferences": "object - User preferences",
+        "createdAt": "datetime",
+        "updatedAt": "datetime",
+        "relations": ["Modules", "Progress", "QuizAttempts"]
+      },
+      "Modules": {
+        "id": "string - Primary key",
+        "title": "string - Module title",
+        "description": "text - Module description",
+        "content": "json - Module content structure",
+        "metadata": "json - Module metadata",
+        "status": "enum - draft|published|archived",
+        "instructorId": "string - Foreign key to Users",
+        "createdAt": "datetime",
+        "updatedAt": "datetime",
+        "relations": ["Users", "MediaSegments", "QuizQuestions", "Progress"]
+      },
+      "MediaSegments": {
+        "id": "string - Primary key",
+        "moduleId": "string - Foreign key to Modules",
+        "slideId": "string - Slide identifier",
+        "type": "enum - audio|video|image|interactive",
+        "filePath": "string - Media file path",
+        "duration": "number - Duration in seconds",
+        "startTime": "number - Start time in seconds",
+        "endTime": "number - End time in seconds",
+        "metadata": "json - Media metadata",
+        "createdAt": "datetime",
+        "relations": ["Modules"]
+      },
+      "QuizQuestions": {
+        "id": "string - Primary key",
+        "moduleId": "string - Foreign key to Modules",
+        "slideId": "string - Slide identifier",
+        "type": "enum - mcq|truefalse|fillblank|matching",
+        "question": "text - Question text",
+        "options": "json - Answer options",
+        "correctAnswer": "json - Correct answer(s)",
+        "explanation": "text - Answer explanation",
+        "difficulty": "enum - beginner|intermediate|advanced",
+        "points": "number - Question points",
+        "createdAt": "datetime",
+        "relations": ["Modules", "QuizAttempts"]
+      },
+      "Progress": {
+        "id": "string - Primary key",
+        "userId": "string - Foreign key to Users",
+        "moduleId": "string - Foreign key to Modules",
+        "slideId": "string - Slide identifier",
+        "status": "enum - not_started|in_progress|completed",
+        "timeSpent": "number - Time spent in seconds",
+        "completionDate": "datetime - Completion timestamp",
+        "score": "number - Score if applicable",
+        "attempts": "number - Number of attempts",
+        "lastAccessed": "datetime - Last access time",
+        "relations": ["Users", "Modules"]
+      },
+      "QuizAttempts": {
+        "id": "string - Primary key",
+        "userId": "string - Foreign key to Users",
+        "questionId": "string - Foreign key to QuizQuestions",
+        "selectedAnswer": "json - User's answer",
+        "isCorrect": "boolean - Answer correctness",
+        "timeSpent": "number - Time spent in seconds",
+        "attemptedAt": "datetime - Attempt timestamp",
+        "relations": ["Users", "QuizQuestions"]
+      },
+      "Certificates": {
+        "id": "string - Primary key",
+        "userId": "string - Foreign key to Users",
+        "moduleId": "string - Foreign key to Modules",
+        "certificateData": "json - Certificate details",
+        "issuedAt": "datetime - Issue timestamp",
+        "expiresAt": "datetime - Expiration timestamp",
+        "status": "enum - active|expired|revoked",
+        "relations": ["Users", "Modules"]
+      }
+    },
+    "indexes": [
+      "Users.email (unique)",
+      "Modules.status",
+      "Progress.userId_moduleId (composite)",
+      "QuizAttempts.userId_questionId (composite)",
+      "MediaSegments.moduleId_slideId (composite)"
+    ],
+    "migrations": "Prisma migration system",
+    "seeding": "Development data seeding scripts",
+    "backup": "Automated backup strategy",
+    "monitoring": "Database performance monitoring"
+  },
+  "deployment": {
+    "environment": "Production-ready deployment",
+    "containerization": "Docker with multi-stage builds",
+    "orchestration": "Docker Compose for development",
+    "cloud": "Vercel/Netlify for frontend, Railway/PlanetScale for database",
+    "cdn": "Media file CDN integration",
+    "monitoring": "Application performance monitoring",
+    "logging": "Structured logging with error tracking",
+    "security": "HTTPS, security headers, rate limiting",
+    "scalability": "Horizontal scaling ready"
+  },
+  "qualityAssurance": {
+    "testing": {
+      "unit": "Jest for component testing",
+      "integration": "API endpoint testing",
+      "e2e": "Playwright for end-to-end testing",
+      "performance": "Lighthouse performance testing",
+      "accessibility": "WCAG compliance testing"
+    },
+    "codeQuality": {
+      "linting": "ESLint with Next.js rules",
+      "formatting": "Prettier code formatting",
+      "typeChecking": "TypeScript strict mode",
+      "security": "Security vulnerability scanning"
+    },
+    "documentation": {
+      "api": "OpenAPI/Swagger documentation",
+      "components": "Storybook component documentation",
+      "deployment": "Comprehensive deployment guides",
+      "user": "User documentation and tutorials"
+    }
+  },
+  "successMetrics": {
+    "performance": {
+      "pageLoad": "< 2 seconds",
+      "apiResponse": "< 500ms average",
+      "uptime": "99.9% availability",
+      "errorRate": "< 0.1% error rate"
+    },
+    "userExperience": {
+      "accessibility": "WCAG 2.1 AA compliance",
+      "mobile": "Mobile-first responsive design",
+      "engagement": "> 80% module completion rate",
+      "satisfaction": "> 4.5/5 user rating"
+    },
+    "business": {
+      "adoption": "Target user adoption metrics",
+      "retention": "User retention tracking",
+      "growth": "Scalable architecture",
+      "maintenance": "Low maintenance overhead"
+    }
+  },
+  "implementationPhases": [
+    {
+      "phase": 1,
+      "name": "Core Infrastructure",
+      "duration": "2-3 weeks",
+      "deliverables": [
+        "Database schema implementation",
+        "Authentication system",
+        "Basic API endpoints",
+        "Core frontend components"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Content Pipeline",
+      "duration": "3-4 weeks",
+      "deliverables": [
+        "PPTX processing pipeline",
+        "Media streaming system",
+        "AI service integration",
+        "Content management interface"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Advanced Features",
+      "duration": "4-5 weeks",
+      "deliverables": [
+        "Interactive components",
+        "Advanced analytics",
+        "Certificate system",
+        "Mobile optimization"
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Production Deployment",
+      "duration": "2-3 weeks",
+      "deliverables": [
+        "Performance optimization",
+        "Security hardening",
+        "Monitoring setup",
+        "Documentation completion"
+      ]
+    }
+  ]
+}
+

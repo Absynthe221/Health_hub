@@ -1,0 +1,48 @@
+{
+  "title": "Myocardial Infarction Patterns",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "STEMI Recognition",
+      "content": "ST-elevation myocardial infarction patterns",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "NSTEMI Identification",
+      "content": "Non-ST elevation myocardial infarction",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Localization",
+      "content": "Determining infarct location from ECG",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "75 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "myocardial-infarction-patterns",
+    "createdAt": "2025-10-05T01:29:47.391Z",
+    "updatedAt": "2025-10-05T01:29:47.391Z",
+    "status": "published"
+  }
+}

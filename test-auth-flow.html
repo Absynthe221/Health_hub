@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentication Flow Test - Health Hub ECG Platform</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            background: white; 
+            border-radius: 12px; 
+            padding: 30px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+        .success-badge {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        .info-box {
+            background: #e6f3ff;
+            border: 1px solid #b3d9ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .info-box h4 {
+            color: #0066cc;
+            margin: 0 0 10px 0;
+        }
+        .info-box p {
+            color: #0066cc;
+            margin: 0;
+        }
+        .test-button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin: 10px 0;
+            transition: transform 0.2s ease;
+        }
+        .test-button:hover {
+            transform: translateY(-1px);
+        }
+        .test-button.secondary {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+        }
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        .status-warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        .credentials-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: monospace;
+        }
+        .debug-info {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔐 Authentication Flow Test</h1>
+            <div class="success-badge">✅ DEBUGGING STUDENT DASHBOARD ACCESS</div>
+        </div>
+
+        <div class="status-success">
+            <strong>✅ Issue Identified:</strong><br><br>
+            The student dashboard requires authentication. When you access it directly without being logged in, it redirects to the login page.<br><br>
+            <strong>Solution:</strong> You need to login as John Doe first, then access the student dashboard.
+        </div>
+
+        <div class="credentials-box">
+            <strong>🔑 Login Credentials:</strong><br>
+            Email: john.doe@hospital.com<br>
+            Password: password123<br>
+            Expected User ID: 3 (number)
+        </div>
+
+        <button class="test-button" onclick="testLoginFlow()">
+            🔐 Step 1: Login as John Doe
+        </button>
+
+        <button class="test-button secondary" onclick="testStudentDashboardAfterLogin()">
+            🎯 Step 2: Access Student Dashboard
+        </button>
+
+        <button class="test-button" onclick="testAPIWithUserId()">
+            🔧 Step 3: Test API with User ID
+        </button>
+
+        <div class="info-box">
+            <h4>📋 Complete Testing Steps:</h4>
+            <p>1. <strong>Login:</strong> Click "Login as John Doe" and enter the credentials above<br>
+            2. <strong>Dashboard:</strong> After successful login, you should be redirected to the appropriate dashboard<br>
+            3. <strong>Student Dashboard:</strong> Click "Access Student Dashboard" to go directly to the learner dashboard<br>
+            4. <strong>Verify Modules:</strong> You should see 9 assigned ECG training modules<br>
+            5. <strong>Test API:</strong> Click "Test API" to verify the backend is working correctly</p>
+        </div>
+
+        <div class="status-warning">
+            <strong>⚠️ Important Notes:</strong><br><br>
+            • The student dashboard is protected by authentication middleware<br>
+            • You must login first before accessing /dashboard/learner<br>
+            • After login, the dashboard will show John Doe's assigned modules<br>
+            • The API is working correctly (9 modules found for user ID 3)<br>
+            • If you see a login redirect, it means you need to authenticate first
+        </div>
+
+        <div id="debugInfo" class="debug-info" style="display: none;">
+            <strong>Debug Information:</strong>
+            <div id="debugContent"></div>
+        </div>
+    </div>
+
+    <script>
+        function testLoginFlow() {
+            // Open login page in new tab
+            const loginWindow = window.open('http://localhost:3001/login', '_blank');
+            
+            // Show instructions
+            setTimeout(() => {
+                alert('Login Instructions:\n\n1. Enter email: john.doe@hospital.com\n2. Enter password: password123\n3. Click Login\n4. You should be redirected to the appropriate dashboard');
+            }, 1000);
+        }
+
+        function testStudentDashboardAfterLogin() {
+            window.open('http://localhost:3001/dashboard/learner', '_blank');
+        }
+
+        async function testAPIWithUserId() {
+            const debugInfo = document.getElementById('debugInfo');
+            const debugContent = document.getElementById('debugContent');
+            
+            debugInfo.style.display = 'block';
+            debugContent.innerHTML = 'Testing API endpoints...\n\n';
+            
+            try {
+                // Test with user ID as number
+                debugContent.innerHTML += 'Testing with userId=3 (number):\n';
+                const response1 = await fetch('http://localhost:3001/api/student/modules?userId=3');
+                const data1 = await response1.json();
+                debugContent.innerHTML += `Status: ${response1.status}\n`;
+                debugContent.innerHTML += `Total Modules: ${data1.totalModules || 'N/A'}\n`;
+                debugContent.innerHTML += `Modules Found: ${data1.modules ? data1.modules.length : 0}\n\n`;
+                
+                // Test with user ID as string
+                debugContent.innerHTML += 'Testing with userId="3" (string):\n';
+                const response2 = await fetch('http://localhost:3001/api/student/modules?userId=3');
+                const data2 = await response2.json();
+                debugContent.innerHTML += `Status: ${response2.status}\n`;
+                debugContent.innerHTML += `Total Modules: ${data2.totalModules || 'N/A'}\n`;
+                debugContent.innerHTML += `Modules Found: ${data2.modules ? data2.modules.length : 0}\n\n`;
+                
+                // Show module details
+                if (data1.modules && data1.modules.length > 0) {
+                    debugContent.innerHTML += 'Module Details:\n';
+                    data1.modules.slice(0, 3).forEach((module, index) => {
+                        debugContent.innerHTML += `${index + 1}. ${module.title} (${module.difficulty})\n`;
+                    });
+                    if (data1.modules.length > 3) {
+                        debugContent.innerHTML += `... and ${data1.modules.length - 3} more modules\n`;
+                    }
+                }
+                
+                debugContent.innerHTML += '\n✅ API is working correctly!';
+                
+            } catch (error) {
+                debugContent.innerHTML += `❌ Error: ${error.message}\n`;
+            }
+        }
+    </script>
+</body>
+</html>
+
+

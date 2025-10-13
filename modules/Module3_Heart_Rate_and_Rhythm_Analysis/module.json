@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_3",
+  "moduleTitle": "Heart Rate and Rhythm Analysis",
+  "description": "Systematic approach to analyzing heart rate and rhythm patterns",
+  "overview": "This module teaches the systematic approach to ECG interpretation, including rate calculation methods, rhythm assessment, and step-by-step analysis techniques.",
+  "objectives": [
+    "Master different methods of heart rate calculation",
+    "Assess rhythm regularity and patterns",
+    "Apply systematic ECG interpretation approach",
+    "Identify normal and abnormal rhythms"
+  ],
+  "duration": 18,
+  "difficulty": "Beginner to Intermediate",
+  "prerequisites": "Module 2: ECG Waveforms and Intervals",
+  "tags": ["Rate Calculation", "Rhythm Analysis", "Systematic Approach", "ECG Interpretation"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Rate Calculation Methods",
+      "contentType": "Text + Diagram",
+      "interactive": false,
+      "content": "Three methods for rate calculation: 1) 300/R-R interval (large squares), 2) 1500/R-R interval (small squares), 3) Count R waves in 6 seconds × 10. Each method has advantages for different heart rates.",
+      "duration": 4,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "Rhythm Regularity Assessment",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Assess rhythm regularity by measuring R-R intervals. Regular rhythm: variation <0.16s. Irregular rhythm: variation >0.16s. Patterns include regular, regularly irregular, and irregularly irregular.",
+      "duration": 5,
+      "quiz": {
+        "question": "How do you assess rhythm regularity?",
+        "options": ["Measure P-P intervals", "Measure R-R intervals", "Measure PR intervals", "Measure QT intervals"],
+        "correctAnswer": 1,
+        "explanation": "Rhythm regularity is assessed by measuring R-R intervals between consecutive QRS complexes."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Systematic Rhythm Analysis",
+      "contentType": "Step-by-Step Guide",
+      "interactive": true,
+      "content": "Systematic approach: 1) Rate, 2) Regularity, 3) P waves present?, 4) PR interval, 5) QRS duration, 6) Overall interpretation. This method ensures thorough and consistent analysis.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the first step in systematic rhythm analysis?",
+        "options": ["Check P waves", "Calculate rate", "Measure intervals", "Assess morphology"],
+        "correctAnswer": 1,
+        "explanation": "Rate calculation is the first step in systematic ECG rhythm analysis."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 4,
+      "title": "Practice Cases",
+      "contentType": "Interactive Cases",
+      "interactive": true,
+      "content": "Apply your knowledge to practice cases. Analyze different heart rates and rhythm patterns. Practice systematic approach with various clinical scenarios.",
+      "duration": 4,
+      "quiz": {
+        "question": "Which method is best for calculating heart rate in atrial fibrillation?",
+        "options": ["300/R-R method", "1500/R-R method", "6-second count method", "All methods work equally"],
+        "correctAnswer": 2,
+        "explanation": "The 6-second count method is most accurate for irregular rhythms like atrial fibrillation."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "18 minutes",
+    "difficulty": "Beginner to Intermediate",
+    "tags": ["Rate Calculation", "Rhythm Analysis", "Systematic Approach"]
+  }
+}
+

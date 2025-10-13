@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "processed": [
+    {
+      "module": "module.json",
+      "path": "public/modules/stemi/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 6
+      }
+    },
+    {
+      "module": "module.json",
+      "path": "public/modules/junctional_rhythm/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 10
+      }
+    },
+    {
+      "module": "module.json",
+      "path": "public/modules/lead_error/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 30
+      }
+    },
+    {
+      "module": "module.json",
+      "path": "public/modules/class3/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 45
+      }
+    },
+    {
+      "module": "module.json",
+      "path": "public/modules/ecg_lecture_slide/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 27
+      }
+    },
+    {
+      "module": "module.json",
+      "path": "public/modules/activus_mr_ibrahim_pea/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 21
+      }
+    },
+    {
+      "module": "module.json",
+      "path": "public/modules/activus_mr_ibrahim_ventricular_rhythms_wps_office/module.json",
+      "result": {
+        "status": "success",
+        "quiz_count": 0,
+        "summary_count": 0,
+        "enhanced_slides": 0,
+        "total_slides": 20
+      }
+    }
+  ],
+  "failed": [],
+  "skipped": [],
+  "summary": {
+    "total_modules": 7,
+    "enhanced": 7,
+    "failed": 0,
+    "skipped": 0,
+    "total_quizzes": 0,
+    "total_summaries": 0
+  }
+}

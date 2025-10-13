@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_7",
+  "moduleTitle": "ECG Lead System",
+  "description": "Comprehensive understanding of the 12-lead ECG system and lead placement",
+  "overview": "This module covers the detailed anatomy of the 12-lead ECG system, including limb leads, precordial leads, and their anatomical correlations.",
+  "objectives": [
+    "Understand the 12-lead ECG system anatomy",
+    "Learn proper electrode placement",
+    "Identify anatomical views provided by each lead",
+    "Recognize lead misplacement patterns"
+  ],
+  "duration": 18,
+  "difficulty": "Intermediate",
+  "prerequisites": "Module 6: Heart Blocks",
+  "tags": ["Lead System", "Electrode Placement", "Anatomical Views", "Lead Misplacement"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Limb Leads (I, II, III)",
+      "contentType": "Diagram + Animation",
+      "interactive": false,
+      "content": "Limb leads form Einthoven's triangle: Lead I (right arm to left arm), Lead II (right arm to left leg), Lead III (left arm to left leg). These provide frontal plane views of cardiac electrical activity.",
+      "duration": 4,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "Augmented Leads (aVR, aVL, aVF)",
+      "contentType": "Diagram + Animation",
+      "interactive": true,
+      "content": "Augmented leads provide additional frontal plane views: aVR (augmented vector right), aVL (augmented vector left), aVF (augmented vector foot). These help in axis determination.",
+      "duration": 4,
+      "quiz": {
+        "question": "Which lead provides the best view of the inferior wall?",
+        "options": ["Lead I", "Lead II", "Lead aVR", "Lead V1"],
+        "correctAnswer": 1,
+        "explanation": "Lead II provides the best view of the inferior wall and is commonly used for rhythm monitoring."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Precordial Leads (V1-V6)",
+      "contentType": "Diagram + Animation",
+      "interactive": true,
+      "content": "Precordial leads provide horizontal plane views: V1-V2 (septum), V3-V4 (anterior), V5-V6 (lateral). Proper placement is crucial for accurate interpretation.",
+      "duration": 5,
+      "quiz": {
+        "question": "Which precordial leads best view the anterior wall?",
+        "options": ["V1-V2", "V3-V4", "V5-V6", "All equally"],
+        "correctAnswer": 1,
+        "explanation": "V3-V4 provide the best view of the anterior wall of the heart."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lead Misplacement Detection",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Common misplacements include limb lead reversal, precordial lead displacement. Signs include unusual P wave morphology, unexpected QRS patterns, and axis deviations.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the most common limb lead misplacement?",
+        "options": ["Right and left arm reversal", "Left arm and left leg reversal", "Right arm and right leg reversal", "All leads reversed"],
+        "correctAnswer": 0,
+        "explanation": "Right and left arm reversal is the most common limb lead misplacement, causing Lead I inversion."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "18 minutes",
+    "difficulty": "Intermediate",
+    "tags": ["Lead System", "Electrode Placement", "Anatomical Views"]
+  }
+}
+

@@ -1,0 +1,62 @@
+{
+  "generated": "2025-10-07T04:26:45.428Z",
+  "totalModules": 7,
+  "modules": [
+    {
+      "id": "activus_mr_ibrahim_pea",
+      "title": "activus_mr_ibrahim_pea",
+      "description": "MR. UMAR AMINU IBRAHIM",
+      "duration": 630,
+      "slides": 21,
+      "updated": "2025-10-07T04:26:45.426Z"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office",
+      "title": "activus_mr_ibrahim_ventricular_rhythms_wps_office",
+      "description": "VENTRICULAR RHYTHMS\u000b\u000b\u000b\u000bBY\u000b\u000bUMAR AMINU IBRAHIM \u000b\u000b\u000b\u000bJULY, 2025.",
+      "duration": 600,
+      "slides": 20,
+      "updated": "2025-10-07T04:26:45.426Z"
+    },
+    {
+      "id": "class3",
+      "title": "class3",
+      "description": "REVISION OF PREVIOUS CLASS\n\nHeart Block \nArrythmia\n\n1",
+      "duration": 1350,
+      "slides": 45,
+      "updated": "2025-10-07T04:26:45.427Z"
+    },
+    {
+      "id": "ecg_lecture_slide",
+      "title": "ecg_lecture_slide",
+      "description": "Miss  Temitope haastrup\n\nHeart Block 1st, 2nD, 3rd Degree BLOCK, \u000bRBBB, LBBB \u000b& Other Heart Blocks",
+      "duration": 810,
+      "slides": 27,
+      "updated": "2025-10-07T04:26:45.427Z"
+    },
+    {
+      "id": "junctional_rhythm",
+      "title": "junctional_rhythm",
+      "description": "JUNCTIONAL RHYTHM\n\nA JUCTIONAL RHYTHM OCCURS WHEN THE HEART’S ELECTRICAL IMPULSES ORIGINATE FROM THE AV JUNCTION(AV NODE AREA) INSTEAD OF THE SA NODE.\nIT ARISES WHEN THE SA NODE FAILS OR WHEN THE COND...",
+      "duration": 300,
+      "slides": 10,
+      "updated": "2025-10-07T04:26:45.427Z"
+    },
+    {
+      "id": "lead_error",
+      "title": "lead_error",
+      "description": "ECG INTERPRETATION\n\nCOMMON RECORDING ERRORS\n BASIC ECG INTERPRETATION\n \nBY\nGBADAMOSI TAURID .A",
+      "duration": 900,
+      "slides": 30,
+      "updated": "2025-10-07T04:26:45.427Z"
+    },
+    {
+      "id": "stemi",
+      "title": "stemi",
+      "description": "S.T.E.M.I AND N.S.T.E.M.I(S.T ELEVATION MYOCARDIAL INFARCTION AND NON-S.T SEGMENT MYOCARDIAL INFARCTION)\n\nIt is a type of heart attack caused by a complete blockage of a coronary artery.It is a medica...",
+      "duration": 180,
+      "slides": 6,
+      "updated": "2025-10-07T04:26:45.428Z"
+    }
+  ]
+}

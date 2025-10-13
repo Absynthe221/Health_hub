@@ -1,0 +1,103 @@
+{
+  "moduleId": "module_8",
+  "moduleTitle": "Myocardial Infarction",
+  "description": "ECG recognition of acute myocardial infarction and STEMI patterns",
+  "overview": "This module covers the ECG changes associated with acute myocardial infarction, including ST elevation, Q waves, and regional wall motion abnormalities.",
+  "objectives": [
+    "Recognize ST elevation myocardial infarction (STEMI)",
+    "Identify regional wall motion abnormalities",
+    "Understand the evolution of MI changes",
+    "Learn emergency management of acute MI"
+  ],
+  "duration": 24,
+  "difficulty": "Advanced",
+  "prerequisites": "Module 7: ECG Lead System",
+  "tags": ["Myocardial Infarction", "STEMI", "NSTEMI", "ST Elevation", "Emergency Management"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "ST Elevation Myocardial Infarction (STEMI)",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "STEMI: ST elevation ≥1mm in 2 contiguous leads, new Q waves, T wave inversion. Requires immediate reperfusion therapy. Time is muscle - door-to-balloon time <90 minutes.",
+      "audioFile": "/assets/STEMI/slide1/slide1.mp3",
+      "subtitles": "/assets/STEMI/slide1/slide1.srt",
+      "images": ["/assets/STEMI/slide1/slide.png"],
+      "duration": 6,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Regional Wall Motion Abnormalities",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Different leads correspond to different heart regions: anterior (V1-V4), lateral (I, aVL, V5-V6), inferior (II, III, aVF), posterior (V7-V9). Localize the infarction by affected leads.",
+      "duration": 6,
+      "quiz": {
+        "question": "Which leads are most important for diagnosing anterior wall MI?",
+        "options": ["V1-V2", "V3-V4", "V5-V6", "II, III, aVF"],
+        "correctAnswer": 1,
+        "explanation": "V3-V4 are most important for diagnosing anterior wall myocardial infarction."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Evolution of MI Changes",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "MI evolution: hyperacute T waves → ST elevation → Q waves → T wave inversion → normalization. Timeline varies but changes may persist for months to years.",
+      "duration": 6,
+      "quiz": {
+        "question": "What is the first ECG change in acute MI?",
+        "options": ["ST elevation", "Q waves", "Hyperacute T waves", "T wave inversion"],
+        "correctAnswer": 2,
+        "explanation": "Hyperacute T waves are often the first ECG change in acute myocardial infarction."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Emergency Management",
+      "contentType": "Clinical Guidelines",
+      "interactive": true,
+      "content": "Emergency management: immediate ECG, oxygen, aspirin, nitroglycerin (if no contraindications), pain control, primary PCI or thrombolytics. Activate cardiac catheterization lab immediately.",
+      "duration": 6,
+      "quiz": {
+        "question": "What is the target door-to-balloon time for STEMI?",
+        "options": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"],
+        "correctAnswer": 2,
+        "explanation": "The target door-to-balloon time for STEMI is less than 90 minutes for optimal outcomes."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "24 minutes",
+    "difficulty": "Advanced",
+    "tags": ["Myocardial Infarction", "STEMI", "Emergency Management"]
+  }
+}
+

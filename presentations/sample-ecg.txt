@@ -1,0 +1,30 @@
+ECG Fundamentals Training Module
+
+Slide 1: Introduction to ECG
+Electrocardiography (ECG) is a non-invasive diagnostic tool that records the electrical activity of the heart. It provides valuable information about heart rhythm, rate, and electrical conduction.
+
+Learning Objectives:
+• Understand basic ECG principles
+• Identify normal ECG components
+• Apply electrode placement techniques
+
+Slide 2: Heart Anatomy
+The heart has four chambers: two atria and two ventricles. The electrical conduction system includes:
+- SA node (sinoatrial node)
+- AV node (atrioventricular node) 
+- Bundle of His
+- Purkinje fibers
+
+Slide 3: ECG Components
+The normal ECG consists of:
+- P wave: Atrial depolarization
+- QRS complex: Ventricular depolarization
+- T wave: Ventricular repolarization
+- PR interval: Time from P to QRS
+- QT interval: Time from QRS to T
+
+Assessment Questions:
+1. What does the P wave represent?
+2. What is the normal heart rate range for adults?
+3. Which lead is placed on the right arm?
+4. What is the normal PR interval duration?

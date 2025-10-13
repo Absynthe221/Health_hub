@@ -1,0 +1,361 @@
+[
+  {
+    "userID": "001",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "role": "all",
+    "assignedModules": [
+      "health-safety",
+      "fire-safety",
+      "manual-handling",
+      "infection-control",
+      "safeguarding-adults",
+      "equality-diversity",
+      "first-aid",
+      "information-governance",
+      "coshh",
+      "prevent-duty",
+      "mental-capacity",
+      "consent-records",
+      "lone-working",
+      "mental-health"
+    ],
+    "progress": {
+      "completed": [],
+      "inProgress": [],
+      "notStarted": [
+        "health-safety",
+        "fire-safety",
+        "manual-handling",
+        "infection-control",
+        "safeguarding-adults",
+        "equality-diversity",
+        "first-aid",
+        "information-governance",
+        "coshh",
+        "prevent-duty",
+        "mental-capacity",
+        "consent-records",
+        "lone-working",
+        "mental-health"
+      ]
+    },
+    "certificates": [],
+    "lastLogin": "2024-01-15T10:30:00Z",
+    "status": "active"
+  },
+  {
+    "userID": "002",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "role": "childcare",
+    "assignedModules": [
+      "health-safety",
+      "fire-safety",
+      "manual-handling",
+      "infection-control",
+      "safeguarding-adults",
+      "safeguarding-children",
+      "equality-diversity",
+      "first-aid",
+      "information-governance",
+      "coshh",
+      "prevent-duty",
+      "mental-capacity",
+      "consent-records",
+      "lone-working",
+      "mental-health"
+    ],
+    "progress": {
+      "completed": [
+        "health-safety",
+        "fire-safety"
+      ],
+      "inProgress": [
+        "manual-handling"
+      ],
+      "notStarted": [
+        "infection-control",
+        "safeguarding-adults",
+        "safeguarding-children",
+        "equality-diversity",
+        "first-aid",
+        "information-governance",
+        "coshh",
+        "prevent-duty",
+        "mental-capacity",
+        "consent-records",
+        "lone-working",
+        "mental-health"
+      ]
+    },
+    "certificates": [
+      {
+        "moduleId": "health-safety",
+        "issuedDate": "2024-01-10T14:20:00Z",
+        "score": 85,
+        "validUntil": "2025-01-10T14:20:00Z"
+      },
+      {
+        "moduleId": "fire-safety",
+        "issuedDate": "2024-01-12T16:45:00Z",
+        "score": 92,
+        "validUntil": "2025-01-12T16:45:00Z"
+      }
+    ],
+    "lastLogin": "2024-01-15T09:15:00Z",
+    "status": "active"
+  },
+  {
+    "userID": "003",
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "role": "food-prep",
+    "assignedModules": [
+      "health-safety",
+      "fire-safety",
+      "manual-handling",
+      "infection-control",
+      "safeguarding-adults",
+      "equality-diversity",
+      "first-aid",
+      "information-governance",
+      "food-hygiene",
+      "coshh",
+      "prevent-duty",
+      "mental-capacity",
+      "consent-records",
+      "lone-working",
+      "mental-health"
+    ],
+    "progress": {
+      "completed": [
+        "health-safety",
+        "fire-safety",
+        "food-hygiene"
+      ],
+      "inProgress": [
+        "infection-control"
+      ],
+      "notStarted": [
+        "manual-handling",
+        "safeguarding-adults",
+        "equality-diversity",
+        "first-aid",
+        "information-governance",
+        "coshh",
+        "prevent-duty",
+        "mental-capacity",
+        "consent-records",
+        "lone-working",
+        "mental-health"
+      ]
+    },
+    "certificates": [
+      {
+        "moduleId": "health-safety",
+        "issuedDate": "2024-01-08T11:30:00Z",
+        "score": 88,
+        "validUntil": "2025-01-08T11:30:00Z"
+      },
+      {
+        "moduleId": "fire-safety",
+        "issuedDate": "2024-01-09T13:15:00Z",
+        "score": 95,
+        "validUntil": "2025-01-09T13:15:00Z"
+      },
+      {
+        "moduleId": "food-hygiene",
+        "issuedDate": "2024-01-11T15:45:00Z",
+        "score": 91,
+        "validUntil": "2025-01-11T15:45:00Z"
+      }
+    ],
+    "lastLogin": "2024-01-14T16:20:00Z",
+    "status": "active"
+  },
+  {
+    "userID": "004",
+    "firstName": "Alice",
+    "lastName": "Williams",
+    "email": "alice.williams@example.com",
+    "role": "dementia",
+    "assignedModules": [
+      "health-safety",
+      "fire-safety",
+      "manual-handling",
+      "infection-control",
+      "safeguarding-adults",
+      "equality-diversity",
+      "first-aid",
+      "information-governance",
+      "coshh",
+      "prevent-duty",
+      "mental-capacity",
+      "consent-records",
+      "lone-working",
+      "mental-health",
+      "dementia-awareness"
+    ],
+    "progress": {
+      "completed": [
+        "health-safety",
+        "dementia-awareness"
+      ],
+      "inProgress": [
+        "fire-safety"
+      ],
+      "notStarted": [
+        "manual-handling",
+        "infection-control",
+        "safeguarding-adults",
+        "equality-diversity",
+        "first-aid",
+        "information-governance",
+        "coshh",
+        "prevent-duty",
+        "mental-capacity",
+        "consent-records",
+        "lone-working",
+        "mental-health"
+      ]
+    },
+    "certificates": [
+      {
+        "moduleId": "health-safety",
+        "issuedDate": "2024-01-05T09:20:00Z",
+        "score": 82,
+        "validUntil": "2025-01-05T09:20:00Z"
+      },
+      {
+        "moduleId": "dementia-awareness",
+        "issuedDate": "2024-01-13T14:10:00Z",
+        "score": 89,
+        "validUntil": "2025-01-13T14:10:00Z"
+      }
+    ],
+    "lastLogin": "2024-01-15T08:45:00Z",
+    "status": "active"
+  },
+  {
+    "userID": "005",
+    "firstName": "Tom",
+    "lastName": "Brown",
+    "email": "tom.brown@example.com",
+    "role": "learning-disability",
+    "assignedModules": [
+      "health-safety",
+      "fire-safety",
+      "manual-handling",
+      "infection-control",
+      "safeguarding-adults",
+      "equality-diversity",
+      "first-aid",
+      "information-governance",
+      "coshh",
+      "prevent-duty",
+      "mental-capacity",
+      "consent-records",
+      "lone-working",
+      "mental-health",
+      "learning-disability"
+    ],
+    "progress": {
+      "completed": [],
+      "inProgress": [
+        "health-safety"
+      ],
+      "notStarted": [
+        "fire-safety",
+        "manual-handling",
+        "infection-control",
+        "safeguarding-adults",
+        "equality-diversity",
+        "first-aid",
+        "information-governance",
+        "coshh",
+        "prevent-duty",
+        "mental-capacity",
+        "consent-records",
+        "lone-working",
+        "mental-health",
+        "learning-disability"
+      ]
+    },
+    "certificates": [],
+    "lastLogin": "2024-01-12T12:30:00Z",
+    "status": "active"
+  },
+  {
+    "userID": "006",
+    "firstName": "Linda",
+    "lastName": "Davis",
+    "email": "linda.davis@example.com",
+    "role": "medication",
+    "assignedModules": [
+      "health-safety",
+      "fire-safety",
+      "manual-handling",
+      "infection-control",
+      "safeguarding-adults",
+      "equality-diversity",
+      "first-aid",
+      "information-governance",
+      "coshh",
+      "prevent-duty",
+      "mental-capacity",
+      "consent-records",
+      "lone-working",
+      "mental-health",
+      "medication-awareness"
+    ],
+    "progress": {
+      "completed": [
+        "health-safety",
+        "fire-safety",
+        "medication-awareness"
+      ],
+      "inProgress": [
+        "manual-handling"
+      ],
+      "notStarted": [
+        "infection-control",
+        "safeguarding-adults",
+        "equality-diversity",
+        "first-aid",
+        "information-governance",
+        "coshh",
+        "prevent-duty",
+        "mental-capacity",
+        "consent-records",
+        "lone-working",
+        "mental-health"
+      ]
+    },
+    "certificates": [
+      {
+        "moduleId": "health-safety",
+        "issuedDate": "2024-01-06T10:15:00Z",
+        "score": 90,
+        "validUntil": "2025-01-06T10:15:00Z"
+      },
+      {
+        "moduleId": "fire-safety",
+        "issuedDate": "2024-01-07T12:30:00Z",
+        "score": 87,
+        "validUntil": "2025-01-07T12:30:00Z"
+      },
+      {
+        "moduleId": "medication-awareness",
+        "issuedDate": "2024-01-14T16:20:00Z",
+        "score": 93,
+        "validUntil": "2025-01-14T16:20:00Z"
+      }
+    ],
+    "lastLogin": "2024-01-15T07:20:00Z",
+    "status": "active"
+  }
+]

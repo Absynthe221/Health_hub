@@ -1,0 +1,437 @@
+{
+  "modules": [
+    {
+      "moduleId": "module_1",
+      "moduleTitle": "Introduction to ECG",
+      "description": "Fundamental concepts of electrocardiography and basic ECG interpretation",
+      "slides": [
+        {
+          "id": 1,
+          "title": "What is an ECG?",
+          "contentType": "Text + Diagram",
+          "interactive": false,
+          "content": "An electrocardiogram (ECG) is a medical test that measures the electrical activity of the heart. It provides crucial information about heart rhythm, rate, and potential abnormalities.",
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": false
+          }
+        },
+        {
+          "id": 2,
+          "title": "ECG Lead System",
+          "contentType": "Diagram + Animation",
+          "interactive": true,
+          "content": "The standard 12-lead ECG system provides multiple views of the heart. Includes 6 limb leads (I, II, III, aVR, aVL, aVF) and 6 precordial leads (V1-V6).",
+          "quiz": {
+            "question": "How many leads are in a standard ECG?",
+            "options": ["6 leads", "12 leads", "18 leads", "24 leads"],
+            "correctAnswer": 1,
+            "explanation": "A standard ECG uses 12 leads to provide comprehensive views of cardiac electrical activity."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "Normal Heart Rhythm",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Normal sinus rhythm characteristics: regular rhythm (60-100 bpm), P waves before each QRS, normal intervals, and consistent morphology.",
+          "quiz": {
+            "question": "What is the normal heart rate range for adults?",
+            "options": ["40-60 bpm", "60-100 bpm", "100-120 bpm", "120-150 bpm"],
+            "correctAnswer": 1,
+            "explanation": "Normal resting heart rate for adults is typically 60-100 beats per minute."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        }
+      ],
+      "metadata": {
+        "totalSlides": 3,
+        "interactiveSlides": 2,
+        "quizItems": 2,
+        "estimatedDuration": "10 minutes",
+        "difficulty": "Beginner",
+        "tags": ["ECG Basics", "Introduction", "Lead System"]
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "moduleId": "module_2",
+      "moduleTitle": "ECG Waveforms and Intervals",
+      "description": "Understanding ECG waveforms, intervals, and their clinical significance",
+      "slides": [
+        {
+          "id": 1,
+          "title": "P Wave Analysis",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": false,
+          "content": "The P wave represents atrial depolarization. Normal characteristics: duration <0.12s, amplitude <2.5mm, upright in leads I, II, aVF, V4-V6.",
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 2,
+          "title": "QRS Complex",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "QRS complex represents ventricular depolarization. Normal duration <0.12s. Q wave <0.04s and <25% of R wave amplitude.",
+          "quiz": {
+            "question": "What is the normal QRS duration?",
+            "options": ["<0.08 seconds", "<0.12 seconds", "<0.16 seconds", "<0.20 seconds"],
+            "correctAnswer": 1,
+            "explanation": "Normal QRS duration is less than 0.12 seconds (3 small squares)."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "T Wave and ST Segment",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "T wave represents ventricular repolarization. ST segment should be isoelectric. ST elevation or depression indicates myocardial injury or ischemia.",
+          "quiz": {
+            "question": "What does ST elevation typically indicate?",
+            "options": ["Normal variant", "Myocardial injury", "Atrial enlargement", "Ventricular hypertrophy"],
+            "correctAnswer": 1,
+            "explanation": "ST elevation typically indicates myocardial injury, such as in acute myocardial infarction."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        }
+      ],
+      "metadata": {
+        "totalSlides": 3,
+        "interactiveSlides": 2,
+        "quizItems": 2,
+        "estimatedDuration": "12 minutes",
+        "difficulty": "Beginner",
+        "tags": ["Waveforms", "Intervals", "ECG Analysis"]
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "moduleId": "module_3",
+      "moduleTitle": "Heart Rate and Rhythm Analysis",
+      "description": "Systematic approach to analyzing heart rate and rhythm patterns",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Rate Calculation Methods",
+          "contentType": "Text + Diagram",
+          "interactive": false,
+          "content": "Three methods for rate calculation: 1) 300/R-R interval (large squares), 2) 1500/R-R interval (small squares), 3) Count R waves in 6 seconds × 10.",
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": false
+          }
+        },
+        {
+          "id": 2,
+          "title": "Rhythm Regularity Assessment",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Assess rhythm regularity by measuring R-R intervals. Regular rhythm: variation <0.16s. Irregular rhythm: variation >0.16s.",
+          "quiz": {
+            "question": "How do you assess rhythm regularity?",
+            "options": ["Measure P-P intervals", "Measure R-R intervals", "Measure PR intervals", "Measure QT intervals"],
+            "correctAnswer": 1,
+            "explanation": "Rhythm regularity is assessed by measuring R-R intervals between consecutive QRS complexes."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "Systematic Rhythm Analysis",
+          "contentType": "Step-by-Step Guide",
+          "interactive": true,
+          "content": "Systematic approach: 1) Rate, 2) Regularity, 3) P waves present?, 4) PR interval, 5) QRS duration, 6) Overall interpretation.",
+          "quiz": {
+            "question": "What is the first step in systematic rhythm analysis?",
+            "options": ["Check P waves", "Calculate rate", "Measure intervals", "Assess morphology"],
+            "correctAnswer": 1,
+            "explanation": "Rate calculation is the first step in systematic ECG rhythm analysis."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": false
+          }
+        }
+      ],
+      "metadata": {
+        "totalSlides": 3,
+        "interactiveSlides": 2,
+        "quizItems": 2,
+        "estimatedDuration": "15 minutes",
+        "difficulty": "Beginner to Intermediate",
+        "tags": ["Rate Calculation", "Rhythm Analysis", "Systematic Approach"]
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "moduleId": "module_4",
+      "moduleTitle": "Atrial Arrhythmias",
+      "description": "Recognition and interpretation of common atrial arrhythmias",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Atrial Fibrillation",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": false,
+          "content": "Atrial fibrillation: irregularly irregular rhythm, absent P waves, fibrillatory waves, variable R-R intervals. Risk of thromboembolism.",
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 2,
+          "title": "Atrial Flutter",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Atrial flutter: sawtooth pattern (flutter waves), regular atrial rate ~300 bpm, variable ventricular response.",
+          "quiz": {
+            "question": "What is the characteristic pattern of atrial flutter?",
+            "options": ["Irregularly irregular rhythm", "Sawtooth pattern", "Absent P waves", "Wide QRS complexes"],
+            "correctAnswer": 1,
+            "explanation": "Atrial flutter is characterized by a sawtooth pattern of flutter waves."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "Atrial Tachycardia",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Atrial tachycardia: regular rhythm, P waves present but abnormal morphology, rate >100 bpm, 1:1 AV conduction.",
+          "quiz": {
+            "question": "What distinguishes atrial tachycardia from sinus tachycardia?",
+            "options": ["Rate", "P wave morphology", "QRS duration", "PR interval"],
+            "correctAnswer": 1,
+            "explanation": "Atrial tachycardia has abnormal P wave morphology compared to normal sinus P waves."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        }
+      ],
+      "metadata": {
+        "totalSlides": 3,
+        "interactiveSlides": 2,
+        "quizItems": 2,
+        "estimatedDuration": "18 minutes",
+        "difficulty": "Intermediate",
+        "tags": ["Atrial Arrhythmias", "Atrial Fibrillation", "Atrial Flutter"]
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "moduleId": "module_5",
+      "moduleTitle": "Ventricular Arrhythmias",
+      "description": "Identification and clinical significance of ventricular arrhythmias",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Ventricular Tachycardia",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": false,
+          "content": "Ventricular tachycardia: wide QRS complexes (>0.12s), rate >100 bpm, regular rhythm, no P waves, hemodynamic instability possible.",
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 2,
+          "title": "Ventricular Fibrillation",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Ventricular fibrillation: chaotic, irregular rhythm, no identifiable QRS complexes, immediately life-threatening, requires defibrillation.",
+          "quiz": {
+            "question": "What is the immediate treatment for ventricular fibrillation?",
+            "options": ["Medication", "Defibrillation", "Pacemaker", "Observation"],
+            "correctAnswer": 1,
+            "explanation": "Ventricular fibrillation requires immediate defibrillation as it is immediately life-threatening."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "Premature Ventricular Contractions",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "PVCs: wide QRS complexes, abnormal morphology, compensatory pause, may be benign or indicate underlying heart disease.",
+          "quiz": {
+            "question": "What characterizes a premature ventricular contraction?",
+            "options": ["Narrow QRS", "Wide QRS", "Normal P waves", "Regular rhythm"],
+            "correctAnswer": 1,
+            "explanation": "PVCs are characterized by wide QRS complexes due to abnormal ventricular conduction."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        }
+      ],
+      "metadata": {
+        "totalSlides": 3,
+        "interactiveSlides": 2,
+        "quizItems": 2,
+        "estimatedDuration": "20 minutes",
+        "difficulty": "Intermediate to Advanced",
+        "tags": ["Ventricular Arrhythmias", "VT", "VF", "PVCs"]
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "moduleId": "module_6",
+      "moduleTitle": "Heart Blocks",
+      "description": "Understanding AV blocks and conduction abnormalities",
+      "slides": [
+        {
+          "id": 1,
+          "title": "First-Degree AV Block",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": false,
+          "content": "First-degree AV block: PR interval >0.20s, every P wave followed by QRS, benign condition, may be normal variant.",
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 2,
+          "title": "Second-Degree AV Block Type I",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Mobitz Type I (Wenckebach): progressive PR prolongation until P wave blocked, usually benign, located in AV node.",
+          "quiz": {
+            "question": "What characterizes Mobitz Type I block?",
+            "options": ["Fixed PR interval", "Progressive PR prolongation", "No P waves", "Wide QRS"],
+            "correctAnswer": 1,
+            "explanation": "Mobitz Type I (Wenckebach) is characterized by progressive PR interval prolongation until a P wave is blocked."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "Third-Degree AV Block",
+          "contentType": "ECG Tracing + Analysis",
+          "interactive": true,
+          "content": "Complete heart block: no relationship between P waves and QRS complexes, ventricular escape rhythm, may require pacemaker.",
+          "quiz": {
+            "question": "What is the hallmark of third-degree AV block?",
+            "options": ["Long PR interval", "No AV relationship", "Fast ventricular rate", "Narrow QRS"],
+            "correctAnswer": 1,
+            "explanation": "Third-degree AV block shows complete dissociation between atrial and ventricular activity."
+          },
+          "ai": {
+            "generateQuiz": true,
+            "summarizeSlide": true,
+            "explainECG": true
+          }
+        }
+      ],
+      "metadata": {
+        "totalSlides": 3,
+        "interactiveSlides": 2,
+        "quizItems": 2,
+        "estimatedDuration": "16 minutes",
+        "difficulty": "Intermediate",
+        "tags": ["Heart Blocks", "AV Block", "Conduction Abnormalities"]
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "metadata": {
+    "totalModules": 6,
+    "totalSlides": 18,
+    "totalInteractiveSlides": 12,
+    "totalQuizItems": 12,
+    "averageDuration": "15.2 minutes",
+    "difficultyLevels": {
+      "Beginner": 2,
+      "Beginner to Intermediate": 1,
+      "Intermediate": 2,
+      "Intermediate to Advanced": 1
+    },
+    "tags": [
+      "ECG Basics",
+      "Introduction",
+      "Lead System",
+      "Waveforms",
+      "Intervals",
+      "ECG Analysis",
+      "Rate Calculation",
+      "Rhythm Analysis",
+      "Systematic Approach",
+      "Atrial Arrhythmias",
+      "Atrial Fibrillation",
+      "Atrial Flutter",
+      "Ventricular Arrhythmias",
+      "VT",
+      "VF",
+      "PVCs",
+      "Heart Blocks",
+      "AV Block",
+      "Conduction Abnormalities"
+    ],
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  }
+}
+

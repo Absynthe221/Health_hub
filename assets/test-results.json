@@ -1,0 +1,50 @@
+{
+  "totalTests": 6,
+  "passed": 4,
+  "failed": 2,
+  "skipped": 0,
+  "tests": [
+    {
+      "name": "Module Structure Validation",
+      "status": "failed",
+      "startTime": 1759204553767,
+      "error": "Invalid slide structure in module: ACTIVUS MR IBRAHIM PEA",
+      "duration": 2
+    },
+    {
+      "name": "Pipeline Integrity",
+      "status": "passed",
+      "startTime": 1759204553769,
+      "error": null,
+      "duration": 2072
+    },
+    {
+      "name": "File Integrity",
+      "status": "passed",
+      "startTime": 1759204555841,
+      "error": null,
+      "duration": 2
+    },
+    {
+      "name": "Frontend Components",
+      "status": "passed",
+      "startTime": 1759204555843,
+      "error": null,
+      "duration": 3
+    },
+    {
+      "name": "Performance Testing",
+      "status": "passed",
+      "startTime": 1759204555847,
+      "error": null,
+      "duration": 2
+    },
+    {
+      "name": "API Endpoints",
+      "status": "failed",
+      "startTime": 1759204555849,
+      "error": "API test failed: fetch is not a function",
+      "duration": 3410
+    }
+  ]
+}

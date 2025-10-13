@@ -1,0 +1,48 @@
+{
+  "title": "Pediatric ECG Interpretation",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Age-Related Changes",
+      "content": "ECG changes with age",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Congenital Heart Disease",
+      "content": "ECG patterns in CHD",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Pediatric Arrhythmias",
+      "content": "Common pediatric rhythms",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "80 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "pediatric-ecg",
+    "createdAt": "2025-10-05T01:29:47.392Z",
+    "updatedAt": "2025-10-05T01:29:47.392Z",
+    "status": "published"
+  }
+}

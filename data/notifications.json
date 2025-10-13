@@ -1,0 +1,222 @@
+[
+  {
+    "id": "notif1",
+    "userId": "learner1",
+    "type": "achievement",
+    "message": "You earned a new badge: ECG Novice!",
+    "timestamp": "2025-09-22T08:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=badges",
+    "priority": "high",
+    "category": "badge"
+  },
+  {
+    "id": "notif2",
+    "userId": "learner2",
+    "type": "course",
+    "message": "New ECG course available: Advanced Arrhythmias.",
+    "timestamp": "2025-09-22T09:15:00Z",
+    "readStatus": false,
+    "link": "/courses",
+    "priority": "medium",
+    "category": "course"
+  },
+  {
+    "id": "notif3",
+    "userId": "learner3",
+    "type": "quiz",
+    "message": "Your ECG quiz score has been updated.",
+    "timestamp": "2025-09-22T10:30:00Z",
+    "readStatus": true,
+    "link": "/dashboard?tab=progress",
+    "priority": "low",
+    "category": "quiz"
+  },
+  {
+    "id": "notif4",
+    "userId": "learner1",
+    "type": "reminder",
+    "message": "Don't forget to complete today's ECG exercise.",
+    "timestamp": "2025-09-22T11:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=exercises",
+    "priority": "high",
+    "category": "reminder"
+  },
+  {
+    "id": "notif5",
+    "userId": "instructor1",
+    "type": "announcement",
+    "message": "New learner submissions available for review.",
+    "timestamp": "2025-09-22T12:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=learners",
+    "priority": "medium",
+    "category": "instructor"
+  },
+  {
+    "id": "notif6",
+    "userId": "learner2",
+    "type": "achievement",
+    "message": "You completed 50% of the ECG Intermediate course!",
+    "timestamp": "2025-09-22T12:30:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=progress",
+    "priority": "medium",
+    "category": "progress"
+  },
+  {
+    "id": "notif7",
+    "userId": "learner3",
+    "type": "course",
+    "message": "A new ECG challenge exercise has been assigned.",
+    "timestamp": "2025-09-22T13:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=exercises",
+    "priority": "high",
+    "category": "assignment"
+  },
+  {
+    "id": "notif8",
+    "userId": "learner4",
+    "type": "achievement",
+    "message": "Badge unlocked: Rhythm Master!",
+    "timestamp": "2025-09-22T14:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=badges",
+    "priority": "high",
+    "category": "badge"
+  },
+  {
+    "id": "notif9",
+    "userId": "instructor2",
+    "type": "announcement",
+    "message": "ECG course content has been updated.",
+    "timestamp": "2025-09-22T14:30:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=courses",
+    "priority": "low",
+    "category": "update"
+  },
+  {
+    "id": "notif10",
+    "userId": "learner5",
+    "type": "reminder",
+    "message": "You have an ECG quiz pending submission.",
+    "timestamp": "2025-09-22T15:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=quizzes",
+    "priority": "high",
+    "category": "quiz"
+  },
+  {
+    "id": "notif11",
+    "userId": "learner1",
+    "type": "achievement",
+    "message": "Congratulations! All lessons completed in Basic ECG course.",
+    "timestamp": "2025-09-22T16:00:00Z",
+    "readStatus": true,
+    "link": "/dashboard?tab=courses",
+    "priority": "high",
+    "category": "completion"
+  },
+  {
+    "id": "notif12",
+    "userId": "learner2",
+    "type": "quiz",
+    "message": "Quiz results are ready for Advanced Arrhythmias.",
+    "timestamp": "2025-09-22T16:30:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=progress",
+    "priority": "medium",
+    "category": "quiz"
+  },
+  {
+    "id": "notif13",
+    "userId": "learner3",
+    "type": "course",
+    "message": "New ECG module added: Atrial Flutter Patterns.",
+    "timestamp": "2025-09-22T17:00:00Z",
+    "readStatus": false,
+    "link": "/courses",
+    "priority": "medium",
+    "category": "course"
+  },
+  {
+    "id": "notif14",
+    "userId": "instructor3",
+    "type": "announcement",
+    "message": "Instructor meeting scheduled tomorrow at 10:00 AM.",
+    "timestamp": "2025-09-22T17:30:00Z",
+    "readStatus": false,
+    "link": "/dashboard",
+    "priority": "low",
+    "category": "meeting"
+  },
+  {
+    "id": "notif15",
+    "userId": "learner4",
+    "type": "achievement",
+    "message": "You have reached 1000 points in the Health Hub ECG platform!",
+    "timestamp": "2025-09-22T18:00:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=leaderboard",
+    "priority": "high",
+    "category": "milestone"
+  },
+  {
+    "id": "notif16",
+    "userId": "learner1",
+    "type": "system",
+    "message": "Welcome to Health Hub ECG! Start your first lesson today.",
+    "timestamp": "2025-09-21T09:00:00Z",
+    "readStatus": true,
+    "link": "/dashboard",
+    "priority": "low",
+    "category": "welcome"
+  },
+  {
+    "id": "notif17",
+    "userId": "instructor1",
+    "type": "announcement",
+    "message": "New ECG recording guidelines have been published.",
+    "timestamp": "2025-09-21T14:00:00Z",
+    "readStatus": true,
+    "link": "/resources",
+    "priority": "medium",
+    "category": "guidelines"
+  },
+  {
+    "id": "notif18",
+    "userId": "learner2",
+    "type": "achievement",
+    "message": "Perfect score on Ventricular Tachycardia exercise!",
+    "timestamp": "2025-09-21T16:45:00Z",
+    "readStatus": false,
+    "link": "/dashboard?tab=exercises",
+    "priority": "high",
+    "category": "excellence"
+  },
+  {
+    "id": "notif19",
+    "userId": "learner3",
+    "type": "reminder",
+    "message": "Your ECG course subscription expires in 3 days.",
+    "timestamp": "2025-09-21T18:00:00Z",
+    "readStatus": false,
+    "link": "/billing",
+    "priority": "high",
+    "category": "subscription"
+  },
+  {
+    "id": "notif20",
+    "userId": "instructor2",
+    "type": "announcement",
+    "message": "Monthly ECG case study discussion tomorrow at 2 PM.",
+    "timestamp": "2025-09-21T19:30:00Z",
+    "readStatus": false,
+    "link": "/events",
+    "priority": "medium",
+    "category": "event"
+  }
+]

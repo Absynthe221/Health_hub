@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e8]: Health Hub
+      - generic [ref=e11]:
+        - button "Admin" [ref=e12]
+        - button "Instructor" [ref=e13]
+        - button "Learner" [ref=e14]
+      - button "Sign Out" [ref=e16]
+  - generic [ref=e19]:
+    - heading "Welcome back, Instructor!" [level=2] [ref=e20]
+    - paragraph [ref=e21]: Manage your courses and track student progress
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - navigation [ref=e25]:
+        - button "Overview" [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - text: Overview
+        - button "My Courses" [ref=e31]:
+          - generic [ref=e32]:
+            - img [ref=e33]
+            - text: My Courses
+        - button "Students" [ref=e35]:
+          - generic [ref=e36]:
+            - img [ref=e37]
+            - text: Students
+        - button "Analytics" [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - text: Analytics
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e50]:
+            - img [ref=e51]
+            - generic [ref=e53]:
+              - paragraph [ref=e54]: My Courses
+              - paragraph [ref=e55]: "3"
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: Total Students
+              - paragraph [ref=e65]: "156"
+          - generic [ref=e67]:
+            - img [ref=e68]
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Completions
+              - paragraph [ref=e73]: "89"
+          - generic [ref=e75]:
+            - img [ref=e76]
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: Avg Score
+              - paragraph [ref=e81]: 85%
+        - generic [ref=e82]:
+          - heading "Recent Activity" [level=3] [ref=e83]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e86]: New student enrolled in ECG Fundamentals
+              - generic [ref=e87]: 2 hours ago
+            - generic [ref=e88]:
+              - generic [ref=e89]: Student completed Cardiac Rhythm Recognition
+              - generic [ref=e90]: 5 hours ago
+            - generic [ref=e91]:
+              - generic [ref=e92]: New course draft saved
+              - generic [ref=e93]: 1 day ago
+```

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "submission_001",
+    "exerciseId": "exercise_001",
+    "userId": "learner_001",
+    "answers": {
+      "q1": "sinus",
+      "q2": "72",
+      "q3": "minor"
+    },
+    "results": {
+      "score": 85,
+      "passed": true,
+      "correctAnswers": 3,
+      "totalQuestions": 3,
+      "questionResults": [
+        {
+          "questionId": "q1",
+          "question": "What is the primary rhythm in this ECG?",
+          "userAnswer": "sinus",
+          "isCorrect": true,
+          "explanation": "This ECG shows a regular rhythm with P waves before each QRS complex, indicating normal sinus rhythm.",
+          "correctAnswer": "sinus"
+        },
+        {
+          "questionId": "q2",
+          "question": "What is the heart rate (beats per minute)?",
+          "userAnswer": "72",
+          "isCorrect": true,
+          "explanation": "The heart rate is calculated by counting R-R intervals. This ECG shows approximately 72 BPM.",
+          "correctAnswer": "60-100"
+        },
+        {
+          "questionId": "q3",
+          "question": "Are there any significant artifacts present?",
+          "userAnswer": "minor",
+          "isCorrect": true,
+          "explanation": "There is minor baseline wander present, which is common and doesn't affect interpretation significantly.",
+          "correctAnswer": "minor"
+        }
+      ],
+      "feedback": {
+        "message": "Good job! You understand the concepts well with room for improvement.",
+        "level": "good"
+      }
+    },
+    "timeSpent": 285,
+    "submittedAt": "2024-01-20T15:30:00Z"
+  },
+  {
+    "id": "submission_002",
+    "exerciseId": "exercise_003",
+    "userId": "learner_001",
+    "answers": {
+      "q1": "vt",
+      "q2": "defibrillate",
+      "q3": "0.14"
+    },
+    "results": {
+      "score": 92,
+      "passed": true,
+      "correctAnswers": 3,
+      "totalQuestions": 3,
+      "questionResults": [
+        {
+          "questionId": "q1",
+          "question": "What is the most likely diagnosis?",
+          "userAnswer": "vt",
+          "isCorrect": true,
+          "explanation": "This shows ventricular tachycardia with wide QRS complexes (>120ms) and a rate of 160 BPM.",
+          "correctAnswer": "vt"
+        },
+        {
+          "questionId": "q2",
+          "question": "What is the immediate priority?",
+          "userAnswer": "defibrillate",
+          "isCorrect": true,
+          "explanation": "VT can deteriorate to VF and requires immediate intervention - cardioversion if stable, defibrillation if unstable.",
+          "correctAnswer": "defibrillate"
+        },
+        {
+          "questionId": "q3",
+          "question": "What is the QRS duration?",
+          "userAnswer": "0.14",
+          "isCorrect": true,
+          "explanation": "The QRS duration is approximately 140ms, confirming ventricular origin of the rhythm.",
+          "correctAnswer": "0.12-0.16"
+        }
+      ],
+      "feedback": {
+        "message": "Excellent work! You have a strong understanding of this topic.",
+        "level": "excellent"
+      }
+    },
+    "timeSpent": 420,
+    "submittedAt": "2024-01-22T10:15:00Z"
+  },
+  {
+    "id": "submission_003",
+    "exerciseId": "exercise_002",
+    "userId": "learner_002",
+    "answers": {
+      "q1": "afib",
+      "q2": "controlled",
+      "q3": "85"
+    },
+    "results": {
+      "score": 67,
+      "passed": false,
+      "correctAnswers": 2,
+      "totalQuestions": 3,
+      "questionResults": [
+        {
+          "questionId": "q1",
+          "question": "What rhythm abnormality is present?",
+          "userAnswer": "afib",
+          "isCorrect": true,
+          "explanation": "This ECG shows atrial fibrillation with irregular R-R intervals and absence of P waves.",
+          "correctAnswer": "afib"
+        },
+        {
+          "questionId": "q2",
+          "question": "What is the ventricular response rate?",
+          "userAnswer": "controlled",
+          "isCorrect": false,
+          "explanation": "Atrial fibrillation is characterized by an irregularly irregular ventricular response.",
+          "correctAnswer": "irregular"
+        },
+        {
+          "questionId": "q3",
+          "question": "Estimate the average heart rate:",
+          "userAnswer": "85",
+          "isCorrect": true,
+          "explanation": "The average heart rate in this AFib recording is approximately 85 BPM.",
+          "correctAnswer": "80-90"
+        }
+      ],
+      "feedback": {
+        "message": "Keep studying! Review the material and try again.",
+        "level": "fail"
+      }
+    },
+    "timeSpent": 380,
+    "submittedAt": "2024-01-21T16:45:00Z"
+  }
+]

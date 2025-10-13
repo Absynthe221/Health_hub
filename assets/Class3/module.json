@@ -1,0 +1,43 @@
+{
+  "id": "qRWKtdUi4YTskQEydj-TE",
+  "title": "Class3",
+  "description": "Interactive ECG training module: Class3",
+  "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+  "objectives": [
+    "Understand basic ECG principles",
+    "Identify normal ECG components",
+    "Apply electrode placement techniques",
+    "Interpret basic cardiac rhythms"
+  ],
+  "duration": 10,
+  "difficulty": "Beginner",
+  "prerequisites": "Basic anatomy knowledge recommended",
+  "slides": [
+    {
+      "name": "Slide 1",
+      "url": "/assets/Class3/pptx/Class3.pptx#slide=1",
+      "content": "PPTX content extracted (basic parsing)",
+      "narration": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+      "audioFile": "/Users/som/Health_Hub/assets/Class3/slide1/slide1.mp3",
+      "subtitles": "/Users/som/Health_Hub/assets/Class3/slide1/slide1.srt",
+      "questions": [
+        {
+          "question": "What is the main topic of this slide?",
+          "options": [
+            "ECG Basics",
+            "Heart Anatomy",
+            "Medical Procedures",
+            "Patient Care"
+          ],
+          "answer": "ECG Basics"
+        }
+      ],
+      "images": [
+        "/Users/som/Health_Hub/assets/Class3/slide1/slide.png"
+      ],
+      "duration": 10
+    }
+  ],
+  "createdAt": "2025-09-30T03:55:54.980Z",
+  "updatedAt": "2025-09-30T03:55:54.980Z"
+}

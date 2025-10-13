@@ -1,0 +1,106 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e8]: Health Hub
+      - generic [ref=e11]:
+        - button "Admin" [ref=e12] [cursor=pointer]
+        - button "Instructor" [ref=e13] [cursor=pointer]
+        - button "Learner" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "View notifications" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17] [cursor=pointer]: View notifications
+          - img [ref=e18] [cursor=pointer]
+        - button "Open user menu" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23] [cursor=pointer]: Open user menu
+          - img [ref=e24] [cursor=pointer]
+        - button "Sign Out" [ref=e28] [cursor=pointer]:
+          - img [ref=e29] [cursor=pointer]
+          - text: Sign Out
+  - generic [ref=e35]:
+    - heading "Welcome back, Admin!" [level=2] [ref=e36]
+    - paragraph [ref=e37]: Manage your ECG learning platform with comprehensive admin tools
+  - main [ref=e38]:
+    - generic [ref=e39]:
+      - navigation [ref=e41]:
+        - button "Overview" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43] [cursor=pointer]:
+            - img [ref=e44] [cursor=pointer]
+            - text: Overview
+        - button "Users" [ref=e49] [cursor=pointer]:
+          - generic [ref=e50] [cursor=pointer]:
+            - img [ref=e51] [cursor=pointer]
+            - text: Users
+        - button "Modules" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57] [cursor=pointer]:
+            - img [ref=e58] [cursor=pointer]
+            - text: Modules
+        - button "Progress" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62] [cursor=pointer]:
+            - img [ref=e63] [cursor=pointer]
+            - text: Progress
+        - button "Notifications" [ref=e68] [cursor=pointer]:
+          - generic [ref=e69] [cursor=pointer]:
+            - img [ref=e70] [cursor=pointer]
+            - text: Notifications
+        - button "Analytics" [active] [ref=e73] [cursor=pointer]:
+          - generic [ref=e74] [cursor=pointer]:
+            - img [ref=e75] [cursor=pointer]
+            - text: Analytics
+        - button "Settings" [ref=e80] [cursor=pointer]:
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e82] [cursor=pointer]
+            - text: Settings
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Dashboard Overview" [level=3] [ref=e87]
+          - generic [ref=e88]:
+            - button "Add User" [ref=e89] [cursor=pointer]
+            - button "Create Module" [ref=e90] [cursor=pointer]
+            - button "Export Data" [ref=e91] [cursor=pointer]
+            - button "System Settings" [ref=e92] [cursor=pointer]
+          - generic [ref=e93]:
+            - paragraph [ref=e94]: Admin dashboard is fully functional!
+            - paragraph [ref=e95]: "Button clicks: 0"
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - img [ref=e99]
+            - generic [ref=e104]:
+              - paragraph [ref=e105]: Total Users
+              - paragraph [ref=e106]: "156"
+          - generic [ref=e108]:
+            - img [ref=e109]
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: Active Modules
+              - paragraph [ref=e114]: "7"
+          - generic [ref=e116]:
+            - img [ref=e117]
+            - generic [ref=e122]:
+              - paragraph [ref=e123]: Completions
+              - paragraph [ref=e124]: "89"
+          - generic [ref=e126]:
+            - img [ref=e127]
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: Notifications
+              - paragraph [ref=e132]: "3"
+        - generic [ref=e133]:
+          - heading "Recent Activity" [level=3] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: New user registered
+              - button "View" [ref=e138] [cursor=pointer]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Module completed by student
+              - button "View" [ref=e141] [cursor=pointer]
+            - generic [ref=e142]:
+              - generic [ref=e143]: New module uploaded
+              - button "Review" [ref=e144] [cursor=pointer]
+      - generic [ref=e145]:
+        - heading "Admin Dashboard Status" [level=3] [ref=e146]
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: ✅ All buttons are fully functional!
+          - paragraph [ref=e149]: "Total button clicks: 0"
+          - paragraph [ref=e150]: "Last action: Admin dashboard is fully functional!"
+```

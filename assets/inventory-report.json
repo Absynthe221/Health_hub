@@ -1,0 +1,376 @@
+{
+  "totalModules": 11,
+  "validModules": 11,
+  "issues": [],
+  "warnings": [],
+  "fileStats": {
+    "totalFiles": 0,
+    "missingFiles": 0,
+    "corruptedFiles": 0
+  },
+  "modules": [
+    {
+      "id": "NB4sti2upGms_GBfCnquV",
+      "title": "ACTIVUS MR IBRAHIM PEA",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "OY68J6A7vH50JklJUcQQZ",
+      "title": "ACTIVUS MR IBRAHIM CARDIAC CHAMBERS",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "kqK7OH_2Vcj-2q63u0Zzx",
+      "title": "ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "XBYmTaS5yhwZDdbaEWnAL",
+      "title": "Class3",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/Class3/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/Class3/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "dPI4L6Pf7xa7hdUSLb-SX",
+      "title": "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "DB2ImBnQnka_cOZA2acce",
+      "title": "ECG LECTURE SLIDE",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/ECG LECTURE SLIDE/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/ECG LECTURE SLIDE/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "z7ATbHNG_CIsS45Kvv2e4",
+      "title": "ECG TRAINING  002",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/ECG TRAINING  002/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/ECG TRAINING  002/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "e04dfNOlE8k32Z1Nk3not",
+      "title": "Introduction_to_ECG_Interpretation_(Lecture_3)[1]",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/Introduction_to_ECG_Interpretation_(Lecture_3)[1]/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/Introduction_to_ECG_Interpretation_(Lecture_3)[1]/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "zRtLJASyoAsYTU1kEWHPe",
+      "title": "JUNCTIONAL RHYTHM",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/JUNCTIONAL RHYTHM/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/JUNCTIONAL RHYTHM/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "stuPI5uIC6l298E-sV9lh",
+      "title": "lead error",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/lead error/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/lead error/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    },
+    {
+      "id": "Kp_NaCb0tcsQJ3Qaetl9n",
+      "title": "STEMI",
+      "valid": true,
+      "issues": [],
+      "warnings": [],
+      "files": {
+        "moduleJson": true,
+        "slides": [
+          {
+            "slideNumber": 1,
+            "hasAudio": false,
+            "hasSubtitles": true,
+            "hasImages": true,
+            "questionCount": 0
+          }
+        ],
+        "audio": [],
+        "subtitles": [
+          "/Users/som/Health_Hub/assets/STEMI/slide1/slide1.srt"
+        ],
+        "images": [
+          "/Users/som/Health_Hub/assets/STEMI/slide1/slide.png"
+        ]
+      },
+      "stats": {
+        "totalSlides": 1,
+        "slidesWithAudio": 0,
+        "slidesWithSubtitles": 1,
+        "slidesWithImages": 1,
+        "totalQuestions": 0
+      }
+    }
+  ]
+}

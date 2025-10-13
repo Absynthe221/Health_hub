@@ -1,0 +1,199 @@
+[
+  {
+    "id": "course_001",
+    "title": "Heart Anatomy & ECG Basics",
+    "description": "Learn the fundamentals of heart structure and electrical conduction system. This comprehensive course covers cardiac anatomy, physiology, and basic ECG interpretation principles.",
+    "instructorId": "instructor_001",
+    "instructorName": "Dr. Emily Carter",
+    "enrolledLearners": ["learner_001", "learner_002", "learner_003", "learner_004", "learner_005"],
+    "status": "published",
+    "completionRate": 0.72,
+    "averageScore": 82,
+    "totalLessons": 8,
+    "estimatedHours": 12,
+    "difficulty": "beginner",
+    "createdAt": "2024-01-15",
+    "lastUpdated": "2024-01-20",
+    "modules": [
+      {
+        "id": "module_001_1",
+        "title": "Cardiac Anatomy Overview",
+        "lessons": ["lesson_001", "lesson_002"],
+        "order": 1
+      },
+      {
+        "id": "module_001_2",
+        "title": "Electrical Conduction System",
+        "lessons": ["lesson_003", "lesson_004"],
+        "order": 2
+      },
+      {
+        "id": "module_001_3",
+        "title": "Basic ECG Waveforms",
+        "lessons": ["lesson_005", "lesson_006", "lesson_007"],
+        "order": 3
+      },
+      {
+        "id": "module_001_4",
+        "title": "Normal Sinus Rhythm",
+        "lessons": ["lesson_008"],
+        "order": 4
+      }
+    ],
+    "quizzes": ["quiz_001", "quiz_002"]
+  },
+  {
+    "id": "course_002",
+    "title": "ECG Recording & Placement",
+    "description": "Master proper electrode placement and recording techniques. Learn about lead systems, artifact identification, and troubleshooting common recording problems.",
+    "instructorId": "instructor_002",
+    "instructorName": "Prof. David Lee",
+    "enrolledLearners": ["learner_001", "learner_002", "learner_003", "learner_004"],
+    "status": "published",
+    "completionRate": 0.68,
+    "averageScore": 79,
+    "totalLessons": 6,
+    "estimatedHours": 10,
+    "difficulty": "intermediate",
+    "createdAt": "2024-01-10",
+    "lastUpdated": "2024-01-18",
+    "modules": [
+      {
+        "id": "module_002_1",
+        "title": "Electrode Placement",
+        "lessons": ["lesson_009", "lesson_010"],
+        "order": 1
+      },
+      {
+        "id": "module_002_2",
+        "title": "Lead Systems",
+        "lessons": ["lesson_011", "lesson_012"],
+        "order": 2
+      },
+      {
+        "id": "module_002_3",
+        "title": "Troubleshooting",
+        "lessons": ["lesson_013", "lesson_014"],
+        "order": 3
+      }
+    ],
+    "quizzes": ["quiz_003", "quiz_004"]
+  },
+  {
+    "id": "course_003",
+    "title": "Artifact Detection & Troubleshooting",
+    "description": "Identify and manage common ECG artifacts and recording errors. Learn to distinguish between artifacts and true cardiac events.",
+    "instructorId": "instructor_001",
+    "instructorName": "Dr. Emily Carter",
+    "enrolledLearners": ["learner_002", "learner_003"],
+    "status": "published",
+    "completionRate": 0.81,
+    "averageScore": 85,
+    "totalLessons": 5,
+    "estimatedHours": 8,
+    "difficulty": "intermediate",
+    "createdAt": "2024-01-08",
+    "lastUpdated": "2024-01-19",
+    "modules": [
+      {
+        "id": "module_003_1",
+        "title": "Common Artifacts",
+        "lessons": ["lesson_015", "lesson_016"],
+        "order": 1
+      },
+      {
+        "id": "module_003_2",
+        "title": "Muscle Artifacts",
+        "lessons": ["lesson_017"],
+        "order": 2
+      },
+      {
+        "id": "module_003_3",
+        "title": "Electrical Interference",
+        "lessons": ["lesson_018", "lesson_019"],
+        "order": 3
+      }
+    ],
+    "quizzes": ["quiz_005"]
+  },
+  {
+    "id": "course_004",
+    "title": "Advanced Arrhythmia Recognition",
+    "description": "Advanced course covering complex arrhythmias, emergency recognition, and clinical decision-making in cardiac emergencies.",
+    "instructorId": "instructor_002",
+    "instructorName": "Prof. David Lee",
+    "enrolledLearners": ["learner_002"],
+    "status": "published",
+    "completionRate": 0.65,
+    "averageScore": 88,
+    "totalLessons": 10,
+    "estimatedHours": 16,
+    "difficulty": "advanced",
+    "createdAt": "2024-01-05",
+    "lastUpdated": "2024-01-17",
+    "modules": [
+      {
+        "id": "module_004_1",
+        "title": "Supraventricular Arrhythmias",
+        "lessons": ["lesson_020", "lesson_021", "lesson_022"],
+        "order": 1
+      },
+      {
+        "id": "module_004_2",
+        "title": "Ventricular Arrhythmias",
+        "lessons": ["lesson_023", "lesson_024"],
+        "order": 2
+      },
+      {
+        "id": "module_004_3",
+        "title": "Emergency Recognition",
+        "lessons": ["lesson_025", "lesson_026", "lesson_027"],
+        "order": 3
+      },
+      {
+        "id": "module_004_4",
+        "title": "Clinical Decision Making",
+        "lessons": ["lesson_028", "lesson_029"],
+        "order": 4
+      }
+    ],
+    "quizzes": ["quiz_006", "quiz_007", "quiz_008"]
+  },
+  {
+    "id": "course_005",
+    "title": "Pediatric ECG Analysis",
+    "description": "Specialized course for pediatric ECG interpretation, covering age-specific variations and common pediatric cardiac conditions.",
+    "instructorId": "instructor_003",
+    "instructorName": "Dr. Lisa Rodriguez",
+    "enrolledLearners": [],
+    "status": "published",
+    "completionRate": 0.0,
+    "averageScore": 0,
+    "totalLessons": 7,
+    "estimatedHours": 14,
+    "difficulty": "advanced",
+    "createdAt": "2024-01-12",
+    "lastUpdated": "2024-01-21",
+    "modules": [
+      {
+        "id": "module_005_1",
+        "title": "Age-Specific Variations",
+        "lessons": ["lesson_030", "lesson_031"],
+        "order": 1
+      },
+      {
+        "id": "module_005_2",
+        "title": "Common Pediatric Conditions",
+        "lessons": ["lesson_032", "lesson_033", "lesson_034"],
+        "order": 2
+      },
+      {
+        "id": "module_005_3",
+        "title": "Case Studies",
+        "lessons": ["lesson_035", "lesson_036"],
+        "order": 3
+      }
+    ],
+    "quizzes": ["quiz_009", "quiz_010"]
+  }
+]

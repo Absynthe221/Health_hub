@@ -1,0 +1,48 @@
+{
+  "title": "Drug Effects on ECG",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Antiarrhythmic Drugs",
+      "content": "Class I, II, III, IV effects",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "QT Prolongation",
+      "content": "Drug-induced QT changes",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Digitalis Effects",
+      "content": "Digoxin toxicity patterns",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "45 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "drug-effects-ecg",
+    "createdAt": "2025-10-05T01:29:47.393Z",
+    "updatedAt": "2025-10-05T01:29:47.393Z",
+    "status": "published"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_10",
+  "moduleTitle": "Electrolyte Abnormalities",
+  "description": "ECG changes associated with electrolyte imbalances",
+  "overview": "This module covers ECG manifestations of hyperkalemia, hypokalemia, hypercalcemia, and hypocalcemia, focusing on recognition and clinical significance.",
+  "objectives": [
+    "Recognize ECG changes in hyperkalemia",
+    "Identify hypokalemia patterns",
+    "Understand calcium effects on ECG",
+    "Learn emergency management of electrolyte abnormalities"
+  ],
+  "duration": 20,
+  "difficulty": "Intermediate",
+  "prerequisites": "Module 9: Advanced ECG Interpretation",
+  "tags": ["Electrolytes", "Hyperkalemia", "Hypokalemia", "Calcium", "Emergency Management"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Hyperkalemia",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "Hyperkalemia progression: peaked T waves → PR prolongation → P wave disappearance → QRS widening → sine wave pattern → asystole. Immediate treatment required.",
+      "duration": 5,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Hypokalemia",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Hypokalemia: flattened T waves, ST depression, prominent U waves, QT prolongation, arrhythmias. May precipitate torsades de pointes.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the characteristic ECG finding in hypokalemia?",
+        "options": ["Peaked T waves", "Prominent U waves", "Short QT", "Narrow QRS"],
+        "correctAnswer": 1,
+        "explanation": "Prominent U waves are characteristic of hypokalemia."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Calcium Abnormalities",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Hypercalcemia: short QT interval. Hypocalcemia: prolonged QT interval, may lead to torsades de pointes. Calcium affects primarily the ST segment and QT interval.",
+      "duration": 5,
+      "quiz": {
+        "question": "What ECG change is associated with hypercalcemia?",
+        "options": ["Long QT", "Short QT", "Peaked T waves", "ST elevation"],
+        "correctAnswer": 1,
+        "explanation": "Hypercalcemia is associated with shortened QT interval."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Emergency Management",
+      "contentType": "Clinical Guidelines",
+      "interactive": true,
+      "content": "Emergency management: assess severity, correct underlying cause, specific treatments (calcium gluconate for hyperkalemia, potassium replacement for hypokalemia), continuous monitoring.",
+      "duration": 5,
+      "quiz": {
+        "question": "What is the first-line treatment for severe hyperkalemia?",
+        "options": ["Potassium chloride", "Calcium gluconate", "Sodium bicarbonate", "Insulin"],
+        "correctAnswer": 1,
+        "explanation": "Calcium gluconate is first-line treatment for severe hyperkalemia to stabilize myocardium."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "20 minutes",
+    "difficulty": "Intermediate",
+    "tags": ["Electrolytes", "Hyperkalemia", "Hypokalemia"]
+  }
+}
+

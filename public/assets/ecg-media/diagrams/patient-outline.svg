@@ -1,0 +1,28 @@
+<svg width="300" height="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Patient Outline -->
+  <ellipse cx="150" cy="80" rx="40" ry="50" fill="none" stroke="#374151" stroke-width="2"/>
+  <rect x="110" y="130" width="80" height="120" fill="none" stroke="#374151" stroke-width="2"/>
+  <rect x="120" y="250" width="20" height="80" fill="none" stroke="#374151" stroke-width="2"/>
+  <rect x="160" y="250" width="20" height="80" fill="none" stroke="#374151" stroke-width="2"/>
+  <rect x="110" y="330" width="15" height="40" fill="none" stroke="#374151" stroke-width="2"/>
+  <rect x="175" y="330" width="15" height="40" fill="none" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Arms -->
+  <ellipse cx="60" cy="150" rx="30" ry="60" fill="none" stroke="#374151" stroke-width="2"/>
+  <ellipse cx="240" cy="150" rx="30" ry="60" fill="none" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Drop Zone Indicators -->
+  <circle cx="50" cy="100" r="8" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="200" cy="100" r="8" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="50" cy="300" r="8" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="200" cy="300" r="8" fill="#3b82f6" opacity="0.3"/>
+  
+  <!-- Chest electrode positions -->
+  <circle cx="125" cy="180" r="4" fill="#ef4444" opacity="0.5"/>
+  <circle cx="125" cy="200" r="4" fill="#ef4444" opacity="0.5"/>
+  <circle cx="125" cy="220" r="4" fill="#ef4444" opacity="0.5"/>
+  <circle cx="125" cy="240" r="4" fill="#ef4444" opacity="0.5"/>
+  <circle cx="150" cy="250" r="4" fill="#ef4444" opacity="0.5"/>
+  <circle cx="175" cy="250" r="4" fill="#ef4444" opacity="0.5"/>
+</svg>
+

@@ -1,0 +1,48 @@
+{
+  "title": "Cardiac Rhythm Recognition",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Normal Sinus Rhythm",
+      "content": "Understanding normal cardiac rhythm patterns",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Atrial Arrhythmias",
+      "content": "Recognition of atrial rhythm disturbances",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Ventricular Arrhythmias",
+      "content": "Identification of ventricular rhythm abnormalities",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "90 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "cardiac-rhythm-recognition",
+    "createdAt": "2025-10-05T01:29:47.390Z",
+    "updatedAt": "2025-10-05T01:29:47.390Z",
+    "status": "published"
+  }
+}

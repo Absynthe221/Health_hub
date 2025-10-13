@@ -1,0 +1,38 @@
+{
+  "title": "Cardiac Chamber Analysis",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Slide 1",
+      "content": "Content for slide 1",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "50 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [
+    "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART"
+  ],
+  "learningObjectives": [
+    "Identify chamber enlargement patterns",
+    "Understand hypertrophy criteria",
+    "Learn clinical correlations"
+  ],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "activus-mr-ibrahim-cardiac-chambers",
+    "createdAt": "2025-10-05T00:25:27.800Z",
+    "updatedAt": "2025-10-05T00:25:27.801Z",
+    "status": "published"
+  }
+}

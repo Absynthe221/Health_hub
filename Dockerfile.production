@@ -1,0 +1,83 @@
+# Health Hub ECG Platform - Production Dockerfile
+# Multi-stage build for optimized production deployment
+
+# Stage 1: Build dependencies
+FROM node:18-alpine AS deps
+RUN apk add --no-cache libc6-compat
+WORKDIR /app
+
+# Copy package files
+COPY package.json package-lock.json ./
+RUN npm ci --only=production
+
+# Stage 2: Build application
+FROM node:18-alpine AS builder
+WORKDIR /app
+
+# Install system dependencies for Python and FFmpeg
+RUN apk add --no-cache \
+    python3 \
+    py3-pip \
+    ffmpeg \
+    build-base \
+    python3-dev
+
+# Copy dependencies from deps stage
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+# Generate Prisma client
+RUN npx prisma generate
+
+# Build the application
+ENV NEXT_TELEMETRY_DISABLED 1
+RUN npm run build
+
+# Stage 3: Production runtime
+FROM node:18-alpine AS runner
+WORKDIR /app
+
+# Install runtime dependencies
+RUN apk add --no-cache \
+    python3 \
+    py3-pip \
+    ffmpeg \
+    curl
+
+# Create non-root user
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+# Copy built application
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/scripts ./scripts
+COPY --from=builder /app/package.json ./package.json
+
+# Copy Python scripts and dependencies
+COPY --from=builder /app/scripts/pipeline ./scripts/pipeline
+
+# Create necessary directories
+RUN mkdir -p ./logs ./uploads ./public/media
+RUN chown -R nextjs:nodejs ./logs ./uploads ./public/media
+
+# Switch to non-root user
+USER nextjs
+
+# Expose port
+EXPOSE 3000
+
+ENV PORT 3000
+ENV HOSTNAME "0.0.0.0"
+ENV NODE_ENV production
+ENV NEXT_TELEMETRY_DISABLED 1
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD curl -f http://localhost:3000/api/health || exit 1
+
+# Start the application
+CMD ["node", "server.js"]
+

@@ -1,0 +1,876 @@
+{
+  "metadata": {
+    "generatedAt": "2025-10-04T04:27:48.040Z",
+    "source": "Health Hub ECG Module Conversion",
+    "totalModules": 11,
+    "totalSlides": 11,
+    "apiVersion": "2.0.0",
+    "platformVersion": "Professional ECG Learning Platform v1.0"
+  },
+  "summary": {
+    "totalModules": 11,
+    "totalSlides": 11,
+    "modulesWithAudio": 11,
+    "modulesWithQuiz": 11,
+    "modulesWithInteractiveElements": 11,
+    "modulesWithECGWaveforms": 3,
+    "modulesWithClinicalCases": 3,
+    "totalImages": 11,
+    "totalAudioFiles": 11,
+    "totalVideos": 0,
+    "difficultyDistribution": {
+      "beginner": 5,
+      "intermediate": 2,
+      "advanced": 4
+    },
+    "categoryDistribution": {
+      "general": 4,
+      "rhythm_analysis": 2,
+      "anatomy_physiology": 1,
+      "recording_techniques": 2,
+      "troubleshooting": 1,
+      "ischemia_infarction": 1
+    },
+    "instructorDistribution": {
+      "Dr. Medical Instructor": 11
+    }
+  },
+  "modules": [
+    {
+      "moduleId": "activus-mr-ibrahim-cardiac-cha",
+      "title": "ACTIVUS MR IBRAHIM CARDIAC CHAMBERS",
+      "description": "Interactive ECG training module: ACTIVUS MR IBRAHIM CARDIAC CHAMBERS",
+      "difficulty": "beginner",
+      "category": "general",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM CARDIAC CHAMBERS/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:54.428Z",
+      "updatedAt": "2025-09-30T03:55:54.429Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "activus-mr-ibrahim-pea",
+      "title": "ACTIVUS MR IBRAHIM PEA",
+      "description": "Interactive ECG training module: ACTIVUS MR IBRAHIM PEA",
+      "difficulty": "beginner",
+      "category": "general",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM PEA/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:54.438Z",
+      "updatedAt": "2025-09-30T03:55:54.438Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "activus-mr-ibrahim-ventricular",
+      "title": "ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office",
+      "description": "Interactive ECG training module: ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office",
+      "difficulty": "intermediate",
+      "category": "rhythm_analysis",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:54.717Z",
+      "updatedAt": "2025-09-30T03:55:54.717Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "briefanatomyandphysiologyofthe",
+      "title": "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]",
+      "description": "Interactive ECG training module: BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]",
+      "difficulty": "advanced",
+      "category": "anatomy_physiology",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "BRIEF ANATOMY AND PHYSIOLOGY OF THE HEART AND AN INTRODUCTION TO ECG COMPILED AND PRESENTED BY AO IDRIS Learning Objectives •By the end of this session, participants should be able to: •Describe the basic structure of the heart. •Identify the main chambers, valves, and layers of the heart. •Understand the cardiac conduction system and how it generates electrical impulses. •Understand the basis of ECG. Pre-presentation MCQs 1. What is the primary function of the heart? A) To filter blood B) To generate nerve impulses C) To pump blood throughout the body D) To produce red blood cells 2. Which of the following chambers pumps oxygenated blood into systemic circulation? A) Right atrium B) Right ventricle C) Left atrium D) Left ventricle 3. What is the name of the valve between the left atrium and left ventricle? A) Tricuspid valve B) Pulmonary valve C) Aortic valve D) Mitral (bicuspid) valve 4. Which of the following is NOT a typical indication for performing an ECG? A) Chest pain B) Syncope C) Sore throat D) Palpitations 5. What is an electrocardiograph? A) The process of performing an ECG B) The graphical output of heart activity C) The machine used to record the ECG D) The heartbeat itself Overview of the Heart •The heart is a muscular organ about the size of a fist, located in the thoracic cavity. •It functions as a double pump to circulate blood throughout the body. •Divided into four chambers: •Right Atrium (RA) •Right Ventricle (RV) •Left Atrium (LA) •Left Ventricle (LV) •Separated by valves that control blood flow and prevent backflow. Circulation Pathways •Right heart (pulmonary circulation): •RA receives deoxygenated blood from the body → RV pumps it to the lungs via the pulmonary artery. •Left heart (systemic circulation): •LA receives oxygenated blood from the lungs → LV pumps it to the rest of the body via the aorta. •This closed-loop system ensures tissues receive oxygenated blood and waste is removed. Heart Valves and Their Role •Four valves ensure one-way flow: •Tricuspid valve (RA → RV) •Pulmonary valve (RV → pulmonary artery) •Mitral valve (LA → LV) •Aortic valve (LV → aorta) •These open and close in response to pressure changes in the chambers. Layers of the Heart Wall •Endocardium –Inner lining of the heart chambers. •Myocardium –Thick muscular layer responsible for contraction. •Epicardium –Outer surface of the heart. •Pericardium –A protective double- layered sac encasing the heart. •ECG measures electrical activity in the myocardium, so understanding this layer is essential. Function Histology of the Heart •The cardiac tissue are divided into conductive tissue and contractile tissue in the myocardium. •The conductive (nodal) tissue comprises special modified nerve cells that initiate and conduct rhythmic depolarisationsof the myocardial cells. •Nodal cells: SA Node, intermodal pathways, AV node, AV bundle (Bundle of His), Bundle branches (left and right). •Contractile cells: Actin, Myosin, Tropomyosin, Sarcoplasmic reticulum The Cardiac Conduction System •The heart has an intrinsic electrical system to generate and propagate impulses. •Key components: •SA node (Sinoatrial node): naturalpacemaker, initiates heartbeat. •Internodalpathways: i.Bachmannsbundle ii.Wencheback iii.Thorel •AV node (Atrioventricular node): delays impulse to allow atrial contraction. •Bundle of His: transmits impulse to ventricles. •Right and Left Bundle Branches: conduct down each ventricle. •Purkinje fibers: spread impulse throughout ventricles. Action Potential in nodal cell Action potential in contractile cell Electrical Activity and Cardiac Cycle •The heart undergoes: •Depolarization –electrical activation → muscle contraction. •Repolarization –return to resting state → muscle relaxation. •Systole = Contraction, Diastole = Relaxation •These phases are reflected in the ECG waveform. Cardiac Cycle Cardiac Cycle Introduction to ECG: Brief History •1849:EmilduBois-Reymondfirstdiscovers electricalactivityinanimalhearts. •1887:AugustusWallerrecordsthefirst humanheartsignalusingacapillary electrometer. •1903:WillemEinthoveninventsthefirst practicalelectrocardiograph(usesthestring galvanometer). •HeintroducestheP,Q,R,S,Twave nomenclaturestillusedtoday. •AwardedNobelPrizein Physiology/Medicinein1924. •ModernECGsaredigital,portable,and essentialindiagnostics. Introduction to ECG •Electrocardiography: The process of recording the heart's electrical activity using an ECG machine. •Electrocardiograph: The instrument/device used to record the ECG. It amplifies and displays electrical signals from the heart. •Electrocardiogram: The actual recording or tracing produced by the electrocardiograph. Indications for ECG Diagnostic Purposes: Chest pain (to rule out myocardial infarction) I.Palpitations or irregular heartbeat II.Syncope (fainting) or dizziness III.Shortness of breath or unexplained fatigue IV.Suspected electrolyte imbalances (e.g., hyperkalemia) V.Preoperative assessment in patients with cardiovascular risk. •Monitoring Purposes: I.Ongoing cardiac conditions (e.g., arrhythmias, ischemia) II.Response to medications (e.g., antiarrhythmics, digoxin, QT-prolonging drugs) III.Pacemaker function IV.Post-MI or post-surgical follow-up Contraindications and Limitations There are no absolute contraindications to performing a standard 12-lead ECG. However, caution is needed in the following cases: •Skin infections or burns at electrode sites •Severe trauma or fractures (e.g., rib fractures that make lead placement painful) Limitations of ECG: •May appear normal in early or small infarctions •Not reliable for detecting mechanical problems (e.g., valve disease, heart failure) — needs echo •Interference from movement, tremors, or loose electrodes can distort tracings •Does not measure cardiac output or pump function •Silent arrhythmias may be missed in a single snapshot Common diagnosis made with ECG 1. Arrhythmias •Atrial fibrillation •Atrial flutter •Ventricular tachycardia/fibrillation •Bradycardia, Tachycardia, AV blocks 2. Myocardial Ischemia or Infarction ST-elevation MI (STEMI) Non-ST elevation MI (NSTEMI) Old infarcts (Q waves) 3. Electrolyte ImbalancesHyperkalemia(peaked T waves) Hypokalemia(U waves, flat T) Calcium abnormalities (QT changes) 4. Conduction Abnormalities Bundle branch blocks (LBBB/RBBB) AV blocks (1st, 2nd, 3rd degree) 5. Drug Effects or Toxicity Digoxin effect QT prolongation from medications Clinical Relevance •Understanding cardiac anatomy and physiology is critical for: •Correct ECG lead placement. •Identifying abnormal rhythms (e.g., atrial fibrillation, heart block). •Recognizing ischemia or infarction patterns (e.g., ST elevation). •A solid foundation here aids accurate interpretation and diagnosis. Summary •The heart is a four-chambered pump with a unidirectional flow system. •Electrical impulses arise from specialized cells and travel in a predictable pattern. •The ECG records these electrical events, which reflect underlying anatomy and physiology. •Basic knowledge of the heart’s structure helps make sense of complex ECGs. Q&A Which part of the conduction system delays the impulse to allow ventricular filling? A) SA Node B) AV Node C) Purkinje Fibers D) Left Bundle Branch References / Further Resources •Books: •\"Rapid Interpretation of EKGs\" by Dale Dubin •\"Anatomy & Physiology Made Incredibly Easy\" •Websites: •www.ecglibrary.com •www.teachmeanatomy.info •https://smart.servier.com",
+          "content": "BRIEF ANATOMY AND PHYSIOLOGY OF THE HEART AND AN INTRODUCTION TO ECG COMPILED AND PRESENTED BY AO IDRIS Learning Objectives •By the end of this session, participants should be able to: •Describe the basic structure of the heart. •Identify the main chambers, valves, and layers of the heart. •Understand the cardiac conduction system and how it generates electrical impulses. •Understand the basis of ECG. Pre-presentation MCQs 1. What is the primary function of the heart? A) To filter blood B) To generate nerve impulses C) To pump blood throughout the body D) To produce red blood cells 2. Which of the following chambers pumps oxygenated blood into systemic circulation? A) Right atrium B) Right ventricle C) Left atrium D) Left ventricle 3. What is the name of the valve between the left atrium and left ventricle? A) Tricuspid valve B) Pulmonary valve C) Aortic valve D) Mitral (bicuspid) valve 4. Which of the following is NOT a typical indication for performing an ECG? A) Chest pain B) Syncope C) Sore throat D) Palpitations 5. What is an electrocardiograph? A) The process of performing an ECG B) The graphical output of heart activity C) The machine used to record the ECG D) The heartbeat itself Overview of the Heart •The heart is a muscular organ about the size of a fist, located in the thoracic cavity. •It functions as a double pump to circulate blood throughout the body. •Divided into four chambers: •Right Atrium (RA) •Right Ventricle (RV) •Left Atrium (LA) •Left Ventricle (LV) •Separated by valves that control blood flow and prevent backflow. Circulation Pathways •Right heart (pulmonary circulation): •RA receives deoxygenated blood from the body → RV pumps it to the lungs via the pulmonary artery. •Left heart (systemic circulation): •LA receives oxygenated blood from the lungs → LV pumps it to the rest of the body via the aorta. •This closed-loop system ensures tissues receive oxygenated blood and waste is removed. Heart Valves and Their Role •Four valves ensure one-way flow: •Tricuspid valve (RA → RV) •Pulmonary valve (RV → pulmonary artery) •Mitral valve (LA → LV) •Aortic valve (LV → aorta) •These open and close in response to pressure changes in the chambers. Layers of the Heart Wall •Endocardium –Inner lining of the heart chambers. •Myocardium –Thick muscular layer responsible for contraction. •Epicardium –Outer surface of the heart. •Pericardium –A protective double- layered sac encasing the heart. •ECG measures electrical activity in the myocardium, so understanding this layer is essential. Function Histology of the Heart •The cardiac tissue are divided into conductive tissue and contractile tissue in the myocardium. •The conductive (nodal) tissue comprises special modified nerve cells that initiate and conduct rhythmic depolarisationsof the myocardial cells. •Nodal cells: SA Node, intermodal pathways, AV node, AV bundle (Bundle of His), Bundle branches (left and right). •Contractile cells: Actin, Myosin, Tropomyosin, Sarcoplasmic reticulum The Cardiac Conduction System •The heart has an intrinsic electrical system to generate and propagate impulses. •Key components: •SA node (Sinoatrial node): naturalpacemaker, initiates heartbeat. •Internodalpathways: i.Bachmannsbundle ii.Wencheback iii.Thorel •AV node (Atrioventricular node): delays impulse to allow atrial contraction. •Bundle of His: transmits impulse to ventricles. •Right and Left Bundle Branches: conduct down each ventricle. •Purkinje fibers: spread impulse throughout ventricles. Action Potential in nodal cell Action potential in contractile cell Electrical Activity and Cardiac Cycle •The heart undergoes: •Depolarization –electrical activation → muscle contraction. •Repolarization –return to resting state → muscle relaxation. •Systole = Contraction, Diastole = Relaxation •These phases are reflected in the ECG waveform. Cardiac Cycle Cardiac Cycle Introduction to ECG: Brief History •1849:EmilduBois-Reymondfirstdiscovers electricalactivityinanimalhearts. •1887:AugustusWallerrecordsthefirst humanheartsignalusingacapillary electrometer. •1903:WillemEinthoveninventsthefirst practicalelectrocardiograph(usesthestring galvanometer). •HeintroducestheP,Q,R,S,Twave nomenclaturestillusedtoday. •AwardedNobelPrizein Physiology/Medicinein1924. •ModernECGsaredigital,portable,and essentialindiagnostics. Introduction to ECG •Electrocardiography: The process of recording the heart's electrical activity using an ECG machine. •Electrocardiograph: The instrument/device used to record the ECG. It amplifies and displays electrical signals from the heart. •Electrocardiogram: The actual recording or tracing produced by the electrocardiograph. Indications for ECG Diagnostic Purposes: Chest pain (to rule out myocardial infarction) I.Palpitations or irregular heartbeat II.Syncope (fainting) or dizziness III.Shortness of breath or unexplained fatigue IV.Suspected electrolyte imbalances (e.g., hyperkalemia) V.Preoperative assessment in patients with cardiovascular risk. •Monitoring Purposes: I.Ongoing cardiac conditions (e.g., arrhythmias, ischemia) II.Response to medications (e.g., antiarrhythmics, digoxin, QT-prolonging drugs) III.Pacemaker function IV.Post-MI or post-surgical follow-up Contraindications and Limitations There are no absolute contraindications to performing a standard 12-lead ECG. However, caution is needed in the following cases: •Skin infections or burns at electrode sites •Severe trauma or fractures (e.g., rib fractures that make lead placement painful) Limitations of ECG: •May appear normal in early or small infarctions •Not reliable for detecting mechanical problems (e.g., valve disease, heart failure) — needs echo •Interference from movement, tremors, or loose electrodes can distort tracings •Does not measure cardiac output or pump function •Silent arrhythmias may be missed in a single snapshot Common diagnosis made with ECG 1. Arrhythmias •Atrial fibrillation •Atrial flutter •Ventricular tachycardia/fibrillation •Bradycardia, Tachycardia, AV blocks 2. Myocardial Ischemia or Infarction ST-elevation MI (STEMI) Non-ST elevation MI (NSTEMI) Old infarcts (Q waves) 3. Electrolyte ImbalancesHyperkalemia(peaked T waves) Hypokalemia(U waves, flat T) Calcium abnormalities (QT changes) 4. Conduction Abnormalities Bundle branch blocks (LBBB/RBBB) AV blocks (1st, 2nd, 3rd degree) 5. Drug Effects or Toxicity Digoxin effect QT prolongation from medications Clinical Relevance •Understanding cardiac anatomy and physiology is critical for: •Correct ECG lead placement. •Identifying abnormal rhythms (e.g., atrial fibrillation, heart block). •Recognizing ischemia or infarction patterns (e.g., ST elevation). •A solid foundation here aids accurate interpretation and diagnosis. Summary •The heart is a four-chambered pump with a unidirectional flow system. •Electrical impulses arise from specialized cells and travel in a predictable pattern. •The ECG records these electrical events, which reflect underlying anatomy and physiology. •Basic knowledge of the heart’s structure helps make sense of complex ECGs. Q&A Which part of the conduction system delays the impulse to allow ventricular filling? A) SA Node B) AV Node C) Purkinje Fibers D) Left Bundle Branch References / Further Resources •Books: •\"Rapid Interpretation of EKGs\" by Dale Dubin •\"Anatomy & Physiology Made Incredibly Easy\" •Websites: •www.ecglibrary.com •www.teachmeanatomy.info •https://smart.servier.com",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART[1]/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "By the end of this session, participants should be able to:",
+            "Describe the basic structure of the heart",
+            "By the end of this session, participants should be able to:",
+            "Describe the basic structure of the heart",
+            "Describe the basic structure of the heart"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": true,
+          "hasClinicalCase": true,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:54.993Z",
+      "updatedAt": "2025-09-30T03:55:54.993Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "class3",
+      "title": "Class3",
+      "description": "Interactive ECG training module: Class3",
+      "difficulty": "beginner",
+      "category": "general",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/Class3/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/Class3/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:54.980Z",
+      "updatedAt": "2025-09-30T03:55:54.980Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "ecg-lecture-slide",
+      "title": "ECG LECTURE SLIDE",
+      "description": "Interactive ECG training module: ECG LECTURE SLIDE",
+      "difficulty": "beginner",
+      "category": "general",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/ECG LECTURE SLIDE/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/ECG LECTURE SLIDE/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:55.227Z",
+      "updatedAt": "2025-09-30T03:55:55.227Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "ecg-training-002",
+      "title": "ECG TRAINING  002",
+      "description": "Interactive ECG training module: ECG TRAINING  002",
+      "difficulty": "advanced",
+      "category": "recording_techniques",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "•ECG MACHINES (3.6 AND 12 CHANNELS) •CALIBRATIONS AND ECG GRAPH PAPER •REASONS TO ALTER AMPLITUDE •20 ELECTRODES AND 12 LEAD ECG •PLACEMENT OF ELECTRODES BY GBADAMOSI TAURID A. ECG TRAINING AT THE END OF THE TRAINING ,PARTICIPANTS SHOULD BE ABLE TO: •IDENTIFY THE MACHINES BY THEIR PAPER WIDTH OR SIZE •SHOULD KNOW THE STANDARD CALIBRATION OF THE ECG MACHINES •SHOULD KNOW WHEN TO ALTER THE CALIBRATION WHILE RECORDING. •SHOULD BE ABLE TO PLACE THE 10 ELECTRODES FOR 12 LEAD RECORDING CORRECTLY. OBJECTIVES 1.WHAT TYPE OF MACHINE PRODUCES THE RECORDING HERE A.3 CHANNELS B.6 CHANNELS. C 12 CHANNELS 2. AT WHAT AMPLITUDE IS THE RECORDING DONE. A.5mm/mv B.15mm/mv. C.10mm/mv 3.WHAT IS THE SPEED OF THE RECORDING? A.25MM/S. B.25M/S. C.25SEC 4. HOW MANY LEAD RECORDINGS DO WE HAVE ? A.10. B12. C.14 5. LEAD II RECORDS BETWEEN A.RA&LA . B.RA&LA. C.RA&LL PRE-TRAINING QUESTION BRIEF HISTORY OF ECG EARLY FOUNDATION WAS IN THE 1800s. LUIGIGALVANI(1791)FIRSTDISCOVEREDTHATMUSCLESPRODUCE ELECTRICIT Y. CARLOMATTEUCCI(1840s)DEMONSTRATEDTHATELECTRICAL CURRENTSACCOMPANYEVERYHEARTBEAT. INVENTIONOFECGWASINTHEEARLY1900s. WILLENEINTHOVEN(1903)ISADUTCHPHYSIOLOGISTWHOINVENTED THEFIRSTPRACTICALELECTROCARDIOGRAH HEDEVELOPEDTHESTRINGGALVANOMETERASENSITIVEDEVICETHAT COULDRECORDELECTRICALACTIVIT YFROMTHEHEART HECREATEDTHESTANDARDLEADSYSTEM(I,IIANDIII)STILLINUSE TODAY. WONTHENOBELPRIZEINMEDICINEIN1924. LUIGI GALVANI CARLO MATTEUCCI WILLEN EINTHOVEN GALVANOMETER The old machine was called string galvanometer It weighed over 270kg Required five operators to run Patients had to immerse their hands and legs in saline bath to record ECG. By the 1920s-1930s,ECG machine became more portable and user friendly Modern ECG machines are now digital ,portable ,battery powered,12 lead display screen and automatic interpretation display features –not really reliable totally. THE ECG MACHINES The ECG machine is a diagnostic tool used to measure the electrical activities of the heart. -We have the 3,6 and 12 channels machines THE 3-CHANNELS MACHINES RECORDS AND PRINTS 3 LEADS OF ECG DATA AT A TIME FROM THE STANDARD 12 LEADS. CYCLES THROUGH THE 12 LEADS IN BATCHES IT DISPLAYS 3 LEADS AT A TIME EXCLUDING THE RHYTHM LEAD. THEY TYPICALLY USES 63MM OR 80MM PAPER WIDTH MOSTLY USED IN AMBULANCES AND FIELD CLINICS BECAUSE THE ARE PORTABLE AND VERY HANDY. THE PAPERS ARE MOSTLY THE ROLLING TYPE OF PAPER WHILE FEW MACHINES USES THE FLAT SQUARE PAPERS EG SCHILLER 3 CHANNELS. THE 6-CHANNELS MACHINES UNLIKE THE 3 CHANNELS,THE 6 CHANNELS PRINTS AND RECORDS 6 LEADS OF ECG WAVEFORMS SIMULTANEOUSLY. IT IS FASTER AND MORE DETAILED THAN 3 CHANNELS AND MORE AFFORDABLE THAN THE 12 CHANNELS PRINTS THE 12 LEADS IN TWO BATCHES. USES 110MM OR 210MM WIDE THERMAL PAPER(ROLL OR FLAT SQUARED SHAPED Z-FOLD) THE 12 CHANNELS MACHINE RECORDSSIGNALSFROM12LEADSINTHEFORMAT LIKE3X4,6X2OR12X1 PROVIDESACOMPREHENSIVEVIEWOFTHEHEARTS ELECTRICALACTIVITIES ALLLEADSARERECORDEDATTHESAMETIME OFFERINGASNAPSHOTOFHEARTFUNCTION. WIDTHOFTHEPAPERIS210MM(A4WIDTH) LENGTHVARIESDEPENDINGONMACHINESANDPRINT FORMAT(COMMONLY140MM,295MMORCONTINOUOS ROLL),THEWIDTHFORTHEROLLPAPERIS80OR 112MM PAPERCANBEZ-FOLDORFANFOLDORTHEROLLING PAPER CALIBRATIONS IN ECG CALIBRATIONINECGREFERSTOTHESTANDARDSETTINGS USEDTOENSURETHATTHEECGTRACINGACCURATELY REPRESENTSTHEHEARTSELECTRICALACTIVITYINBOTH AMPLITUDE(VOLTAGE)ANDTIME(DURATION). PROPERCALIBRATIONISESSENTIALFORINTERPRETINGECGs CORRECTLY STANDARDGAINORAMPLITUDEIS10MM/MV.THATMEANS THATA1MILLIVOLT(MV)ELECTRICALSIGNALWILLPRODUCEA 10MILLIMETER(MM)DEFLECTIONONECGPAPERORSCREEN. ONECGPAPER,1SMALLBOX=1MM;1MV=10SMALLBOXESOR 2LARGEBOXES TIMEWHICHISTHEPAPERSPEEDIS25MM/S EACHSMALLBOX=0.04s(40ms) EACHLARGEBOX(5SMALLBOXES)0.20s(200ms) CALIBRATION-REASONS VALIDATIONBEFOREINTERPRETATION-ENSURES MEASUREMENTSOFWAVESAMPLITUDEANDINTERVALS AREACCURATE. DETECTINGADJUSTMENTS-IFECGTRACINGLOOKSODDLY LARGE/SMALLORSTRETCHED,CHECKTHEMARK-ITMAY INDICATENON-STANDARDSETTING(LIKEHALFVOLTAGEOR DOUBLESPEED) TOCHECKCALIBRATION,LOOKATTHEBEGINNING/ENDOF EACHLEADSTRIPFORTHEVERTICALCALIBRATIONSPIKES IFITISAPPROXIMATELY2LARGEBOXES(10MM)HIGHAND1 BOXWIDTH,IT’SSTANDARD. SMALLER,BIGGERORWIDEMARKSINDICATESALTERED CALIBRATION. ALTERNATE CALIBRATION SETTINGS CALIBRATION SETTINGS ARE ALTERED WHEN; LARGE QRS COMPLEXES OVERLAPPING EACH OTHER-ALTER TO 5MM/MV OR 2.5MM/MV SO THE SIZE OF THE WAVE IS REDUCED HERE. SMALL VOLTAGES,EG IN OBESITY,PERICARDIA EFFUSION,YOU MAY WANT TO INCREASE AMPLITUDE TO 20MM/MV IN ALL OR MOST CASES,THE SPEED WHICH IS 25MM/S IS NEVER ALTERED. 10 ELECTRODES 12 LEADS ECG 10ELECTRODESARETHESUCTIONSORDISPOSABLE ELECTRODESANDTHECLAMPSPLACEDONTHEBODYTO MAKETHE12LEADRECORDINGS. WEHAVE6CHESTELECTRODESAND4LIMBCLAMPSOR ELECTRODES THECHESTELECTRODESARELABELLEDV1-V6ANDHAVE SPECIFICPOSITIONSONTHEINTERCOSTALSPACESWHERE THEYAREPLACED. THELIMBELECTRODESARE4ANDARECOLOUR CODED(RED,YELLOW,GREENANDBLACK)ORWITHTHEIR OWNLABELSTOO(RORRA-RIGHTARM,LORLA-LEFT ARM,FORLF-LEFTFOOTANDNORRL-NEUTRALFORRIGHT FOOT) THE 12 LEADS ARE THE RECORDINGS FROM THE 10 ELECTRODES PLACED ON THE SURFACE OF THE BODY. OFTEN TIME WE MISTAKE THE ELECRODES FROM THE LEADS. 10 ELECTRODES PRODUCES 12 LEADS RECORDINGS THE MONITORS IN THE ICU ETC DOES NOT PRODUCE 12 LEADS BUT RATHER IN MOST CASES RHYTM STRIP BUT FOR ACCURATE DIAGNOSIS IN MOST CASES,THE 12 LEADS ARE NEEDED. THE 12 LEADS ARE –V1-V6,I,II,II,aVR,aVF,AvL. V1-V6 REPRESENTS THE CHEST LEADS I,II AND III ARE BIPOLAR LEADS aVR,aVFand aVL, ARE AUGMENTED LEADS ELECTRODES PLACEMENT V1-4 TH INTERCOSTAL SPACE RIGHT STERNAL MARGIN V2-4 TH INTERCOSTAL SPACE LEFT STERNAL MARGIN V3-BETWEEN V2 AND V4 V4-5 TH INTERCOSTAL SPACE LEFT MIDCLAVICULAR LINE V5-5 TH INTERCOSTAL SPACE LEFT ANTERIOR AXILLARY LINE V6-5 TH INTERCOSTAL SPACE LEFT MID AXILLARY LINE RA OR RED –RIGHT ARM LA OR YELLOW-LEFT ARM F OR GREEN-LEFT FOOT RL OR N OR BLACK-RIGHT FOOT. APPRECIATION “ NO MAN IS AN EMBODIMENT OF KNOWLEDGE AND WISDOM”",
+          "content": "•ECG MACHINES (3.6 AND 12 CHANNELS) •CALIBRATIONS AND ECG GRAPH PAPER •REASONS TO ALTER AMPLITUDE •20 ELECTRODES AND 12 LEAD ECG •PLACEMENT OF ELECTRODES BY GBADAMOSI TAURID A. ECG TRAINING AT THE END OF THE TRAINING ,PARTICIPANTS SHOULD BE ABLE TO: •IDENTIFY THE MACHINES BY THEIR PAPER WIDTH OR SIZE •SHOULD KNOW THE STANDARD CALIBRATION OF THE ECG MACHINES •SHOULD KNOW WHEN TO ALTER THE CALIBRATION WHILE RECORDING. •SHOULD BE ABLE TO PLACE THE 10 ELECTRODES FOR 12 LEAD RECORDING CORRECTLY. OBJECTIVES 1.WHAT TYPE OF MACHINE PRODUCES THE RECORDING HERE A.3 CHANNELS B.6 CHANNELS. C 12 CHANNELS 2. AT WHAT AMPLITUDE IS THE RECORDING DONE. A.5mm/mv B.15mm/mv. C.10mm/mv 3.WHAT IS THE SPEED OF THE RECORDING? A.25MM/S. B.25M/S. C.25SEC 4. HOW MANY LEAD RECORDINGS DO WE HAVE ? A.10. B12. C.14 5. LEAD II RECORDS BETWEEN A.RA&LA . B.RA&LA. C.RA&LL PRE-TRAINING QUESTION BRIEF HISTORY OF ECG EARLY FOUNDATION WAS IN THE 1800s. LUIGIGALVANI(1791)FIRSTDISCOVEREDTHATMUSCLESPRODUCE ELECTRICIT Y. CARLOMATTEUCCI(1840s)DEMONSTRATEDTHATELECTRICAL CURRENTSACCOMPANYEVERYHEARTBEAT. INVENTIONOFECGWASINTHEEARLY1900s. WILLENEINTHOVEN(1903)ISADUTCHPHYSIOLOGISTWHOINVENTED THEFIRSTPRACTICALELECTROCARDIOGRAH HEDEVELOPEDTHESTRINGGALVANOMETERASENSITIVEDEVICETHAT COULDRECORDELECTRICALACTIVIT YFROMTHEHEART HECREATEDTHESTANDARDLEADSYSTEM(I,IIANDIII)STILLINUSE TODAY. WONTHENOBELPRIZEINMEDICINEIN1924. LUIGI GALVANI CARLO MATTEUCCI WILLEN EINTHOVEN GALVANOMETER The old machine was called string galvanometer It weighed over 270kg Required five operators to run Patients had to immerse their hands and legs in saline bath to record ECG. By the 1920s-1930s,ECG machine became more portable and user friendly Modern ECG machines are now digital ,portable ,battery powered,12 lead display screen and automatic interpretation display features –not really reliable totally. THE ECG MACHINES The ECG machine is a diagnostic tool used to measure the electrical activities of the heart. -We have the 3,6 and 12 channels machines THE 3-CHANNELS MACHINES RECORDS AND PRINTS 3 LEADS OF ECG DATA AT A TIME FROM THE STANDARD 12 LEADS. CYCLES THROUGH THE 12 LEADS IN BATCHES IT DISPLAYS 3 LEADS AT A TIME EXCLUDING THE RHYTHM LEAD. THEY TYPICALLY USES 63MM OR 80MM PAPER WIDTH MOSTLY USED IN AMBULANCES AND FIELD CLINICS BECAUSE THE ARE PORTABLE AND VERY HANDY. THE PAPERS ARE MOSTLY THE ROLLING TYPE OF PAPER WHILE FEW MACHINES USES THE FLAT SQUARE PAPERS EG SCHILLER 3 CHANNELS. THE 6-CHANNELS MACHINES UNLIKE THE 3 CHANNELS,THE 6 CHANNELS PRINTS AND RECORDS 6 LEADS OF ECG WAVEFORMS SIMULTANEOUSLY. IT IS FASTER AND MORE DETAILED THAN 3 CHANNELS AND MORE AFFORDABLE THAN THE 12 CHANNELS PRINTS THE 12 LEADS IN TWO BATCHES. USES 110MM OR 210MM WIDE THERMAL PAPER(ROLL OR FLAT SQUARED SHAPED Z-FOLD) THE 12 CHANNELS MACHINE RECORDSSIGNALSFROM12LEADSINTHEFORMAT LIKE3X4,6X2OR12X1 PROVIDESACOMPREHENSIVEVIEWOFTHEHEARTS ELECTRICALACTIVITIES ALLLEADSARERECORDEDATTHESAMETIME OFFERINGASNAPSHOTOFHEARTFUNCTION. WIDTHOFTHEPAPERIS210MM(A4WIDTH) LENGTHVARIESDEPENDINGONMACHINESANDPRINT FORMAT(COMMONLY140MM,295MMORCONTINOUOS ROLL),THEWIDTHFORTHEROLLPAPERIS80OR 112MM PAPERCANBEZ-FOLDORFANFOLDORTHEROLLING PAPER CALIBRATIONS IN ECG CALIBRATIONINECGREFERSTOTHESTANDARDSETTINGS USEDTOENSURETHATTHEECGTRACINGACCURATELY REPRESENTSTHEHEARTSELECTRICALACTIVITYINBOTH AMPLITUDE(VOLTAGE)ANDTIME(DURATION). PROPERCALIBRATIONISESSENTIALFORINTERPRETINGECGs CORRECTLY STANDARDGAINORAMPLITUDEIS10MM/MV.THATMEANS THATA1MILLIVOLT(MV)ELECTRICALSIGNALWILLPRODUCEA 10MILLIMETER(MM)DEFLECTIONONECGPAPERORSCREEN. ONECGPAPER,1SMALLBOX=1MM;1MV=10SMALLBOXESOR 2LARGEBOXES TIMEWHICHISTHEPAPERSPEEDIS25MM/S EACHSMALLBOX=0.04s(40ms) EACHLARGEBOX(5SMALLBOXES)0.20s(200ms) CALIBRATION-REASONS VALIDATIONBEFOREINTERPRETATION-ENSURES MEASUREMENTSOFWAVESAMPLITUDEANDINTERVALS AREACCURATE. DETECTINGADJUSTMENTS-IFECGTRACINGLOOKSODDLY LARGE/SMALLORSTRETCHED,CHECKTHEMARK-ITMAY INDICATENON-STANDARDSETTING(LIKEHALFVOLTAGEOR DOUBLESPEED) TOCHECKCALIBRATION,LOOKATTHEBEGINNING/ENDOF EACHLEADSTRIPFORTHEVERTICALCALIBRATIONSPIKES IFITISAPPROXIMATELY2LARGEBOXES(10MM)HIGHAND1 BOXWIDTH,IT’SSTANDARD. SMALLER,BIGGERORWIDEMARKSINDICATESALTERED CALIBRATION. ALTERNATE CALIBRATION SETTINGS CALIBRATION SETTINGS ARE ALTERED WHEN; LARGE QRS COMPLEXES OVERLAPPING EACH OTHER-ALTER TO 5MM/MV OR 2.5MM/MV SO THE SIZE OF THE WAVE IS REDUCED HERE. SMALL VOLTAGES,EG IN OBESITY,PERICARDIA EFFUSION,YOU MAY WANT TO INCREASE AMPLITUDE TO 20MM/MV IN ALL OR MOST CASES,THE SPEED WHICH IS 25MM/S IS NEVER ALTERED. 10 ELECTRODES 12 LEADS ECG 10ELECTRODESARETHESUCTIONSORDISPOSABLE ELECTRODESANDTHECLAMPSPLACEDONTHEBODYTO MAKETHE12LEADRECORDINGS. WEHAVE6CHESTELECTRODESAND4LIMBCLAMPSOR ELECTRODES THECHESTELECTRODESARELABELLEDV1-V6ANDHAVE SPECIFICPOSITIONSONTHEINTERCOSTALSPACESWHERE THEYAREPLACED. THELIMBELECTRODESARE4ANDARECOLOUR CODED(RED,YELLOW,GREENANDBLACK)ORWITHTHEIR OWNLABELSTOO(RORRA-RIGHTARM,LORLA-LEFT ARM,FORLF-LEFTFOOTANDNORRL-NEUTRALFORRIGHT FOOT) THE 12 LEADS ARE THE RECORDINGS FROM THE 10 ELECTRODES PLACED ON THE SURFACE OF THE BODY. OFTEN TIME WE MISTAKE THE ELECRODES FROM THE LEADS. 10 ELECTRODES PRODUCES 12 LEADS RECORDINGS THE MONITORS IN THE ICU ETC DOES NOT PRODUCE 12 LEADS BUT RATHER IN MOST CASES RHYTM STRIP BUT FOR ACCURATE DIAGNOSIS IN MOST CASES,THE 12 LEADS ARE NEEDED. THE 12 LEADS ARE –V1-V6,I,II,II,aVR,aVF,AvL. V1-V6 REPRESENTS THE CHEST LEADS I,II AND III ARE BIPOLAR LEADS aVR,aVFand aVL, ARE AUGMENTED LEADS ELECTRODES PLACEMENT V1-4 TH INTERCOSTAL SPACE RIGHT STERNAL MARGIN V2-4 TH INTERCOSTAL SPACE LEFT STERNAL MARGIN V3-BETWEEN V2 AND V4 V4-5 TH INTERCOSTAL SPACE LEFT MIDCLAVICULAR LINE V5-5 TH INTERCOSTAL SPACE LEFT ANTERIOR AXILLARY LINE V6-5 TH INTERCOSTAL SPACE LEFT MID AXILLARY LINE RA OR RED –RIGHT ARM LA OR YELLOW-LEFT ARM F OR GREEN-LEFT FOOT RL OR N OR BLACK-RIGHT FOOT. APPRECIATION “ NO MAN IS AN EMBODIMENT OF KNOWLEDGE AND WISDOM”",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/ECG TRAINING  002/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/ECG TRAINING  002/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand ECG principles and interpretation",
+            "Identify cardiac anatomy and physiology",
+            "Recognize cardiac rhythms and arrhythmias"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": true,
+          "hasClinicalCase": true,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:55.377Z",
+      "updatedAt": "2025-09-30T03:55:55.377Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "introductiontoecginterpretatio",
+      "title": "Introduction_to_ECG_Interpretation_(Lecture_3)[1]",
+      "description": "Interactive ECG training module: Introduction_to_ECG_Interpretation_(Lecture_3)[1]",
+      "difficulty": "advanced",
+      "category": "recording_techniques",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Understanding 12-Leads, ECG Components, Artifacts& Lead Morphology COMPILED AND PRESENTED BY AO IDRIS Introduction to ECG Interpretation •Understand the concept of the 12-lead ECG and the Einthoven Triangle. •Recognize the key waves, segments, and intervals of a standard ECG. •Identify common ECG artifactsand their causes. •Understand normal lead morphology and what it tells us about the heart. Learning Objectives •Definition: A recording of the heart’s electrical activity from 12 different perspectives. •Includes 3 limb leads, 3 augmented limb leads, and 6 chest (precordial) leads. What is a 12-Lead ECG? •Named after Willem Einthoven, who invented the ECG. •Formed by leads I, II, and III across the limbs (RA, LA, LL). •Lead I: LA (+) to RA (−) •Lead II: LL (+) to RA (−) •Lead III: LL (+) to LA (−) The Einthoven Triangle •aVR: RA to heart center(the lead attached to right arm (-deflection). •aVL: LA to heart center(the lead attached to left arm (+ deflection). •aVF: LL to heart center(the lead attached to the left foot (+ deflection). a = augmented; V = voltage Chest leads: V1–V6: Chest leads placed from 4 th ICS to midaxillaryline on the 5 th ICS. Augmented Limb Leads & Chest Leads •ECG records electrical depolarization and repolarization. •Key components: P wave, QRS complex, T wave •Depolarization –electrical activation → muscle contraction. •Repolarization –return to resting state → muscle relaxation. •Systole = Contraction, Diastole = Relaxation The ECG Complex Overview P Wave •Atrial depolarization •Duration: < 0.12s, Amplitude: < 2.5mm in limb leads •Clinical Insight: Peaked P may indicate right atrial enlargement. QRS Complex •Ventricular depolarization •Duration: < 0.12s •Q wave: first negative deflection •R wave: first positive deflection •S wave: negative deflection after R •QRS wave amplitude greater than 5 mm or 0.5 mV is written in capital Letter e.g. Q, R and S. •QRS wave amplitude lesser than 5 mm or 0.5 mV is written in small letter e.g. q, r and s. T Wave and U wave •T wave: Ventricular repolarization •U wave (if present): U wave (+) is produced by depolarisation of the papillary muscles –an inconstant finding or electrolyte disturbance •Clinical Insight: Inverted T waves may suggest ischemia. Intervals and Segments •PR Interval: Atrial to ventricular conduction (0.12– 0.20s). •QT Interval: (about 0.40s) Total time for ventricular depolarization and repolarization (corrected = QTc) •ST Segment: Time between depolarization and repolarization. What are Artifacts? •Unwanted signals that can mimic or obscure cardiac activity. •Can lead to misinterpretation if not recognized. Common Types of Artifacts •Muscle Tremor: Irregular baseline from muscle activity. •Motion Artifact: Large spikes from patient movement. •60-cycle Interference: Uniform small waves from electrical interference. •Loose Electrode: Baseline wander or dropped signals. Reducing Artifacts •Ensure good electrode-skin contact. •Patient still and relaxed. •Avoid electrical devices near ECG. •Use alcohol wipes before placing electrodes. Understanding Lead Morphology •Different leads view the heart from different angles •Each lead has a characteristic waveform shape in a healthy heart •Lead I: Upright P, QRS, T •Lead II: Ideal for rhythm –upright P, QRS, T •aVR: Typically inverted waves •aVL: Small amplitude; QRS can be biphasic or upright. •aVF: Upright P, QRS, and T waves. Precordial Lead Progression •V1–V2: Mostly negative QRS •V3–V4: Transition zone •V5–V6: Mostly positive QRS •Clinical Insight: Poor R-wave progression may suggest anterior MI. Limb Lead Morphology Normal 12 lead ECG strip •12-lead ECG gives a complete electrical picture of the heart. •Key components: P wave, QRS complex, T wave, PR/QT intervals. •Recognizing artifactsis essential for accurate diagnosis. •Lead morphology varies and helps in locating abnormalities. Summary Why is lead II considered best for rhythm strip and determination of sinus rhythm? Question •Books: Rapid Interpretation of ECGsby Dale Dubin, ECG Made Easy by John Hampton. •Online simulators and ECG practice platforms (e.g., ECGpedia, Life in the Fast Lane, Google). References & Resources",
+          "content": "Understanding 12-Leads, ECG Components, Artifacts& Lead Morphology COMPILED AND PRESENTED BY AO IDRIS Introduction to ECG Interpretation •Understand the concept of the 12-lead ECG and the Einthoven Triangle. •Recognize the key waves, segments, and intervals of a standard ECG. •Identify common ECG artifactsand their causes. •Understand normal lead morphology and what it tells us about the heart. Learning Objectives •Definition: A recording of the heart’s electrical activity from 12 different perspectives. •Includes 3 limb leads, 3 augmented limb leads, and 6 chest (precordial) leads. What is a 12-Lead ECG? •Named after Willem Einthoven, who invented the ECG. •Formed by leads I, II, and III across the limbs (RA, LA, LL). •Lead I: LA (+) to RA (−) •Lead II: LL (+) to RA (−) •Lead III: LL (+) to LA (−) The Einthoven Triangle •aVR: RA to heart center(the lead attached to right arm (-deflection). •aVL: LA to heart center(the lead attached to left arm (+ deflection). •aVF: LL to heart center(the lead attached to the left foot (+ deflection). a = augmented; V = voltage Chest leads: V1–V6: Chest leads placed from 4 th ICS to midaxillaryline on the 5 th ICS. Augmented Limb Leads & Chest Leads •ECG records electrical depolarization and repolarization. •Key components: P wave, QRS complex, T wave •Depolarization –electrical activation → muscle contraction. •Repolarization –return to resting state → muscle relaxation. •Systole = Contraction, Diastole = Relaxation The ECG Complex Overview P Wave •Atrial depolarization •Duration: < 0.12s, Amplitude: < 2.5mm in limb leads •Clinical Insight: Peaked P may indicate right atrial enlargement. QRS Complex •Ventricular depolarization •Duration: < 0.12s •Q wave: first negative deflection •R wave: first positive deflection •S wave: negative deflection after R •QRS wave amplitude greater than 5 mm or 0.5 mV is written in capital Letter e.g. Q, R and S. •QRS wave amplitude lesser than 5 mm or 0.5 mV is written in small letter e.g. q, r and s. T Wave and U wave •T wave: Ventricular repolarization •U wave (if present): U wave (+) is produced by depolarisation of the papillary muscles –an inconstant finding or electrolyte disturbance •Clinical Insight: Inverted T waves may suggest ischemia. Intervals and Segments •PR Interval: Atrial to ventricular conduction (0.12– 0.20s). •QT Interval: (about 0.40s) Total time for ventricular depolarization and repolarization (corrected = QTc) •ST Segment: Time between depolarization and repolarization. What are Artifacts? •Unwanted signals that can mimic or obscure cardiac activity. •Can lead to misinterpretation if not recognized. Common Types of Artifacts •Muscle Tremor: Irregular baseline from muscle activity. •Motion Artifact: Large spikes from patient movement. •60-cycle Interference: Uniform small waves from electrical interference. •Loose Electrode: Baseline wander or dropped signals. Reducing Artifacts •Ensure good electrode-skin contact. •Patient still and relaxed. •Avoid electrical devices near ECG. •Use alcohol wipes before placing electrodes. Understanding Lead Morphology •Different leads view the heart from different angles •Each lead has a characteristic waveform shape in a healthy heart •Lead I: Upright P, QRS, T •Lead II: Ideal for rhythm –upright P, QRS, T •aVR: Typically inverted waves •aVL: Small amplitude; QRS can be biphasic or upright. •aVF: Upright P, QRS, and T waves. Precordial Lead Progression •V1–V2: Mostly negative QRS •V3–V4: Transition zone •V5–V6: Mostly positive QRS •Clinical Insight: Poor R-wave progression may suggest anterior MI. Limb Lead Morphology Normal 12 lead ECG strip •12-lead ECG gives a complete electrical picture of the heart. •Key components: P wave, QRS complex, T wave, PR/QT intervals. •Recognizing artifactsis essential for accurate diagnosis. •Lead morphology varies and helps in locating abnormalities. Summary Why is lead II considered best for rhythm strip and determination of sinus rhythm? Question •Books: Rapid Interpretation of ECGsby Dale Dubin, ECG Made Easy by John Hampton. •Online simulators and ECG practice platforms (e.g., ECGpedia, Life in the Fast Lane, Google). References & Resources",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/Introduction_to_ECG_Interpretation_(Lecture_3)[1]/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/Introduction_to_ECG_Interpretation_(Lecture_3)[1]/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Definition: A recording of the heart’s electrical activity from 12 different perspectives",
+            "Definition: A recording of the heart’s electrical activity from 12 different perspectives"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": true,
+          "hasClinicalCase": true,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:55.579Z",
+      "updatedAt": "2025-09-30T03:55:55.579Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "junctional-rhythm",
+      "title": "JUNCTIONAL RHYTHM",
+      "description": "Interactive ECG training module: JUNCTIONAL RHYTHM",
+      "difficulty": "intermediate",
+      "category": "rhythm_analysis",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/JUNCTIONAL RHYTHM/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/JUNCTIONAL RHYTHM/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:55.570Z",
+      "updatedAt": "2025-09-30T03:55:55.570Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "lead-error",
+      "title": "lead error",
+      "description": "Interactive ECG training module: lead error",
+      "difficulty": "beginner",
+      "category": "troubleshooting",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/lead error/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/lead error/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:55.816Z",
+      "updatedAt": "2025-09-30T03:55:55.816Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    },
+    {
+      "moduleId": "stemi",
+      "title": "STEMI",
+      "description": "Interactive ECG training module: STEMI",
+      "difficulty": "advanced",
+      "category": "ischemia_infarction",
+      "duration": 10,
+      "status": "published",
+      "roleAccess": [
+        "learner",
+        "instructor",
+        "admin"
+      ],
+      "slideCount": 1,
+      "hasAudio": true,
+      "hasQuiz": true,
+      "hasInteractiveElements": true,
+      "instructorName": "Dr. Medical Instructor",
+      "slides": [
+        {
+          "slideId": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide 1",
+          "content": "PPTX content extracted (basic parsing)",
+          "speakerNotes": "This is a professional narration for the slide content. It explains the key concepts in a conversational manner suitable for medical education. The content covers important ECG principles and practical applications.",
+          "media": {
+            "images": [
+              "/Users/som/Health_Hub/assets/STEMI/slide1/slide.png"
+            ],
+            "audio": [
+              "/Users/som/Health_Hub/assets/STEMI/slide1/slide1.mp3"
+            ],
+            "video": []
+          },
+          "type": "quiz",
+          "learningObjectives": [
+            "Understand key concepts presented in this module"
+          ],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q-1-1",
+                "question": "What is the main topic of this slide?",
+                "options": [
+                  "ECG Basics",
+                  "Heart Anatomy",
+                  "Medical Procedures",
+                  "Patient Care"
+                ],
+                "correct": "ECG Basics",
+                "explanation": "Explanation will be provided after answering."
+              }
+            ],
+            "passingScore": 70,
+            "timeLimit": 300
+          },
+          "duration": 10,
+          "hasECGWaveform": false,
+          "hasClinicalCase": false,
+          "annotations": [],
+          "notes": ""
+        }
+      ],
+      "createdAt": "2025-09-30T03:55:55.809Z",
+      "updatedAt": "2025-09-30T03:55:55.809Z",
+      "type": "ECG_Professional",
+      "overview": "This module covers essential ECG concepts and practical applications. Complete all sections to master the material.",
+      "objectives": [
+        "Understand basic ECG principles",
+        "Identify normal ECG components",
+        "Apply electrode placement techniques",
+        "Interpret basic cardiac rhythms"
+      ],
+      "prerequisites": "Basic anatomy knowledge recommended"
+    }
+  ],
+  "conversionLog": {
+    "processedModules": 11,
+    "skippedModules": 0
+  }
+}

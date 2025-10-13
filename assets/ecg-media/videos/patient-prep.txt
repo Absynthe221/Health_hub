@@ -1,0 +1,26 @@
+# Video Placeholder: patient-prep.mp4
+
+Title: Patient Preparation
+Description: Complete patient preparation for ECG recording
+Duration: 5:15
+Format: MP4
+Resolution: 1920x1080 (Full HD)
+Frame Rate: 30fps
+Audio: Stereo, 48kHz
+
+Content Outline:
+1. Introduction and objectives
+2. Step-by-step demonstration
+3. Common mistakes to avoid
+4. Quality assessment
+5. Summary and key points
+
+Technical Requirements:
+- Professional lighting
+- Clear audio recording
+- Multiple camera angles
+- Close-up shots for detail
+- Annotations and labels
+
+Generated: 2025-10-06T03:44:05.578Z
+Platform: Health Hub ECG Learning Platform

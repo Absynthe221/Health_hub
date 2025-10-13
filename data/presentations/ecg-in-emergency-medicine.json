@@ -1,0 +1,48 @@
+{
+  "title": "ECG in Emergency Medicine",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Chest Pain Protocol",
+      "content": "ECG in acute chest pain",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Cardiac Arrest",
+      "content": "ECG patterns in arrest",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Shock States",
+      "content": "ECG changes in shock",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "85 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "ecg-in-emergency-medicine",
+    "createdAt": "2025-10-05T01:29:47.394Z",
+    "updatedAt": "2025-10-05T01:29:47.394Z",
+    "status": "published"
+  }
+}

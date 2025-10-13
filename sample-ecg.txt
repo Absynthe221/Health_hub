@@ -1,0 +1,24 @@
+ECG Fundamentals
+
+Learning Objectives:
+• Understand heart anatomy and electrical conduction
+• Identify normal ECG components (P, QRS, T waves)
+• Recognize basic cardiac rhythms
+• Apply electrode placement techniques
+
+Slide 1: Introduction to ECG
+Electrocardiography (ECG) is a non-invasive diagnostic tool that records the electrical activity of the heart. It provides valuable information about heart rhythm, rate, and electrical conduction.
+
+Slide 2: Heart Anatomy
+The heart has four chambers: two atria and two ventricles. The electrical conduction system includes the SA node, AV node, bundle of His, and Purkinje fibers.
+
+Slide 3: ECG Components
+The normal ECG consists of:
+- P wave: Atrial depolarization
+- QRS complex: Ventricular depolarization  
+- T wave: Ventricular repolarization
+
+Questions:
+1. What does the P wave represent?
+2. What is the normal heart rate range?
+3. Which lead is placed on the right arm?

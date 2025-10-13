@@ -1,0 +1,100 @@
+{
+  "moduleId": "module_6",
+  "moduleTitle": "Heart Blocks",
+  "description": "Understanding AV blocks and conduction abnormalities",
+  "overview": "This module covers atrioventricular blocks including first-degree, second-degree (Type I and Type II), and third-degree heart blocks, with focus on recognition and clinical implications.",
+  "objectives": [
+    "Identify first-degree AV block",
+    "Distinguish Type I from Type II second-degree AV block",
+    "Recognize third-degree (complete) heart block",
+    "Understand clinical implications of heart blocks"
+  ],
+  "duration": 20,
+  "difficulty": "Intermediate",
+  "prerequisites": "Module 5: Ventricular Arrhythmias",
+  "tags": ["Heart Blocks", "AV Block", "Conduction Abnormalities", "Bundle Branch Blocks"],
+  "status": "active",
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-01T00:00:00Z",
+  "slides": [
+    {
+      "id": 1,
+      "title": "First-Degree AV Block",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": false,
+      "content": "First-degree AV block: PR interval >0.20s, every P wave followed by QRS, benign condition, may be normal variant. Usually asymptomatic and requires no treatment.",
+      "duration": 4,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Second-Degree AV Block Type I",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Mobitz Type I (Wenckebach): progressive PR prolongation until P wave blocked, usually benign, located in AV node. QRS complexes are typically narrow.",
+      "duration": 5,
+      "quiz": {
+        "question": "What characterizes Mobitz Type I block?",
+        "options": ["Fixed PR interval", "Progressive PR prolongation", "No P waves", "Wide QRS"],
+        "correctAnswer": 1,
+        "explanation": "Mobitz Type I (Wenckebach) is characterized by progressive PR interval prolongation until a P wave is blocked."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Second-Degree AV Block Type II",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Mobitz Type II: fixed PR interval, sudden dropped QRS complexes, more serious than Type I, located below AV node, may progress to complete heart block.",
+      "duration": 5,
+      "quiz": {
+        "question": "What distinguishes Mobitz Type II from Type I?",
+        "options": ["Progressive PR prolongation", "Fixed PR interval", "Narrow QRS", "Benign prognosis"],
+        "correctAnswer": 1,
+        "explanation": "Mobitz Type II has a fixed PR interval, unlike Type I which shows progressive prolongation."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Third-Degree AV Block",
+      "contentType": "ECG Tracing + Analysis",
+      "interactive": true,
+      "content": "Complete heart block: no relationship between P waves and QRS complexes, ventricular escape rhythm, may require pacemaker. Atrial rate usually faster than ventricular rate.",
+      "duration": 6,
+      "quiz": {
+        "question": "What is the hallmark of third-degree AV block?",
+        "options": ["Long PR interval", "No AV relationship", "Fast ventricular rate", "Narrow QRS"],
+        "correctAnswer": 1,
+        "explanation": "Third-degree AV block shows complete dissociation between atrial and ventricular activity."
+      },
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      }
+    }
+  ],
+  "metadata": {
+    "totalSlides": 4,
+    "interactiveSlides": 3,
+    "quizItems": 3,
+    "estimatedDuration": "20 minutes",
+    "difficulty": "Intermediate",
+    "tags": ["Heart Blocks", "AV Block", "Conduction Abnormalities"]
+  }
+}
+

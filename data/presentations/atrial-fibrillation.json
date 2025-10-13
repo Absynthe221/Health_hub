@@ -1,0 +1,48 @@
+{
+  "title": "Atrial Fibrillation Management",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "AF Recognition",
+      "content": "Identifying atrial fibrillation patterns",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Rate vs Rhythm Control",
+      "content": "Treatment strategies for AF",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Anticoagulation",
+      "content": "Stroke prevention in AF",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "65 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "atrial-fibrillation",
+    "createdAt": "2025-10-05T01:29:47.392Z",
+    "updatedAt": "2025-10-05T01:29:47.392Z",
+    "status": "published"
+  }
+}

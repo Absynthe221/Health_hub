@@ -1,0 +1,39 @@
+{
+  "title": "Intermediate ECG Patterns",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Slide 1",
+      "content": "Content for slide 1",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "55 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [
+    "ECG LECTURE SLIDE",
+    "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART"
+  ],
+  "learningObjectives": [
+    "Recognize common arrhythmias",
+    "Identify ischemic changes",
+    "Analyze complex rhythms"
+  ],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "class3",
+    "createdAt": "2025-10-05T00:25:28.071Z",
+    "updatedAt": "2025-10-05T00:25:28.071Z",
+    "status": "published"
+  }
+}

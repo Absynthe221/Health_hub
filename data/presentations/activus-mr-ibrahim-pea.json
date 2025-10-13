@@ -1,0 +1,38 @@
+{
+  "title": "Pulseless Electrical Activity",
+  "level": "advanced",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Slide 1",
+      "content": "Content for slide 1",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "45 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [
+    "JUNCTIONAL RHYTHM"
+  ],
+  "learningObjectives": [
+    "Recognize PEA patterns",
+    "Understand differential diagnosis",
+    "Learn ACLS protocols"
+  ],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "activus-mr-ibrahim-pea",
+    "createdAt": "2025-10-05T00:25:27.894Z",
+    "updatedAt": "2025-10-05T00:25:27.894Z",
+    "status": "published"
+  }
+}

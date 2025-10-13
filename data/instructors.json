@@ -1,0 +1,82 @@
+[
+  {
+    "id": "instructor_001",
+    "name": "Dr. Emily Carter",
+    "email": "emily.carter@medicalschool.edu",
+    "role": "instructor",
+    "coursesCreated": ["course_001", "course_003"],
+    "stats": {
+      "totalLearners": 150,
+      "avgScore": 78,
+      "completionRate": 0.68
+    },
+    "badges": ["top_performing_course", "active_instructor", "course_creator"],
+    "specialization": "Cardiology",
+    "yearsExperience": 8,
+    "lastActive": "2024-01-22"
+  },
+  {
+    "id": "instructor_002",
+    "name": "Prof. David Lee",
+    "email": "david.lee@university.edu",
+    "role": "instructor",
+    "coursesCreated": ["course_002", "course_004"],
+    "stats": {
+      "totalLearners": 95,
+      "avgScore": 82,
+      "completionRate": 0.74
+    },
+    "badges": ["top_performing_course", "course_creator"],
+    "specialization": "Emergency Medicine",
+    "yearsExperience": 12,
+    "lastActive": "2024-01-21"
+  },
+  {
+    "id": "instructor_003",
+    "name": "Dr. Lisa Rodriguez",
+    "email": "lisa.rodriguez@hospital.edu",
+    "role": "instructor",
+    "coursesCreated": ["course_005"],
+    "stats": {
+      "totalLearners": 68,
+      "avgScore": 85,
+      "completionRate": 0.79
+    },
+    "badges": ["active_instructor", "course_creator"],
+    "specialization": "Pediatric Cardiology",
+    "yearsExperience": 6,
+    "lastActive": "2024-01-20"
+  },
+  {
+    "id": "instructor_004",
+    "name": "Dr. Michael Thompson",
+    "email": "michael.thompson@clinic.edu",
+    "role": "instructor",
+    "coursesCreated": ["course_006"],
+    "stats": {
+      "totalLearners": 42,
+      "avgScore": 76,
+      "completionRate": 0.65
+    },
+    "badges": ["course_creator"],
+    "specialization": "Internal Medicine",
+    "yearsExperience": 10,
+    "lastActive": "2024-01-19"
+  },
+  {
+    "id": "instructor_005",
+    "name": "Dr. Sarah Wilson",
+    "email": "sarah.wilson@medicalcenter.edu",
+    "role": "instructor",
+    "coursesCreated": ["course_007"],
+    "stats": {
+      "totalLearners": 35,
+      "avgScore": 80,
+      "completionRate": 0.72
+    },
+    "badges": ["active_instructor"],
+    "specialization": "Nursing Education",
+    "yearsExperience": 15,
+    "lastActive": "2024-01-18"
+  }
+]

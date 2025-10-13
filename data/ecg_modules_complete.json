@@ -1,0 +1,715 @@
+{
+  "metadata": {
+    "totalModules": 8,
+    "conversionDate": "2025-10-05T00:25:28.444Z",
+    "sourceFiles": [
+      "ACTIVUS MR IBRAHIM CARDIAC CHAMBERS.pptx",
+      "ACTIVUS MR IBRAHIM PEA.pptx",
+      "ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office.pptx",
+      "Class3.pptx",
+      "ECG LECTURE SLIDE.pptx",
+      "JUNCTIONAL RHYTHM.pptx",
+      "STEMI.pptx",
+      "lead error.pptx"
+    ],
+    "packageDistribution": {
+      "BEGINNER": 1,
+      "INTERMEDIATE": 4,
+      "ADVANCED": 3
+    },
+    "totalSlides": 8,
+    "totalQuizzes": 8
+  },
+  "modules": [
+    {
+      "id": "activus-mr-ibrahim-cardiac-chambers",
+      "moduleId": "activus-mr-ibrahim-cardiac-chambers",
+      "title": "Cardiac Chamber Analysis",
+      "description": "Detailed analysis of cardiac chamber abnormalities and hypertrophy",
+      "packageLevel": "INTERMEDIATE",
+      "difficulty": "Intermediate",
+      "estimatedDuration": 50,
+      "prerequisites": [
+        "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART"
+      ],
+      "learningObjectives": [
+        "Identify chamber enlargement patterns",
+        "Understand hypertrophy criteria",
+        "Learn clinical correlations"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - ACTIVUS MR IBRAHIM CARDIAC CHAMBERS",
+          "slideContent": "Content from ACTIVUS MR IBRAHIM CARDIAC CHAMBERS.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:27.800Z",
+      "updatedAt": "2025-10-05T00:25:27.801Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 3000,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "activus-mr-ibrahim-pea",
+      "moduleId": "activus-mr-ibrahim-pea",
+      "title": "Pulseless Electrical Activity",
+      "description": "Advanced cardiac arrest rhythms and PEA management",
+      "packageLevel": "ADVANCED",
+      "difficulty": "Advanced",
+      "estimatedDuration": 45,
+      "prerequisites": [
+        "JUNCTIONAL RHYTHM"
+      ],
+      "learningObjectives": [
+        "Recognize PEA patterns",
+        "Understand differential diagnosis",
+        "Learn ACLS protocols"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - ACTIVUS MR IBRAHIM PEA",
+          "slideContent": "Content from ACTIVUS MR IBRAHIM PEA.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:27.894Z",
+      "updatedAt": "2025-10-05T00:25:27.894Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 2700,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "activus-mr-ibrahim-ventricular-rhythms-wps-office",
+      "moduleId": "activus-mr-ibrahim-ventricular-rhythms-wps-office",
+      "title": "ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office",
+      "description": "ECG training module: ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office",
+      "packageLevel": "ADVANCED",
+      "difficulty": "ADVANCED",
+      "estimatedDuration": 45,
+      "prerequisites": [],
+      "learningObjectives": [
+        "Master ECG interpretation skills"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office",
+          "slideContent": "Content from ACTIVUS MR IBRAHIM VENTRICULAR RHYTHMS-WPS Office.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:27.983Z",
+      "updatedAt": "2025-10-05T00:25:27.983Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 2700,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "class3",
+      "moduleId": "class3",
+      "title": "Intermediate ECG Patterns",
+      "description": "Advanced ECG patterns and clinical correlations",
+      "packageLevel": "INTERMEDIATE",
+      "difficulty": "Intermediate",
+      "estimatedDuration": 55,
+      "prerequisites": [
+        "ECG LECTURE SLIDE",
+        "BRIEF_ANATOMY_AND_PHYSIOLOGY_OF_THE_HEART"
+      ],
+      "learningObjectives": [
+        "Recognize common arrhythmias",
+        "Identify ischemic changes",
+        "Analyze complex rhythms"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - Class3",
+          "slideContent": "Content from Class3.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:28.071Z",
+      "updatedAt": "2025-10-05T00:25:28.071Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 3300,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "ecg-lecture-slide",
+      "moduleId": "ecg-lecture-slide",
+      "title": "ECG Basics and Fundamentals",
+      "description": "Introduction to ECG interpretation and basic concepts",
+      "packageLevel": "BEGINNER",
+      "difficulty": "Beginner",
+      "estimatedDuration": 45,
+      "prerequisites": [],
+      "learningObjectives": [
+        "Understand ECG waveform components",
+        "Learn basic rhythm identification",
+        "Master fundamental ECG measurements"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - ECG LECTURE SLIDE",
+          "slideContent": "Content from ECG LECTURE SLIDE.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:28.212Z",
+      "updatedAt": "2025-10-05T00:25:28.212Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 2700,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "junctional-rhythm",
+      "moduleId": "junctional-rhythm",
+      "title": "Junctional Rhythms and Conduction",
+      "description": "Understanding junctional rhythms and AV conduction abnormalities",
+      "packageLevel": "INTERMEDIATE",
+      "difficulty": "Intermediate",
+      "estimatedDuration": 40,
+      "prerequisites": [
+        "Introduction_to_ECG_Interpretation"
+      ],
+      "learningObjectives": [
+        "Identify junctional rhythms",
+        "Understand AV conduction blocks",
+        "Learn treatment implications"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - JUNCTIONAL RHYTHM",
+          "slideContent": "Content from JUNCTIONAL RHYTHM.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:28.278Z",
+      "updatedAt": "2025-10-05T00:25:28.278Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 2400,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "stemi",
+      "moduleId": "stemi",
+      "title": "ST-Elevation Myocardial Infarction",
+      "description": "Advanced diagnosis and management of STEMI patterns",
+      "packageLevel": "ADVANCED",
+      "difficulty": "Advanced",
+      "estimatedDuration": 65,
+      "prerequisites": [
+        "Class3",
+        "ACTIVUS MR IBRAHIM CARDIAC CHAMBERS"
+      ],
+      "learningObjectives": [
+        "Identify STEMI patterns",
+        "Understand localization criteria",
+        "Learn acute management protocols"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - STEMI",
+          "slideContent": "Content from STEMI.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:28.366Z",
+      "updatedAt": "2025-10-05T00:25:28.366Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 3900,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    },
+    {
+      "id": "lead-error",
+      "moduleId": "lead-error",
+      "title": "ECG Lead Errors and Troubleshooting",
+      "description": "Common ECG recording errors and their identification",
+      "packageLevel": "INTERMEDIATE",
+      "difficulty": "Intermediate",
+      "estimatedDuration": 35,
+      "prerequisites": [
+        "ECG LECTURE SLIDE"
+      ],
+      "learningObjectives": [
+        "Recognize lead placement errors",
+        "Identify technical artifacts",
+        "Learn troubleshooting techniques"
+      ],
+      "instructorName": "Dr. ECG Specialist",
+      "slides": [
+        {
+          "slideNumber": 1,
+          "slideTitle": "Slide 1 - lead error",
+          "slideContent": "Content from lead error.pptx - Manual extraction required",
+          "slideImage": "/placeholder-ecg.svg",
+          "slideAudio": "",
+          "slideVideo": "",
+          "slideQuiz": {
+            "id": "quiz_1",
+            "question": "Based on the content in slide 1, what is the most important concept to remember?",
+            "options": [
+              "The primary learning objective",
+              "A secondary detail",
+              "An advanced concept",
+              "A prerequisite topic"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This question tests understanding of the main learning objective from this slide.",
+            "difficulty": "medium",
+            "category": "comprehension",
+            "timeLimit": 30
+          },
+          "slideSubtitle": "Manual content extraction needed",
+          "slideNotes": "This slide requires manual content extraction from the PPTX file",
+          "slideAnnotations": [],
+          "learningObjectives": [
+            "Extract and organize slide content"
+          ],
+          "interactiveElements": [],
+          "mediaSync": {
+            "imageTiming": 0,
+            "audioTiming": 0,
+            "videoTiming": 0
+          }
+        }
+      ],
+      "status": "published",
+      "createdAt": "2025-10-05T00:25:28.444Z",
+      "updatedAt": "2025-10-05T00:25:28.444Z",
+      "mediaAssets": {
+        "images": [
+          "/placeholder-ecg.svg"
+        ],
+        "audio": [],
+        "video": []
+      },
+      "assessment": {
+        "totalQuizzes": 1,
+        "passingScore": 80,
+        "timeLimit": 2100,
+        "attempts": 3,
+        "certificateThreshold": 85
+      },
+      "progress": {
+        "totalSlides": 1,
+        "completedSlides": 0,
+        "quizScores": [],
+        "timeSpent": 0,
+        "lastAccessed": null
+      }
+    }
+  ],
+  "learningPathways": {
+    "BEGINNER": {
+      "title": "Beginner ECG Training",
+      "description": "Foundation course for ECG interpretation",
+      "modules": [
+        "ecg-lecture-slide"
+      ],
+      "estimatedDuration": 45,
+      "prerequisites": [],
+      "certificate": {
+        "name": "ECG Fundamentals Certificate",
+        "requirements": {
+          "completionRate": 100,
+          "passingScore": 80,
+          "timeSpent": 0
+        }
+      }
+    },
+    "INTERMEDIATE": {
+      "title": "Intermediate ECG Training",
+      "description": "Advanced ECG patterns and clinical applications",
+      "modules": [
+        "activus-mr-ibrahim-cardiac-chambers",
+        "class3",
+        "junctional-rhythm",
+        "lead-error"
+      ],
+      "estimatedDuration": 180,
+      "prerequisites": [
+        "BEGINNER"
+      ],
+      "certificate": {
+        "name": "ECG Intermediate Certificate",
+        "requirements": {
+          "completionRate": 100,
+          "passingScore": 85,
+          "timeSpent": 0
+        }
+      }
+    },
+    "ADVANCED": {
+      "title": "Advanced ECG Training",
+      "description": "Expert-level ECG interpretation and emergency management",
+      "modules": [
+        "activus-mr-ibrahim-pea",
+        "activus-mr-ibrahim-ventricular-rhythms-wps-office",
+        "stemi"
+      ],
+      "estimatedDuration": 155,
+      "prerequisites": [
+        "INTERMEDIATE"
+      ],
+      "certificate": {
+        "name": "ECG Expert Certificate",
+        "requirements": {
+          "completionRate": 100,
+          "passingScore": 90,
+          "timeSpent": 0
+        }
+      }
+    }
+  }
+}

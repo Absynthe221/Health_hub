@@ -1,0 +1,48 @@
+{
+  "title": "Exercise Stress Testing",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Stress Test Basics",
+      "content": "Indications and protocols",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "ECG Changes During Exercise",
+      "content": "Normal and abnormal responses",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Interpretation Guidelines",
+      "content": "Reading stress test results",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "55 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "exercise-stress-testing",
+    "createdAt": "2025-10-05T01:29:47.393Z",
+    "updatedAt": "2025-10-05T01:29:47.393Z",
+    "status": "published"
+  }
+}

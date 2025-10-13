@@ -1,0 +1,3483 @@
+{
+  "moduleId": "module-1-basic-ecg-interpretations",
+  "moduleTitle": "Basic ECG Interpretations",
+  "description": "Comprehensive foundational module covering all essential ECG interpretation skills. This module includes: PEA recognition, ventricular rhythms, ECG revision, junctional rhythms, lead errors, and STEMI recognition. Master the fundamental concepts needed for clinical ECG interpretation.",
+  "difficulty": "beginner",
+  "category": "Basic ECG Interpretation",
+  "status": "published",
+  "slides": [
+    {
+      "id": "section-activus_mr_ibrahim_pea",
+      "title": "📖 activus_mr_ibrahim_pea",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "activus_mr_ibrahim_pea",
+        "description": "MR. UMAR AMINU IBRAHIM",
+        "slideCount": 21
+      }
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-1",
+      "title": "MR. UMAR AMINU IBRAHIM",
+      "content": "MR. UMAR AMINU IBRAHIM",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_1_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-2",
+      "title": "Pulseless Electrical Activity (PEA)",
+      "content": "Pulseless Electrical Activity (PEA)\n\n▪ Electricity is working, but the mechanics and plumbing are not.\n\n▪ The absence of a palpable pulse and absence of myocardial muscle activity with \npresence of organized electrical activity on the cardiac monitor. The patient is clinically dead despite some type of organized rhythm on monitor.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_2_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-3",
+      "title": "Pulseless Electrical Activity (PEA)",
+      "content": "Pulseless Electrical Activity (PEA)\n\nAn example of pulseless electrical activity. True PEA is a “nonshockable” heart rhythm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_3_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-4",
+      "title": "Signs and Symptoms\n▪ Pulselessness\n▪ Loss of consciousness\n▪ No palpable BP\n\nMedical Treatment\n▪ Det",
+      "content": "Signs and Symptoms\n▪ Pulselessness\n▪ Loss of consciousness\n▪ No palpable BP\n\nMedical Treatment\n▪ Determine cause & treat\n▪ CPR\n\nCauses: H’s and T’s\n• Hypovolemia #1 cause \n• Hypoxia\n• Hydrogen ions (acidosis)\n• Hypo / Hyperkalemia\n• Hypothermia\n• Toxins\n• Tamponade (cardiac)\n• Tension pneumothorax\n• Thrombosis\n• Trauma\n• Massive MI\n• Overdose of tricyclic antidepressants\n\nCauses and S/S of (PEA)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-5",
+      "title": "PR INTERVAL",
+      "content": "PR INTERVAL",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_5_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-6",
+      "title": "Overview of Wolff-Parkinson-White (WPW) Syndrome",
+      "content": "Overview of Wolff-Parkinson-White (WPW) Syndrome\n\nWPW Syndrome refers to the presence of a congenital accessory pathway (AP) and episodes of tachyarrhythmias. The term is often used interchangeablely with pre-excitation syndrome.\n\nFirst described in 1930 by Louis Wolff, John Parkinson and Paul Dudley White.\n\nIncidence is 0.1 – 3.0 per 1000\n\nAssociated with a small risk of sudden cardiac death",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-7",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_7_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-8",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_8_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-9",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_9_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-10",
+      "title": "• Sinus rhythm with a very short PR interval (< 120 ms)\n\n• Broad QRS complexes with a slurred upstro",
+      "content": "• Sinus rhythm with a very short PR interval (< 120 ms)\n\n• Broad QRS complexes with a slurred upstroke to the QRS complex — the delta wave\n\n• Dominant R wave in V1 suggests a left-sided AP, and is sometimes referred to as “Type A” WPW\n\n• Tall R waves and inverted T waves in V1-3 mimicking right ventricular hypertrophy (RVH) — these changes are due to WPW and do not indicate underlying RVH\n• Negative delta wave in aVL simulating the Q waves of lateral infarction — this is referred to as the “pseudo-infarction” pattern",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-11",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_11_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-12",
+      "title": "• Sinus rhythm with very short PR interval (< 120 ms)\n\n• Broad QRS complexes with a slurred upstroke",
+      "content": "• Sinus rhythm with very short PR interval (< 120 ms)\n\n• Broad QRS complexes with a slurred upstroke to the QRS complexes — the delta wave\n\n• Dominant S wave in V1 indicates a right-sided AP — sometimes referred to as “Type B” WPW\n\n• Tall R waves and inverted T waves in the inferior leads and V4-6 mimic the appearance of left ventricular hypertrophy (LVH) — again, this is due to WPW and does not indicate underlying LVH.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-13",
+      "title": "QTc simply means corrected QT interval.\n\nQT interval contains entire duration of a ventricular activ",
+      "content": "QTc simply means corrected QT interval.\n\nQT interval contains entire duration of a ventricular activity, from the period of its depolarization to its repolarization.\n\nNormal QT interval = 0.36 — 0.44s (9 - 11 small boxes)\nQTc prolongation can vary in gender; female (360 — 450msec) and male (360 h 470msec).\nFormula =                          QT (msec)\n                                         √(R — R interval) in seconds.                              (Bazett criteria)\n\nCorected QT interval (QTc)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-14",
+      "title": "Calculate QT interval:\n\nCount small boxes from the end of PR segment to the end of T wave. \nMultiply",
+      "content": "Calculate QT interval:\n\nCount small boxes from the end of PR segment to the end of T wave. \nMultiply the result by 0.04s to covert to seconds.\nConvert your answer which is in seconds to milliseconds by multiplying by 1000.\n\n2. Calculate R-R interval\nCalculate the heart rate first. Then find R-R interval;\nR-R interval =\t60\t\t\t\t\t\t\t\t\t\t\tHeart rate\n\nHOW TO CALCULATE QTc",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-15",
+      "title": "DRUGS THAT PROLONGED QTc",
+      "content": "DRUGS THAT PROLONGED QTc",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-16",
+      "title": "Tall and tainted T wave (Hyperkalemia)",
+      "content": "Tall and tainted T wave (Hyperkalemia)\n\nTall, narrow, symmetrically peaked T-waves are characteristically seen in hyperkalaemia",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_16_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-17",
+      "title": "Hyperacute T wave",
+      "content": "Hyperacute T wave\n\nBroad, asymmetrically peaked or ‘hyperacute’ T-waves (HATW) are seen in the early stages of ST-elevation MI (STEMI).",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_17_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-18",
+      "title": "Biphasic T waves",
+      "content": "Biphasic T waves\n\nThere are two main causes of biphasic T waves:\n• Myocardial ischaemia\n• Hypokalaemia\n\nBiphasic T waves due to ischaemia – T waves go UP then DOWN.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_18_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-19",
+      "title": "Biphasic T waves",
+      "content": "Biphasic T waves\n\nBiphasic T waves due to Hypokalaemia – T waves go DOWN then UP.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_19_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-20",
+      "title": "▪ Ventricular standstill\n▪ No palpable pulse\n▪ No measurable BP\n▪ Loss of consciousness",
+      "content": "▪ Ventricular standstill\n▪ No palpable pulse\n▪ No measurable BP\n▪ Loss of consciousness\n\nZero Heart rate: Asystole \nTreatment: CPR. Keep in mind that this is also \" Nonshockable rhythm\".\n\nAsystole (Cardiac Standstill)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_20_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "activus_mr_ibrahim_pea-21",
+      "title": "THANK YOU!",
+      "content": "THANK YOU!",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_pea"
+    },
+    {
+      "id": "section-activus_mr_ibrahim_ventricular_rhythms_wps_office",
+      "title": "📖 activus_mr_ibrahim_ventricular_rhythms_wps_office",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "activus_mr_ibrahim_ventricular_rhythms_wps_office",
+        "description": "VENTRICULAR RHYTHMS\u000b\u000b\u000b\u000bBY\u000b\u000bUMAR AMINU IBRAHIM \u000b\u000b\u000b\u000bJULY, 2025.",
+        "slideCount": 20
+      }
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-1",
+      "title": "VENTRICULAR RHYTHMS\u000b\u000b\u000b\u000bBY\u000b\u000bUMAR AMINU IBRAHIM \u000b\u000b\u000b\u000bJULY, 2025.",
+      "content": "VENTRICULAR RHYTHMS\u000b\u000b\u000b\u000bBY\u000b\u000bUMAR AMINU IBRAHIM \u000b\u000b\u000b\u000bJULY, 2025.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-2",
+      "title": "Objectives",
+      "content": "Objectives\n\n• Recognize ventricular dysrhythmias on EKG and relate cause, significance, symptoms, and treatment.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-3",
+      "title": "Ventricular rhythms",
+      "content": "Ventricular rhythms\n\n• When the sinoatrial (SA) node and the AV Junctional tissues fails to generate an \nimpulse the ventricles will assume the role of pacing the heart.\n\n• There is an absence of P waves because there is no atrial activity or depolarization.\n\n• Ventricular rhythms will display QRS complexes that are wide (greater than or equal to 120 milliseconds) and bizarre in appearance.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-4",
+      "title": "Ventricular rhythms",
+      "content": "Ventricular rhythms\n\nThis is rhythm initiated at the level of the ventricules, also known as ideal ventricular rhythm or idioventricular rhythm or ventricular escape rhythm. The resting rate is 20 to 40/minutes.\n\n\n\nKeys to identifying: rhythm is SLOW, no P wave, wide & bizarre QRS!",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-5",
+      "title": "EXAMPLE 1. IDIOVENTRICULAR RHYTHM",
+      "content": "EXAMPLE 1. IDIOVENTRICULAR RHYTHM\n\n• Absence P wave \n• Wide QRS complex \n• Rate 37 beats per minute (bpm)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_5_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-6",
+      "title": "Ventricular rhythms",
+      "content": "Ventricular rhythms\n\nCauses\n• Drugs- Digitalis\n• MI\n• Metabolic imbalances\n• Hyperkalemia\n\nMedical Treatment\n▪ Atropine \n▪ Pacing \n▪ Dopamine when hypotensive\n▪ CPR",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-7",
+      "title": "Accelerated Idioventricular Rhythm (AIVR)",
+      "content": "Accelerated Idioventricular Rhythm (AIVR)\n\nAccelerated idioventricular arrhythmia is last-ditch effort of the ventricles to try to prevent cardiac standstill.\n\n• SA node and AV node have failed \n• Rate usually between 40 to 120 beats per minute (bpm)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-8",
+      "title": "EXAMPLE. ACCELERATED IDOVENTRICULAR RHYTHM (AIVR)",
+      "content": "EXAMPLE. ACCELERATED IDOVENTRICULAR RHYTHM (AIVR)\n\n• Absence P wave\n• Wide QRS complex \n• Rate 88bpm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_8_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-9",
+      "title": "Example 2. AIVR",
+      "content": "Example 2. AIVR\n\n• Absence P wave \n• Wide QRS complex \n• Rate 300/5 = 60bpm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_9_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-10",
+      "title": "VENTRICULAR TACHYCARDIA",
+      "content": "VENTRICULAR TACHYCARDIA\n\n▪ Ventricular tachycardia almost always occurs in diseased hearts. \n\n▪ Rhythm in which three or more PVCs arise in sequence at a rate greater than 150 beats per \nminute and above.\n\n▪ V-tach can quickly deteriorate into ventricular fibrillation. The causes includes ischemia heart disease and cardiomyopathy.\n\n• Antiarrhythmics drugs such as Amiodaron are used to restore nomal heart rate.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-11",
+      "title": "EXAMPLE OF VENTRICULAR TACHYCARDIA (V-TACH)",
+      "content": "EXAMPLE OF VENTRICULAR TACHYCARDIA (V-TACH)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_11_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-12",
+      "title": "EXAMPLE 2. V-tach",
+      "content": "EXAMPLE 2. V-tach",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_12_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-13",
+      "title": "VENTRICULAR FIBRILLATION",
+      "content": "VENTRICULAR FIBRILLATION\n\nVentricular fibrillation (VF) is the most important shockable cardiac arrest rhythm.\n\nRate: 300 to 500bpm.\n\nThe ventricles suddenly attempt to contract at rates of up to 500 bpm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-14",
+      "title": "EXAMPLE OF VENTRICULAR FIBRILLATION",
+      "content": "EXAMPLE OF VENTRICULAR FIBRILLATION\n\nChaotic irregular deflections without identifiable P-QRS-T waves",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_14_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-15",
+      "title": "EXAMPLE 2. VENTRICULAR FIBRILLATION",
+      "content": "EXAMPLE 2. VENTRICULAR FIBRILLATION\n\nChaotic irregular deflections without identifiable P-QRS-T waves",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_15_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-16",
+      "title": "Agonal Rhythm",
+      "content": "Agonal Rhythm\n\nAgonal rhythm is when the Idioventricular rhythm is 20 beats or less per minute. Frequently is seen as the last-ordered semblance of a heart rhythm when resuscitation efforts are unsuccessful.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_16_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-17",
+      "title": "Another Example Of Agonal Rhythm",
+      "content": "Another Example Of Agonal Rhythm\n\nMedical Treatment is High Chest Compression CPR.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_17_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-18",
+      "title": "Asystole",
+      "content": "Asystole\n\n▪ Ventricular standstill\n▪ No palpable pulse\n▪ No measurable BP\n▪ Loss of consciousness\n\nZero Heart rate: Asystole \nTreatment: CPR.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_18_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-19",
+      "title": "Asystole (Cardiac Standstill)",
+      "content": "Asystole (Cardiac Standstill)\n\nZero Heart rate: Asystole \nTreatment: Cardiopulmonary resuscitation",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_19_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "activus_mr_ibrahim_ventricular_rhythms_wps_office-20",
+      "title": "THANK YOU",
+      "content": "THANK YOU",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "activus_mr_ibrahim_ventricular_rhythms_wps_office"
+    },
+    {
+      "id": "section-class3",
+      "title": "📖 class3",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "class3",
+        "description": "REVISION OF PREVIOUS CLASS\n\nHeart Block \nArrythmia\n\n1",
+        "slideCount": 45
+      }
+    },
+    {
+      "id": "class3-1",
+      "title": "REVISION OF PREVIOUS CLASS",
+      "content": "REVISION OF PREVIOUS CLASS\n\nHeart Block \nArrythmia\n\n1",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-2",
+      "title": "Choose the correct diagnosis for this ECG?",
+      "content": "Choose the correct diagnosis for this ECG?\n\nA.LBBB\nB. RBBB\nC. LAFB \nD. RBBB + LAFB \nE. RBBB + LPFB\n\n2",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_2_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-3",
+      "title": "A.LBBB\nB.RBBB\nC.LAFB\nD.RBBB +LAFB\nE. RBBB +LPFB",
+      "content": "A.LBBB\nB.RBBB\nC.LAFB\nD.RBBB +LAFB\nE. RBBB +LPFB\n\nChoose the correct diagnosis for this ECG?\n\n3",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_3_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-4",
+      "title": "Atrial flutter is similar to atrial fibrillation, but the rhythm in your atria is more organized and",
+      "content": "Atrial flutter is similar to atrial fibrillation, but the rhythm in your atria is more organized and less chaotic than the abnormal patterns common with atrial fibrillation.\n\nTrue\nFalse\n\n4",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-5",
+      "title": "Which figure(s) above represents a rhythm where the PR intervals are cyclic in getting longer with a",
+      "content": "Which figure(s) above represents a rhythm where the PR intervals are cyclic in getting longer with a dropped QRS complex and then the pattern is repeated?\n\n\nA. Figure 2\nB. Figure 1 & 2\nC. Figure 1\nD. Figure 3\n\n5",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_5_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-6",
+      "title": "Figure 4 is known as what type of rhythm?\n\nA. 2nd Degree Type 2 (Mobitz II)\nB. 1st Degree AV Block\nC",
+      "content": "Figure 4 is known as what type of rhythm?\n\nA. 2nd Degree Type 2 (Mobitz II)\nB. 1st Degree AV Block\nC. Wenckeback\nD. 3rd Degree Heart Block\n\n6",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_6_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-7",
+      "title": "What is the most likely diagnosis?",
+      "content": "What is the most likely diagnosis?\n\nA Normal sinus rhythm \n\nB. Junctional rhythm \n\nc. Atrial Flutter with 4:1 atrioventricular block\n \nD. Paroxysmal atrial tachycardia with 2:1 atrioventricular block \n\nE. Complete heart block with 2:1 atrioventricular block\n\n7",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_7_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-8",
+      "title": "A new nurse observes the rhythm pictured and interprets it as which of the following?\n\nA Supraventri",
+      "content": "A new nurse observes the rhythm pictured and interprets it as which of the following?\n\nA Supraventricular tachycardia\nB Sinus tachycardia\nC Atrial fibrillation\nD Atrial flutter\n\n8",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_8_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-9",
+      "title": "Choose the correct diagnosis for the ECG?\n\nA. LBBB\nB. RBBB\nC. LAFB\nD. RBBB + LAFB\nE.  RBBB + LPFB",
+      "content": "Choose the correct diagnosis for the ECG?\n\nA. LBBB\nB. RBBB\nC. LAFB\nD. RBBB + LAFB\nE.  RBBB + LPFB\n\n9",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_9_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-10",
+      "title": "Atrial fibrillation may be:\n\nA Occasional\nB Persistent\nC Long-standing persistent\nD Permanent\nE All ",
+      "content": "Atrial fibrillation may be:\n\nA Occasional\nB Persistent\nC Long-standing persistent\nD Permanent\nE All of the above\n\n10",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-11",
+      "title": "A normal PR interval measures ?\n\n\nA 0.12 to 0.20 seconds \nB great than 0.20 seconds \nC 0.06 to 0.16 ",
+      "content": "A normal PR interval measures ?\n\n\nA 0.12 to 0.20 seconds \nB great than 0.20 seconds \nC 0.06 to 0.16 seconds \nD 0.20 to 0.26 seconds\n\n11",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-12",
+      "title": "In degree heart block, the SA node generates impulses but those impulses do not go the ventricles. t",
+      "content": "In degree heart block, the SA node generates impulses but those impulses do not go the ventricles. therefore, the atrial and ventricles are independent \n\nA True\nB False\n\n12",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-13",
+      "title": "A 45 year old business man presents with a feeling that his heart is racing. He also has some shortn",
+      "content": "A 45 year old business man presents with a feeling that his heart is racing. He also has some shortness of breath. This is his ECG. Present your findings and give a diagnosis.\n\n13",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_13_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-14",
+      "title": "mISS haastrup Temitope",
+      "content": "mISS haastrup Temitope\n\nPremature Ventricular Complex(PVC)\u000bTorsad de pontis (TdP) \u000bAgonal Rhythms,",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_14_image_1.png",
+        "/assets/ecg-media/images/slide_14_image_2.png",
+        "/assets/ecg-media/images/slide_14_image_3.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-15",
+      "title": "OUTLINE",
+      "content": "OUTLINE\n\nDefinition\nCauses \nClinical features \nECG finding \nOrigin of PVC \nShape of PVC \nTypes of PVC\n\n15",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-16",
+      "title": "Premature Ventricular Complex (PVC)",
+      "content": "Premature Ventricular Complex (PVC)\n\nDefinition: \nIt occur as a result of irritation focuses on the ventricle \n\nIt is also called Ventricular premature beat and escape beat\n\n16",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-17",
+      "title": "Cause of PVC",
+      "content": "Cause of PVC\n\nCardiac condition \nNon-cardiac condition\nMedication\n\n17",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-18",
+      "title": "Cardiac Condition",
+      "content": "Cardiac Condition\n\nHypertension induce LVH\nConcentric LVH\nCongenital heart disease \nAcute myocardia infraction \nHeart Attack \ncongestive heart disease\nHeart Failure\n\n18",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-19",
+      "title": "Non-Cardiac Condition",
+      "content": "Non-Cardiac Condition\n\nThyroid disease i.e hyperthyroidism \nGonadal disorder i.e hypo and hyper gonadal disorder \nElectrolyte abnormality i.e hypocalcemia and hypomegnisum \nHypoxia \nSleep apnea \nCOPD (chronic obstructive pulmonary disease)\nPulmonary hypertension\n\n19",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-20",
+      "title": "Medication/Substance",
+      "content": "Medication/Substance\n\nBeta block drug \nAntihistamin drug \ncocain \ncaffein \nNicotin\nAlcohol\n\n20",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-21",
+      "title": "Clinical Features",
+      "content": "Clinical Features\n\nAsymptomatic \nPalpitation \nSyncope \nDizziness\n\n21",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-22",
+      "title": "ECG FINDING",
+      "content": "ECG FINDING\n\nAbsence of P-wave \nwide bizarre QRS complex > 0.12s\nCompensatory pause-wave\n\n22",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-23",
+      "title": "23",
+      "content": "23",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_23_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-24",
+      "title": "24",
+      "content": "24",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-25",
+      "title": "Origin of PVC",
+      "content": "Origin of PVC\n\nPVC arising from the right ventricle it will show a LBBB morphology\nPVC arising from the base of the ventricle, it will show upright (Positive R-wave) in lead ii, iii and aVL (inferior lead) \nPVC arising from the apex of the ventricle, it show downward displacement (negative deflection of R-wave) in lead ii,iii and aVL\n\n25",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-26",
+      "title": "26",
+      "content": "26",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_26_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-27",
+      "title": "27",
+      "content": "27",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-28",
+      "title": "Shape of PVC",
+      "content": "Shape of PVC\n\nUnifocus: PVC with same shape (mono)\n\nMutifoci: PVC with  different shape\n\n28",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-29",
+      "title": "29",
+      "content": "29",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_29_image_1.png",
+        "/assets/ecg-media/images/slide_29_image_2.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-30",
+      "title": "Types of PVC",
+      "content": "Types of PVC\n\nBigeminy \nTrigeminy \nQuadrigeminy \nVentricular tachycardia increase than 2PVC\nCouplet two PVC occurring consentively\n\n30",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-31",
+      "title": "31",
+      "content": "31",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-32",
+      "title": "Types of PVC",
+      "content": "Types of PVC\n\n32",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_32_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-33",
+      "title": "TORSADE DE POINTES",
+      "content": "TORSADE DE POINTES\n\nIt is an uncommon and distinctive form of polymorphic ventricular tachycardia (VT).\nIt is often referred as torsade and is associated with prolong QT interval\nTDP starts in the heart’s lower chamber (ventricle)\nCharacterized by gradual change in the amplitude and twisting of the QRS complex around isoelectric line.\nIt may be acquired or congenital. \nTDP may degenerate into ventricular fibrillation (VT).\n\n33",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-34",
+      "title": "SYMPTOMS",
+      "content": "SYMPTOMS\n\nPalpitation\nDizziness\nSyncope that corresponds to arrhythmia episodes\n\n34",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-35",
+      "title": "ECG FEATURE",
+      "content": "ECG FEATURE\n\nQRS complex having twisting morphology around the isoelectric line\nHeart rate > 220bpm\nPresence of abnormal (“giant”) T- U waves may precede TDP.\n\n35",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-36",
+      "title": "36",
+      "content": "36",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-37",
+      "title": "37",
+      "content": "37",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-38",
+      "title": "38",
+      "content": "38",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-39",
+      "title": "AGONAL RHYTHM",
+      "content": "AGONAL RHYTHM\n\nDefinition:\nAgonal rhythm is an abnormally slow, erratic rhythm originating from the heart’s lower chamber (ventricles). \nIt is a severe arrhythmia that occur after the heart’s upper chambers have stopped working.\n\n39",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-40",
+      "title": "AGONAL RHYTHM",
+      "content": "AGONAL RHYTHM\n\nHeart rate less than 20 bpm\nNo p-waves\nWide QRS complex\n\n40",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-41",
+      "title": "SYMPTOMS",
+      "content": "SYMPTOMS\n\nHeart rate less than 20 bpm\nLoss or losing of consciousness\n\n41",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-42",
+      "title": "CAUSES",
+      "content": "CAUSES\n\nCardiac tamponade\nCardiac trauma\nVentricular fibrillation\n\n42",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-43",
+      "title": "43",
+      "content": "43",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-44",
+      "title": "44",
+      "content": "44",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "class3-45",
+      "title": "THANK YOU",
+      "content": "THANK YOU\n\n45",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_45_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "class3"
+    },
+    {
+      "id": "section-ecg_lecture_slide",
+      "title": "📖 ecg_lecture_slide",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "ecg_lecture_slide",
+        "description": "Miss  Temitope haastrup\n\nHeart Block 1st, 2nD, 3rd Degree BLOCK, \u000bRBBB, LBBB \u000b& Other Heart Blocks",
+        "slideCount": 27
+      }
+    },
+    {
+      "id": "ecg_lecture_slide-1",
+      "title": "Miss  Temitope haastrup",
+      "content": "Miss  Temitope haastrup\n\nHeart Block 1st, 2nD, 3rd Degree BLOCK, \u000bRBBB, LBBB \u000b& Other Heart Blocks",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_1_image_1.png",
+        "/assets/ecg-media/images/slide_1_image_2.png",
+        "/assets/ecg-media/images/slide_1_image_3.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-2",
+      "title": "Outline",
+      "content": "Outline\n\nConducting system\nDefinition and Cause \nFirst Degree Heart Block \nSecond Degree Heart Block \nMobitz Type I\nMobitz Type II\nThird Degree Heart Block\nBundle Branch Block\nOthers\n\n2",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_2_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-3",
+      "title": "Conductive System",
+      "content": "Conductive System\n\nConductive System It is formed by the modified Cardiac muscle fibers. \nThese fibers are concerned with propagation of impulse along the conduction pathway \nFunctional anatomy of the conduction Pathway \nSino-atrial node (SAN) \nAtrioventricular node (AVN) \nBundle Of His \nRight and left bundle branches\nPurkinje fibers.\n\n3",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_3_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-4",
+      "title": "4",
+      "content": "4",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_4_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-5",
+      "title": "5",
+      "content": "5",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_5_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-6",
+      "title": "Definition & Cause",
+      "content": "Definition & Cause\n\nHeart block or Interference with Conduction: It occur as a delays or faults in relay or propagation of impulse \n Causes \nCongenital heart disease \nInferior myocardial infarction \nCardiomyopathy \nDegenerative disease \nAmyloidosis \nTumor\n\n6",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_6_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-7",
+      "title": "Types of Heart Block",
+      "content": "Types of Heart Block\n\nFirst Degree Heat black \nIt involve mere delay beyond a Stipulated time \nFeatures \n-Prolong PR interval > 0.20s\n-Normal P wave \n-Normal QRS Complex\n\n7",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_7_image_1.png",
+        "/assets/ecg-media/images/slide_7_image_2.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-8",
+      "title": "Types of Heart Block",
+      "content": "Types of Heart Block\n\n8\n\nPR – 0.36S\n\nPR – 0.40S\n\nPR – 0.44S",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_8_image_1.png",
+        "/assets/ecg-media/images/slide_8_image_2.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-9",
+      "title": "Second Degree Heart Block",
+      "content": "Second Degree Heart Block\n\nSecond degree Heart Block: Delay is of higher severity such that occasioned or Intermittent supraventricular impulse fail to reach the Ventricle \nTypes \n2nd Degree (Mobitz Type 1 aka Wenckebach) \nFeatures \nProgressive Prolongation of cumulating in non conducted P wave \nPR longest before dropped beat. \nPR shortened after dropped beat \n Narrow & irregular rhythm\n\n9",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_9_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-10",
+      "title": "Second Degree Heart Block",
+      "content": "Second Degree Heart Block\n\n10",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_10_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-11",
+      "title": "Con’t",
+      "content": "Con’t\n\n11",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_11_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-12",
+      "title": "Con’t",
+      "content": "Con’t\n\n2nd Degree (Mobitz Type II) \nPR interval is fixed but there is a sudden drop Of QRS Complex (missed beat)\n Feature \nNon-Conducted P wave without 'warning' of PR Prolongation \nPR intervals in conducted beat is Constant\nQRS often wide\n\n12",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_12_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-13",
+      "title": "13",
+      "content": "13",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_13_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-14",
+      "title": "THIRD DEGREE HEART BLOCK",
+      "content": "THIRD DEGREE HEART BLOCK\n\n3rd Degree Heart Block or Complete Heart Block \nThis is complete heart block\nNo relationship between the P wave and QRS Complex\nSeveral missed beat may Consecutively occur causing “pauses”\n\n14",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_14_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-15",
+      "title": "Bundle Branch Block",
+      "content": "Bundle Branch Block\n\nBundle Branch Block\nInterruption of the propagation of electrics impulse at the level of bundle branch \n  Types \nRight Bundle Brach Block (RBBB) \nLeft Bundle Branch Block (LBBB)\n\n15",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_15_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-16",
+      "title": "RIGHT Bundle Branch Block",
+      "content": "RIGHT Bundle Branch Block\n\nECG FEATURES  \nBroad QRS Complex \nRSR Complexes (M-Pattern) in V1- V3 \nST-Segment depression V1 – V2\nT wave inversion in V1-V2\nDeep S wave in left, lateral leads I, aVL, V5, V6\n\n16",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_16_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-17",
+      "title": "17",
+      "content": "17\n\nHeart Block",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_17_image_1.png",
+        "/assets/ecg-media/images/slide_17_image_2.png",
+        "/assets/ecg-media/images/slide_17_image_3.png",
+        "/assets/ecg-media/images/slide_17_image_4.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-18",
+      "title": "CON’T",
+      "content": "CON’T\n\nCauses\nNormal Variant in some people \nAcquired Myocardia Disease\n-Myocardia infarction  \n-Cardiomyopathy  \n-Degeneration diseases of conducting system \nCongenital Heart Disease\n-Tetralogy of Fallot (TOF)\n-Atrial Septal defect (ASD)\n-Ventricular Septal Defect (VSD)\nPulmonary disease\nPulmonary Embolism\n\n18",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_18_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-19",
+      "title": "LEFT BUNDLE BRANCH BLOCK",
+      "content": "LEFT BUNDLE BRANCH BLOCK\n\nECG FEATURES \nBoard QRS Complex \nSlurred or notched broad R waves in left lateral leads (I,aVL,V5 V6\nST segment depression, T-wave inversion in V5 V6\nDeep S wave in V1 V2\n\n19",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_19_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-20",
+      "title": "20",
+      "content": "20",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_20_image_1.png",
+        "/assets/ecg-media/images/slide_20_image_2.png",
+        "/assets/ecg-media/images/slide_20_image_3.png",
+        "/assets/ecg-media/images/slide_20_image_4.png",
+        "/assets/ecg-media/images/slide_20_image_5.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-21",
+      "title": "LBBB",
+      "content": "LBBB\n\nCauses \nHypertension \nAortic stenosis \nMyocardia Infarction etc.\n\n21",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_21_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-22",
+      "title": "Hemiblock (fascicular Block)",
+      "content": "Hemiblock (fascicular Block)\n\nLeft Anterior fascicular Block \n(ECG feature) \nLeft axis deviation \nProminent R wave in lead I & III\nProminent S wave in lead I & III\nQRS complex, ST Segment and T wave are normal\n\n22",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_22_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-23",
+      "title": "Left posterior fascicular block \n(ECG Feature)\nRight Axis Deviation \nProminent S waves in lead I and",
+      "content": "Left posterior fascicular block \n(ECG Feature)\nRight Axis Deviation \nProminent S waves in lead I and R wave in Lead II\nQRS Complex, ST-segment and T wave are normal\n\n23\n\nCON’T",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_23_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-24",
+      "title": "BifasciculAr Block",
+      "content": "BifasciculAr Block\n\nBifascicular Block: This involves two fascicle \nExample\n RBBB + Left Posterior fascicular block \n  ( ECG feature) \nRSR! V1& V₂ \nDeep S waves in Lead  1, aVL, V5, V6\n-Broad QRS  Complex \n-Significant  RAD  (right axis deviation)\n\n24",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_24_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-25",
+      "title": "BifasciculAr  Block",
+      "content": "BifasciculAr  Block\n\nLBBB + Left Anterior fasciculus \n(ECG Feature) \nSignificant Left Axis Deviation \n-RSR! Complex in V1, V2 \n-Deep S wave in lead I, aVL,V5, V6, \n-Broad QRS Complex\n\n25",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_25_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-26",
+      "title": "Tri fascicular Block.",
+      "content": "Tri fascicular Block.\n\nTri fascicular Block. \nA) RBBB + Heart Block  + hemi block \nB) LBBB + Heart block + hemi block\n\n26",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_26_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "ecg_lecture_slide-27",
+      "title": "27",
+      "content": "27\n\nTHANK YOU",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_27_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "ecg_lecture_slide"
+    },
+    {
+      "id": "section-junctional_rhythm",
+      "title": "📖 junctional_rhythm",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "junctional_rhythm",
+        "description": "JUNCTIONAL RHYTHM\n\nA JUCTIONAL RHYTHM OCCURS WHEN THE HEART’S ELECTRICAL IMPULSES ORIGINATE FROM THE AV JUNCTION(AV NODE AREA) INSTEAD OF THE SA NODE.\nIT ARISES WHEN THE SA NODE FAILS OR WHEN THE COND...",
+        "slideCount": 10
+      }
+    },
+    {
+      "id": "junctional_rhythm-1",
+      "title": "JUNCTIONAL RHYTHM",
+      "content": "JUNCTIONAL RHYTHM\n\nA JUCTIONAL RHYTHM OCCURS WHEN THE HEART’S ELECTRICAL IMPULSES ORIGINATE FROM THE AV JUNCTION(AV NODE AREA) INSTEAD OF THE SA NODE.\nIT ARISES WHEN THE SA NODE FAILS OR WHEN THE CONDUCTION FRON THE ATRIAL IS BLOCKED\nRATE IS BETWEEN 40-60BPM(INTINSIC RATE OF THE AV NODE)\nSLOWER THAN SINUS RHYTHM.\nP WAVES OFTEN ABSENT,INVERTED,OR RETROGRADE(AFTER QRS COMPLEX).\nQRS COMPLEX IS OF A NORMAL WIDTH\nPR INTERVAL IS SHORT IF P WAVE IS PRESENT OR ABSENT IF NO P WAVE.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-2",
+      "title": "CAUSES OF JUNCTIONAL RHYTHM",
+      "content": "CAUSES OF JUNCTIONAL RHYTHM\n\nSA NODE DYSFUNCTION(E.G SICK SINUS SYNDROME).\nMYOCARDIAL INFARCTION(ESPECIALLY INFERIOR WALL).\nMEDICASTIONS E.G DIGOXIN TOXICITY,BETA BLOCKERS.\nINCREASED VAGAL TONE.\nELECTROLYTE DISTURBANCES",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-3",
+      "title": "TYPES OF JUNCTIONAL RHYTHMS",
+      "content": "TYPES OF JUNCTIONAL RHYTHMS\n\nTHEY ARE CLASSIFIED BASED ON HEARTRATE AND CLINICAL CONTEXT BUT THEY ALL ORIGINATE FROM THE AV JUNCTION.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-4",
+      "title": "JUNCTIONAL ESCAPE RHYTHM",
+      "content": "JUNCTIONAL ESCAPE RHYTHM\n\nRATE IS BETWEEN 40-60BPM\nIT COMES UP AS A RESULT OF THE TEMPORARY FAILURE OF THE SA NODE TO GENERATE IMPULSE\nAFTER THE ESCAPE RHYTHM,YOU MIGHT HAVE A NORMAL SINUS RHYTHM .",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_4_image_1.png",
+        "/assets/ecg-media/images/slide_4_image_2.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-5",
+      "title": "OTHERS ARE AS FOLLOWS",
+      "content": "OTHERS ARE AS FOLLOWS\n\nACCELERATED JUNCTIONAL RHYTHM -RATE IS BETWEEN 60-100BPM\n\nJUNCTIONAL TACHYCARDIA-RATE ABOVE 100BPM.\n\nJUNCTIONAL BRADYCARDIA-RATE BELOW 40BPM.\n\nPREMATURE JUNCTIONAL RHYTHM-RHYTHM IS IRREGULAR.IT OCCURS BEFORE THE NEXT NORMAL BEAT",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-6",
+      "title": "PREMATURE JUNCTIONAL RHYTHM",
+      "content": "PREMATURE JUNCTIONAL RHYTHM",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_6_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-7",
+      "title": "JUNCTIONAL RHYTHMS",
+      "content": "JUNCTIONAL RHYTHMS",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-8",
+      "title": "ACCELERATED JUNCTIONAL RHYTHM",
+      "content": "ACCELERATED JUNCTIONAL RHYTHM",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-9",
+      "title": "JUNCTIONAL TACHYCARDIA",
+      "content": "JUNCTIONAL TACHYCARDIA",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "junctional_rhythm-10",
+      "title": "THANK YOU FOR LISTENING",
+      "content": "THANK YOU FOR LISTENING",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_10_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "junctional_rhythm"
+    },
+    {
+      "id": "section-lead_error",
+      "title": "📖 lead_error",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "lead_error",
+        "description": "ECG INTERPRETATION\n\nCOMMON RECORDING ERRORS\n BASIC ECG INTERPRETATION\n \nBY\nGBADAMOSI TAURID .A",
+        "slideCount": 30
+      }
+    },
+    {
+      "id": "lead_error-1",
+      "title": "ECG INTERPRETATION",
+      "content": "ECG INTERPRETATION\n\nCOMMON RECORDING ERRORS\n BASIC ECG INTERPRETATION\n \nBY\nGBADAMOSI TAURID .A",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_1_image_1.png",
+        "/assets/ecg-media/images/slide_1_image_2.png",
+        "/assets/ecg-media/images/slide_1_image_3.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-2",
+      "title": "1.QRS COMPLEX REPRESENTS VENTRICULAR DEPOLARIZATION\n    A. YES          B. NO    C. NOT SURE\n2.A P W",
+      "content": "1.QRS COMPLEX REPRESENTS VENTRICULAR DEPOLARIZATION\n    A. YES          B. NO    C. NOT SURE\n2.A P WAVES OF 0.12SEC IS \n   A. PROLONGED   B. WIDENED  C. NORMAL\n3.THE AMPLITUDE OF P WAVES IS \n A. >2.5MM    B. >2.5MS     C. <2.5MM\n4.WHICH LEAD SHOWS THE TALLEST R WAVES IN ECG.\nA. LEAD II       B. LEAD V5         CI\n5.NORMAL QTc in FEMALES\nA.<0.50 SEC       B.<0.46SEC\t    C.>.46\n\nQUESTIONS",
+      "contentType": "interactive",
+      "interactive": true,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-3",
+      "title": "OBJECTIVES",
+      "content": "OBJECTIVES\n\nAT THE END OF THE LESSON,WE SHOULD BE ABLE TO:\nTO KNOW AND RECOGNISE THE DIFFERENT ECG WAVES AND THEIR NORMAL VALUES.\nSHOULD KNOW YOUR INTERPRETATION PATTERN.\nSHOULD KNOW THE IMPORTANCE OF SOME WAVES AND INTERVALS",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-4",
+      "title": "COMMON LEAD ERRORS",
+      "content": "COMMON LEAD ERRORS\n\nTHE MOST COMMON ERROR THAT OCCURS DURING ECG RECORDING ARE MAJORLY THAT OF LIMB REVERSAL.\nREVERSAL CAN BE LIMB LEAD OR CHEST LEAD AND THIS MIGHT LEAD TO A CHANGE IN THE MORPHOLOGY OF THE RECORDING IN WHICH CASE THE P,QRS OR T WAVES MIGHT BE REVERSED.\nWHEN YOU HAVE ALL LEADS REVERSED THEN YOU HAVE GLOBAL LIMB LEAD INVERSION.\nELECTRICAL AXIS BECOMES ABNORMAL.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_4_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-5",
+      "title": "LEAD ERRORS",
+      "content": "LEAD ERRORS\n\nIF THE CHEST LEADS ARE REVERSED ,THE ECG RECORDING FOR THE CHEST LEADS WILL BE AFFECTED",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-6",
+      "title": "BASIC ECG INTERPRETATION",
+      "content": "BASIC ECG INTERPRETATION\n\nHEARTRATE-THIS IS THE RATE AT WHICH THE HEART BEATS AND THE UNIT IS BEAT PER MINUTES(BPM).\nNORMAL RATE IS BETWEEN 60-100bpm\nThe beat can be regular or irregular as such the calculation for the rate differs.\nFOR EASY ECG  AND STEP BY STEP INTERPRETATION,THE FOLLOWING PATTERN MAY BE ADOPTED:\nREGULAR RHYTHMS-\nHere, the R-R intervals are consistent:\n                      USING THE LARGE BOX METHOD\nCount the number of large boxes between 2 successive R waves(R-R interval)\nDivide it by 300 that is 300/number of large boxes\n        e.g. Number of large boxes is 4,heartrate 300/4=75bpm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-7",
+      "title": "HEART RATE",
+      "content": "HEART RATE\n\nSMALL BOX METHOD\nCount the number of small squares between R-R waves\nDivide your value by 1500 that is 1500/R-R interval\nEg if R-R is 20 small squares then rate =1500/20=75bpm\n      6 SECONDS STRIP METHOD:\nThough mostly used for irregular rhythm.\nCount how many R waves in a 6 seconds strip(30 large boxes)\nMultiply your value by 10 that gives you the heartrate \nE.g 7 R waves in 6seconds ,HR=7x10=70bpm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-8",
+      "title": "HEART RATE",
+      "content": "HEART RATE\n\nIRREGULAR RHYTHM e.g Atrial fibrillation\nSmall or large box method cannot be used here\nUse a large long strip especially lead II.\nCount the number of QRS  in \n    6 seconds(30 boxes) on paper run at 25mm/s.\n     Multiply the number by 10 to get heartbeat \n(6secx10=60sec=1min)\nE.g say in 6-seconds you count 9 QRS complexes:\nHeartrate =9x10=90bpm.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_8_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-9",
+      "title": "HEARTRATE",
+      "content": "HEARTRATE\n\n1O seconds method .\n1 large box =5mm=250 small boxes in 10 seconds\n1 large box=5mm=250/5=50 large boxes in 10 seconds\nIn this method you count 50 large boxes and count the number of QRS in them and multiply by 6.\nE.g heartrate 14 QRSx6=84bpm",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-10",
+      "title": "HEARTRATE",
+      "content": "HEARTRATE\n\nNORMAL HEARTRATE IS BETWEEN 60\nRATE LESS THAN 60BPM IS BRADYCARDIA\nRATE HIGHER THAN 100BPM IS TACHYCARDIA\nTYPE OF BRADY OR TACHYCARDIA DEPENDS ON TYPE OF RHYTHM E.G SINUS TACHYCARDIA,ATRIAL TACHYCARDIA,V-TACH,JUNCTIONAL TACHYCARDIA ETC",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-11",
+      "title": "RHYTHM",
+      "content": "RHYTHM\n\nREGULAR RHYTHM IS ONE IN WHICH :\n     The P waves is followed by a QRS complex which is in turned followed by a \n      T waves \n      The R-R interval is regular\n      The P waves is upright in I,II,Avf.\n       The rate is between 60-100bpm\n       Normal PR interval (0.12-0.20sec)\n       Narrow QRS ,about 0.10sec and less.\nNote: Normal sinus rhythm shows that the SA Node started the cardiac excitation which is always represented by the presence of An upright P waves",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_11_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-12",
+      "title": "AXIS",
+      "content": "AXIS\n\nAxis provides information about the heart’s electrical orientation and can help identify underlying conditions.\nIt can be Normal or Abnormal\nSimple way to determine the axis is to look at the QRS in lead I,IIand aVF.\nIf QRS in lead I and Avf is positive =NORMAL AXIS.\nIf lead I positive and Avf negative,check lead II\n       If positive =normal axis\n        If negative=left axis deviation.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-13",
+      "title": "AXIS",
+      "content": "AXIS\n\nIf lead I is negative and Avf is positive=RIGHT AXIS DEVIATION\nIf lead I is negative and avf is negat0oi[]98ukilo0;pive =EXTREME AXIS(rare)\nPossible causes of LAD-left anterior fascicular hemi block, LVH, Inferior MI.\nPossible causes of RAD-RVH, pulmonary conditions(PE,COPD),lateral MI\nPossible causes of Extreme axis-severe ventricular rhythm disturbance, advance conduction block",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-14",
+      "title": "THE ECG GRAPH",
+      "content": "THE ECG GRAPH",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_14_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-15",
+      "title": "P  WAVES",
+      "content": "P  WAVES\n\nIT REPRESENTS ATRIAL DEPOLARIZATION\nIT IS THE FIRST POSITIVE DEFLECTION ON AN ECG \nIT IS GENERATED WHEN THERE IS AN IMPULSE \n  FROM SA NODE.\nTHE NORMAL VALUE FOR THE P WAVE IS \n      0.08sec -12sec \nIT IS SMOOTH,ROUNDED.\nUPRIGHT IN LEAD LEAD I, II, aVF; INVERTED IN Avr\nBEST PLACE TO CHECK FOR P WAVES IS LEAD II \n  AND V1.\nIN V1 IT IS MOSTLY BIPHASIC",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_15_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-16",
+      "title": "P WAVES",
+      "content": "P WAVES\n\nTO CALCULATE THE P WAVES YOU COUNT FROM BEGINNING OF THE P TO THE END THEN MULTIPLY BY THE CONSTANT 0.04.\nNORMAL AMPLITUDE IS 2.5mm.\nABSENT P WAVES +IRREGULAR RHYTHM=ATRIAL FIBRILLATION\nLONG P WAVES>0.12sec(LAE) AND “m” PATTERNED P WAVES (P-MITRALE) OR AMPLITUDE MORE THAN 2.5MM (RAE OR P-PULMONALE).\nABSENT, INVERTED( BEFORE, HIDDEN OR AFTER QRS) IS JUNCTIONAL OR NODAL RHYTHM\nSA TOOTH APPEARANCE=ATRIAL FLUTTER\nP WAVES UNRELATED TO QRS COMPLEXE=AV DISSOCIATION(COMPLETE HEART BLOCK)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-17",
+      "title": "P WAVES",
+      "content": "P WAVES",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_17_image_1.png",
+        "/assets/ecg-media/images/slide_17_image_2.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-18",
+      "title": "WORD ON MARBLE",
+      "content": "WORD ON MARBLE\n\n“ Money follow value ,value comes from skills not your credentials.”\n   copied\n \n\nSkill acquisition, training and re-training is  essential to make a living in today’s society.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-19",
+      "title": "PR INTERVAL",
+      "content": "PR INTERVAL\n\nIT IS THE TIME BETWEEN THE BEGINNING OF THE P WAVES AND THE BEGINNING OF THE QRS COMPLEX.\nIT IS THE INTERVAL BETWEEN THE BEGINNING OF ELECTRICAL EXCITATION OF THE ATRIAL AND THE BEGINNING OF EXCITATION OF THE VENTRICLE(SA NODE THROUGH THE ATRIUM,AV NODE,AND BUNDLE OF HIS TO THE VENTRICLES)\nDURATION IS BETWEEN 0.12 - 0.20seconds\nSHORT PR INTERVAL =WPW(WOLFF –PARKINSON-WHITE ) SYNDROME-ACCESSORY PATHWAY (BUNDLE OF KENT) OR LOWN-GANONG-LEVINE SYNDROME.\nPROLONGED PR > 0.20SEC = 1ST DEGREE , 2ND DEGREE AV BLOCKS",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-20",
+      "title": "QRS COMPLEX",
+      "content": "QRS COMPLEX\n\nIT REPRESENTS VENTRICULAR DEPOLARIZATION (BY PURKINJE FIBRES)\nNORMAL DURATION 0.06 - 0.10SEC\nPROLONGED QRS>0.12SEC = BUNDLE BRANCH BLOCK,VENTRICULAR RHYTHM,HYPERKALEMIA\nTALL QRS = VENTRICULAR HYPERTROPHY, ATHLETE HEART.\nLOW QRS = PERICARDIA EFFUSION, OBESITY, COPD\nABNORMAL Q WAVES = MYOCARDIAL INFARCTION IF IT IS DEEP AND WIDE",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-21",
+      "title": "ST SEGMENT",
+      "content": "ST SEGMENT\n\nIT AN ISOELECTRIC POINT WHERE NO ELECTRICAL ACTIVITY OCCURS.\nIT SHOWS THE POINT BETWEEN VENTRICULAR DEPOLARIZATION AND REPOLARIZATION\nABNORMAL ST SEGMENT CAN BE AN ELEVATED ONE SEEN IN S.T.E.M.I OR DEPRESSION IN N.S.T.E.M.I; DOWNSLOPPING AS SEEN IN ISCHEMIA OR STRAIN PATTERN",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-22",
+      "title": "ST SEGMENTS",
+      "content": "ST SEGMENTS",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_22_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-23",
+      "title": "QT INTERVAL",
+      "content": "QT INTERVAL\n\nIT REPRESENTS TOTAL TIME FOR VENTRICULAR DEPOLARIZATION AND REPOLARIZATION\nESSENTIALLY THE PERIOD FROM THE BEGINNING OF VENTRICULAR CONTRACTION TO THE END OF RECOVERY.\nSPECIFICALLY REPRESENTS THE ELECTRICAL ACTIVITIES OF THE VENTRICLES.\nIT IS <0.44SEC IN MALE AND <0.46SEC IN FEMALES\nPROLONGED QT INTERVAL CAN INCREASE THE RISK OF DANGEROUS HEART RHYTHMS ABNORMALITIES SUCH ASN TORSADE DE PONTES A KIND OF V-TACH THAT CAN LEAD TO SUDDEN CARDIAC DEATH.\nSHORT QT INTERVAL <0.33-0.34SEC IS CONSIDERED SHORT.\nSHORT QT IS NOT COMMON\nIT MEANS THAT THE HEART IS REPOLARIZING FASTER THAN NORMAL\nMAY CAUSE LIFE THREATENING ARRYTHMIAS SUCH AS V-FIBRILLATION OR SUDDEN CARDIAC DEATH",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-24",
+      "title": "QT INTERVAL",
+      "content": "QT INTERVAL",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_24_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-25",
+      "title": "QTC",
+      "content": "QTC\n\nIT IS CORRECTED QT AND IT IS CALCULATED DUE TO THE RELATIONSHIP BETWEEN QT INTERVAL AND THE HEART RATE\nIT ALLOWS FOR MORE ACCURATE ASSESSMENT OF THE QT INTERVAL.\nCALCULATED USING BAZETT”S FORMULAR=QT/√R-R\nNORMAL VALUE,MEN 0.35-0.445SEC,WOMEN0.35-0.46SEC.\n<0.35SEC IS SHORT QTc\nSAME EFFECT WITH LONG OR SHORT QT",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-26",
+      "title": "CAN BE DUE TO LONG STANDING BP OR HEART VALVE DISEASE.\nON ECG IT PRODUCES STRONGER ELECTRICAL SIGNAL",
+      "content": "CAN BE DUE TO LONG STANDING BP OR HEART VALVE DISEASE.\nON ECG IT PRODUCES STRONGER ELECTRICAL SIGNAL ESPECIALLY IN THE CHEST LEADS.\nCALCULATIONS OF LVH:\nSOKOLOW-LYON CRITERIA(MOSTLY USED)\n   SV1 +RV5/V6 <35MM(NORMAL) IF >35MM(LVH)\nCORNELL CRITERIA=MEN RaVL +SV3<28MM(NORMAL),>28MM(LVH)\n                                     WOMEN RaVL+SV3<20MM(NORMAL),>20MM(LVH)\nR WAVES IN aVL>11MM(LVH),LESS THAN 11MM(NORMAL)\n\nLEFT VENTRICULAR HYPERTROPHY(LVH)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_26_image_1.png",
+        "/assets/ecg-media/images/slide_26_image_2.png",
+        "/assets/ecg-media/images/slide_26_image_3.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-27",
+      "title": "T WAVES",
+      "content": "T WAVES\n\nREPRESENTS VENTRICULAR REPOLARIZATION\nTYPICALLY,A NORMAL T WAVES IS UPRIGHT IN MOST ECG LEADS EXCEPT aVR WHERE IT IS INVERTED\nTHERE ARE SOME ABNORMAL T WAVES:\nPEAKED T WAVES SEEN IN HYPERKALEMIA\nINVERTED T WAVES SEEN IN ISCHEMIA,PERICARDITIS,MYOCARDITIS ETC\nBIPHASIC T WAVES –IT HAS BOTH POSITIVE AND NEGATIVE DEFLECTION.",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-28",
+      "title": "T WAVES MORPHORLOGY",
+      "content": "T WAVES MORPHORLOGY",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [
+        "/assets/ecg-media/images/slide_28_image_1.png"
+      ],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-29",
+      "title": "R WAVES",
+      "content": "R WAVES\n\nR WAVES IN THE PRECORDIAL LEADS (V1-V6).THE R WAVES NORMALLY INCREASES IN SIZE FROM V1 TO V4 OR V5 THEN DECREASES IN V6.\nTHIS IS KNOWN AS NORNAL R WAVES PROGRESSION.\nA TALL R WAVES IN V1 CAN INDICATE RIGHT VENTRICULAR HYPERTROPHY(RVH)\nPOOR R WAVES CAN SUGGEST M.I OR HYPERTROPHY",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "lead_error-30",
+      "title": "THANK YOU",
+      "content": "THANK YOU",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "lead_error"
+    },
+    {
+      "id": "section-stemi",
+      "title": "📖 stemi",
+      "contentType": "section-header",
+      "duration": 1,
+      "content": {
+        "sectionTitle": "stemi",
+        "description": "S.T.E.M.I AND N.S.T.E.M.I(S.T ELEVATION MYOCARDIAL INFARCTION AND NON-S.T SEGMENT MYOCARDIAL INFARCTION)\n\nIt is a type of heart attack caused by a complete blockage of a coronary artery.It is a medica...",
+        "slideCount": 6
+      }
+    },
+    {
+      "id": "stemi-1",
+      "title": "S.T.E.M.I AND N.S.T.E.M.I(S.T ELEVATION MYOCARDIAL INFARCTION AND NON-S.T SEGMENT MYOCARDIAL INFARCT",
+      "content": "S.T.E.M.I AND N.S.T.E.M.I(S.T ELEVATION MYOCARDIAL INFARCTION AND NON-S.T SEGMENT MYOCARDIAL INFARCTION)\n\nIt is a type of heart attack caused by a complete blockage of a coronary artery.It is a medical emergency that requires immediate attention.\nSTEMI is diagnosed primarily using ECG.Findings are:\n       -Elevation of ST segment in two or more contiguous leads.\n       -Threshold for diagnosis\n           .>1mm in limb leads(I,II,III,aVL and aVF)  \n            .>2mm in chest leads in men >40 years\n            .>1.5mm in chest leads (V2-V3)\n       -The elevation should be convex upwards or tombstone-shaped\n       -Pathologic Q waves\n            may develop later\n            sign of irreversible myocardial necrosis.\n        -T waves inversion\n            may follow ST elevation as part of evolution",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "stemi"
+    },
+    {
+      "id": "stemi-2",
+      "title": "STEMI",
+      "content": "STEMI\n\nLocalizing the STEMI on ecg .\nAnterior wall(V1-V4) LEFT ANTERIOR DESCENDING(LAD)\nLateral wall(I,AVL,V5 and V6)  LEFT CIRCUMFLEX(LCx)\nInferior wall (II,III and AVF.) RIGHT CORONARY ARTERY(RCA)\nPosterior wall ST DEPRESSION IN V1-V3 RCA OR LCx(posterior branch)",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": true
+      },
+      "segments": [],
+      "moduleSource": "stemi"
+    },
+    {
+      "id": "stemi-3",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "stemi"
+    },
+    {
+      "id": "stemi-4",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "stemi"
+    },
+    {
+      "id": "stemi-5",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "stemi"
+    },
+    {
+      "id": "stemi-6",
+      "title": "",
+      "content": "",
+      "contentType": "text",
+      "interactive": false,
+      "duration": 30,
+      "audioFile": null,
+      "subtitles": null,
+      "images": [],
+      "video": null,
+      "quiz": null,
+      "ai": {
+        "generateQuiz": true,
+        "summarizeSlide": true,
+        "explainECG": false
+      },
+      "segments": [],
+      "moduleSource": "stemi"
+    }
+  ],
+  "metadata": {
+    "totalSlides": 166,
+    "contentSlides": 159,
+    "sectionHeaders": 7,
+    "interactiveSlides": 1,
+    "quizItems": 0,
+    "estimatedDuration": "398 minutes",
+    "topics": [
+      "PEA (Pulseless Electrical Activity)",
+      "Ventricular Rhythms",
+      "ECG Revision & Fundamentals",
+      "ECG Lecture Content",
+      "Junctional Rhythms",
+      "Lead Errors & Artifacts",
+      "STEMI Recognition"
+    ],
+    "learningObjectives": [
+      "Recognize and interpret basic ECG rhythms",
+      "Identify pulseless electrical activity (PEA)",
+      "Understand ventricular arrhythmias",
+      "Master ECG fundamentals and lead placement",
+      "Recognize junctional rhythms",
+      "Identify common lead errors and artifacts",
+      "Recognize STEMI patterns and criteria"
+    ],
+    "prerequisites": [
+      "None - foundational module"
+    ],
+    "sourceModules": [
+      "activus_mr_ibrahim_pea",
+      "activus_mr_ibrahim_ventricular_rhythms_wps_office",
+      "class3",
+      "ecg_lecture_slide",
+      "junctional_rhythm",
+      "lead_error",
+      "stemi"
+    ]
+  }
+}

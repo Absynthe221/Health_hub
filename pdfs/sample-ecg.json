@@ -1,0 +1,331 @@
+[
+  {
+    "id": "1",
+    "title": "ECG Fundamentals",
+    "description": "Learn the basics of electrocardiography",
+    "overview": "This module covers the fundamental concepts of ECG interpretation, including heart anatomy, electrical conduction, and basic rhythm recognition. You'll learn about the cardiac cycle, electrode placement, and how to read a basic ECG strip.",
+    "objectives": [
+      "Understand heart anatomy and electrical conduction system",
+      "Identify normal ECG components (P, QRS, T waves)",
+      "Recognize basic cardiac rhythms and their characteristics",
+      "Apply proper electrode placement techniques",
+      "Interpret basic ECG measurements and intervals"
+    ],
+    "duration": 120,
+    "difficulty": "Beginner",
+    "prerequisites": "Basic anatomy knowledge recommended",
+    "slides": [
+      {
+        "name": "Introduction to ECG",
+        "url": "/assets/module1/pdfs/intro.pdf"
+      },
+      {
+        "name": "Heart Anatomy",
+        "url": "/assets/module1/pdfs/anatomy.pdf"
+      },
+      {
+        "name": "Electrical Conduction",
+        "url": "/assets/module1/pdfs/conduction.pdf"
+      },
+      {
+        "name": "ECG Components",
+        "url": "/assets/module1/pdfs/components.pdf"
+      }
+    ],
+    "videos": [
+      {
+        "title": "ECG Basics Overview",
+        "url": "/assets/module1/videos/basics.mp4",
+        "description": "Introduction to electrocardiography fundamentals and basic concepts"
+      },
+      {
+        "title": "Electrode Placement",
+        "url": "/assets/module1/videos/electrodes.mp4",
+        "description": "Step-by-step guide to proper electrode placement for 12-lead ECG"
+      },
+      {
+        "title": "Reading ECG Strips",
+        "url": "/assets/module1/videos/reading.mp4",
+        "description": "How to systematically read and interpret ECG strips"
+      }
+    ],
+    "cases": [
+      {
+        "id": 1,
+        "title": "Chest Pain Case",
+        "patientInfo": {
+          "age": "45 years",
+          "gender": "Male",
+          "chiefComplaint": "Chest pain for 2 hours",
+          "medicalHistory": "Hypertension, diabetes, smoking history"
+        },
+        "steps": [
+          {
+            "id": 0,
+            "title": "Initial Assessment",
+            "description": "A 45-year-old male presents with chest pain. What is your first priority?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Obtain 12-lead ECG",
+                "description": "ECG should be obtained within 10 minutes of arrival",
+                "isCorrect": true,
+                "feedback": "Correct! ECG is essential for chest pain evaluation and should be obtained immediately."
+              },
+              {
+                "id": "b",
+                "text": "Order chest X-ray",
+                "description": "Chest X-ray can wait until after ECG",
+                "isCorrect": false,
+                "feedback": "ECG should be obtained first for chest pain assessment."
+              },
+              {
+                "id": "c",
+                "text": "Start IV fluids",
+                "description": "IV access is important but ECG comes first",
+                "isCorrect": false,
+                "feedback": "ECG is the priority for chest pain assessment."
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "title": "ECG Interpretation",
+            "description": "The ECG shows ST elevation in leads II, III, and aVF. What does this indicate?",
+            "ecgData": {
+              "Heart Rate": "85 bpm",
+              "Rhythm": "Sinus rhythm",
+              "ST Changes": "ST elevation in II, III, aVF",
+              "QRS Duration": "0.08 seconds"
+            },
+            "options": [
+              {
+                "id": "a",
+                "text": "Inferior STEMI",
+                "description": "ST elevation in inferior leads suggests inferior MI",
+                "isCorrect": true,
+                "feedback": "Correct! ST elevation in leads II, III, and aVF indicates inferior STEMI."
+              },
+              {
+                "id": "b",
+                "text": "Anterior STEMI",
+                "description": "Anterior MI would show ST elevation in V1-V4",
+                "isCorrect": false,
+                "feedback": "Incorrect. Anterior STEMI shows ST elevation in V1-V4, not inferior leads."
+              },
+              {
+                "id": "c",
+                "text": "Normal variant",
+                "description": "ST elevation is not normal in this context",
+                "isCorrect": false,
+                "feedback": "Incorrect. ST elevation in this clinical context is concerning for MI."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pretest": [
+      {
+        "id": "q1",
+        "question": "What does ECG stand for?",
+        "options": [
+          "Electrocardiogram",
+          "Electrocardiography",
+          "Electrocardiology",
+          "Electrocardiac"
+        ],
+        "correctAnswer": 0,
+        "explanation": "ECG stands for Electrocardiogram, which is the graphical representation of the heart's electrical activity."
+      },
+      {
+        "id": "q2",
+        "question": "Which lead is placed on the right arm?",
+        "options": [
+          "LA",
+          "RA",
+          "LL",
+          "RL"
+        ],
+        "correctAnswer": 1,
+        "explanation": "RA stands for Right Arm, which is one of the limb leads in a standard 12-lead ECG."
+      },
+      {
+        "id": "q3",
+        "question": "What does the P wave represent?",
+        "options": [
+          "Ventricular depolarization",
+          "Atrial depolarization",
+          "Ventricular repolarization",
+          "Atrial repolarization"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The P wave represents atrial depolarization, which occurs when the atria contract."
+      }
+    ],
+    "posttest": [
+      {
+        "id": "q1",
+        "question": "What is the normal duration of the QRS complex?",
+        "options": [
+          "0.06-0.10 seconds",
+          "0.10-0.12 seconds",
+          "0.12-0.20 seconds",
+          "0.20-0.40 seconds"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The normal QRS complex duration is 0.06-0.10 seconds (60-100 milliseconds)."
+      },
+      {
+        "id": "q2",
+        "question": "Which wave represents atrial depolarization?",
+        "options": [
+          "P wave",
+          "QRS complex",
+          "T wave",
+          "U wave"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The P wave represents atrial depolarization, which occurs when the atria contract."
+      },
+      {
+        "id": "q3",
+        "question": "What is the normal PR interval?",
+        "options": [
+          "0.12-0.20 seconds",
+          "0.20-0.40 seconds",
+          "0.40-0.60 seconds",
+          "0.60-1.00 seconds"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The normal PR interval is 0.12-0.20 seconds (120-200 milliseconds)."
+      },
+      {
+        "id": "q4",
+        "question": "Which leads are considered the limb leads?",
+        "options": [
+          "I, II, III",
+          "aVR, aVL, aVF",
+          "V1, V2, V3",
+          "Both I, II, III and aVR, aVL, aVF"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The limb leads include both the standard leads (I, II, III) and the augmented leads (aVR, aVL, aVF)."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Cardiac Rhythm Recognition",
+    "description": "Identify and interpret various cardiac rhythms",
+    "overview": "This module focuses on recognizing different cardiac rhythms, from normal sinus rhythm to life-threatening arrhythmias. You'll learn to identify rhythm patterns and understand their clinical significance.",
+    "objectives": [
+      "Recognize normal sinus rhythm and its variations",
+      "Identify common arrhythmias and their characteristics",
+      "Distinguish between atrial and ventricular rhythms",
+      "Understand the clinical significance of different rhythms",
+      "Apply systematic approach to rhythm analysis"
+    ],
+    "duration": 90,
+    "difficulty": "Intermediate",
+    "prerequisites": "ECG Fundamentals module completion recommended",
+    "slides": [
+      {
+        "name": "Normal Sinus Rhythm",
+        "url": "/assets/module2/pdfs/normal-rhythm.pdf"
+      },
+      {
+        "name": "Atrial Arrhythmias",
+        "url": "/assets/module2/pdfs/atrial-arrhythmias.pdf"
+      },
+      {
+        "name": "Ventricular Arrhythmias",
+        "url": "/assets/module2/pdfs/ventricular-arrhythmias.pdf"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Rhythm Analysis Basics",
+        "url": "/assets/module2/videos/rhythm-analysis.mp4",
+        "description": "Systematic approach to analyzing cardiac rhythms"
+      },
+      {
+        "title": "Common Arrhythmias",
+        "url": "/assets/module2/videos/common-arrhythmias.mp4",
+        "description": "Recognition of frequently encountered arrhythmias"
+      }
+    ],
+    "cases": [
+      {
+        "id": 1,
+        "title": "Palpitations Case",
+        "patientInfo": {
+          "age": "35 years",
+          "gender": "Female",
+          "chiefComplaint": "Palpitations and dizziness",
+          "medicalHistory": "Anxiety, no cardiac history"
+        },
+        "steps": [
+          {
+            "id": 0,
+            "title": "Rhythm Identification",
+            "description": "The patient's ECG shows an irregular rhythm with no P waves. What is the most likely diagnosis?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Atrial Fibrillation",
+                "description": "Irregular rhythm with no P waves is characteristic of AF",
+                "isCorrect": true,
+                "feedback": "Correct! Atrial fibrillation is characterized by irregular rhythm and absent P waves."
+              },
+              {
+                "id": "b",
+                "text": "Sinus Tachycardia",
+                "description": "Sinus rhythm would have visible P waves",
+                "isCorrect": false,
+                "feedback": "Incorrect. Sinus tachycardia would have regular rhythm with visible P waves."
+              },
+              {
+                "id": "c",
+                "text": "Ventricular Tachycardia",
+                "description": "VT would have wide QRS complexes",
+                "isCorrect": false,
+                "feedback": "Incorrect. VT would have wide QRS complexes, not narrow ones."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pretest": [
+      {
+        "id": "q1",
+        "question": "What is the normal heart rate range for adults?",
+        "options": [
+          "60-100 bpm",
+          "40-80 bpm",
+          "80-120 bpm",
+          "100-140 bpm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The normal resting heart rate for adults is 60-100 beats per minute."
+      }
+    ],
+    "posttest": [
+      {
+        "id": "q1",
+        "question": "Which rhythm is characterized by irregular rhythm and absent P waves?",
+        "options": [
+          "Sinus rhythm",
+          "Atrial fibrillation",
+          "Ventricular tachycardia",
+          "Atrial flutter"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Atrial fibrillation is characterized by irregular rhythm and absent P waves."
+      }
+    ]
+  }
+]
+
+

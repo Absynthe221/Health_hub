@@ -1,0 +1,48 @@
+{
+  "title": "Bundle Branch Blocks",
+  "level": "intermediate",
+  "slides": [
+    {
+      "id": 1,
+      "title": "Left Bundle Branch Block",
+      "content": "LBBB patterns and significance",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 2,
+      "title": "Right Bundle Branch Block",
+      "content": "RBBB patterns and clinical implications",
+      "type": "theory",
+      "url": "",
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Bifascicular Blocks",
+      "content": "Complex conduction abnormalities",
+      "type": "theory",
+      "url": "",
+      "media": []
+    }
+  ],
+  "instructor": "Dr. ECG Specialist",
+  "duration": "60 minutes",
+  "examThreshold": 80,
+  "certificate": true,
+  "prerequisites": [],
+  "learningObjectives": [],
+  "assessment": {
+    "pretest": [],
+    "posttest": [],
+    "cases": []
+  },
+  "videos": [],
+  "metadata": {
+    "id": "bundle-branch-blocks",
+    "createdAt": "2025-10-05T01:29:47.391Z",
+    "updatedAt": "2025-10-05T01:29:47.391Z",
+    "status": "published"
+  }
+}

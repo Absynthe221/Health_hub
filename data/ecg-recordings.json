@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ecg1",
+    "originalName": "normal_sinus_rhythm_sample.csv",
+    "samplingRate": 500,
+    "duration": 10,
+    "leads": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "metadata": {
+      "analysis": {
+        "rhythm": {
+          "heartRate": 72,
+          "rhythm": "Normal Sinus Rhythm"
+        },
+        "artifacts": []
+      }
+    },
+    "data": [
+      {
+        "lead": "I",
+        "samples": [0, 0.1, 0.2, 0.15, 0.05, -0.1, -0.2, -0.15, 0, 0.1, 0.2, 0.15, 0.05, -0.1, -0.2, -0.15, 0, 0.1, 0.2, 0.15]
+      }
+    ]
+  },
+  {
+    "id": "ecg2",
+    "originalName": "atrial_fibrillation_sample.csv",
+    "samplingRate": 500,
+    "duration": 10,
+    "leads": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "metadata": {
+      "analysis": {
+        "rhythm": {
+          "heartRate": 95,
+          "rhythm": "Atrial Fibrillation"
+        },
+        "artifacts": [
+          {
+            "type": "baseline_drift",
+            "severity": "mild",
+            "location": [100, 200]
+          }
+        ]
+      }
+    },
+    "data": [
+      {
+        "lead": "II",
+        "samples": [0, 0.05, 0.1, 0.08, 0.02, -0.05, -0.1, -0.08, 0, 0.05, 0.1, 0.08, 0.02, -0.05, -0.1, -0.08, 0, 0.05, 0.1, 0.08]
+      }
+    ]
+  },
+  {
+    "id": "ecg3",
+    "originalName": "ventricular_tachycardia_sample.csv",
+    "samplingRate": 500,
+    "duration": 10,
+    "leads": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "metadata": {
+      "analysis": {
+        "rhythm": {
+          "heartRate": 150,
+          "rhythm": "Ventricular Tachycardia"
+        },
+        "artifacts": []
+      }
+    },
+    "data": [
+      {
+        "lead": "V1",
+        "samples": [0, 0.3, 0.5, 0.4, 0.2, -0.1, -0.3, -0.4, 0, 0.3, 0.5, 0.4, 0.2, -0.1, -0.3, -0.4, 0, 0.3, 0.5, 0.4]
+      }
+    ]
+  },
+  {
+    "id": "ecg4",
+    "originalName": "av_block_sample.csv",
+    "samplingRate": 500,
+    "duration": 10,
+    "leads": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "metadata": {
+      "analysis": {
+        "rhythm": {
+          "heartRate": 65,
+          "rhythm": "First Degree AV Block"
+        },
+        "artifacts": []
+      }
+    },
+    "data": [
+      {
+        "lead": "II",
+        "samples": [0, 0.1, 0.2, 0.15, 0.05, -0.1, -0.2, -0.15, 0, 0.1, 0.2, 0.15, 0.05, -0.1, -0.2, -0.15, 0, 0.1, 0.2, 0.15]
+      }
+    ]
+  },
+  {
+    "id": "ecg5",
+    "originalName": "stemi_sample.csv",
+    "samplingRate": 500,
+    "duration": 10,
+    "leads": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "metadata": {
+      "analysis": {
+        "rhythm": {
+          "heartRate": 88,
+          "rhythm": "Sinus Rhythm with ST Elevation"
+        },
+        "artifacts": []
+      }
+    },
+    "data": [
+      {
+        "lead": "V2",
+        "samples": [0, 0.2, 0.4, 0.6, 0.4, 0.2, 0, -0.1, -0.2, -0.1, 0, 0.2, 0.4, 0.6, 0.4, 0.2, 0, -0.1, -0.2, -0.1]
+      }
+    ]
+  }
+]
